@@ -9,61 +9,81 @@
       "id": 1,
       "name_cs": "Rozmarýn lékařský",
       "name_eng": "Rosemary",
+      "name_de": "Rosmarin",
+      "name_pl": "Rozmaryn",
       "latin_name": "Rosmarinus officinalis",
       "images": [
         "obrazky/flowers/rosmarinus_officinalis_1.jpg",
         "obrazky/flowers/rosmarinus_officinalis_2.jpg"
       ],
       "description_cs": "Aromatická bylina s jehličkovitými listy, symbol vzpomínky. Používá se do tučných jídel a na prohřátí organismu.",
-      "description_eng": "An aromatic herb with needle-like leaves, symbolizing remembrance. Used in rich dishes and to warm the body."
+      "description_eng": "An aromatic herb with needle-like leaves, symbolizing remembrance. Used in rich dishes and to warm the body.",
+      "description_de": "Ein aromatisches Kraut mit nadelartigen Blättern, das Erinnerung symbolisiert. Wird in fettreichen Gerichten verwendet und wärmt den Körper.",
+      "description_pl": "Aromatyczne zioło o igiełkowatych liściach, symbol pamięci. Używane w tłustych potrawach i do rozgrzewania organizmu."
     },
     {
       "id": 2,
       "name_cs": "Máta peprná",
       "name_eng": "Peppermint",
+      "name_de": "Pfefferminze",
+      "name_pl": "Mięta pieprzowa",
       "latin_name": "Mentha × piperita",
       "images": [
         "obrazky/flowers/mentha_piperita_1.jpg",
         "obrazky/flowers/mentha_piperita_2.jpg"
       ],
       "description_cs": "Osvěžující bylina s typickým mentolovým aroma. Skvělá na čaj pro podporu trávení a svěží dech.",
-      "description_eng": "A refreshing herb with a characteristic menthol aroma. Great for tea to aid digestion and freshen breath."
+      "description_eng": "A refreshing herb with a characteristic menthol aroma. Great for tea to aid digestion and freshen breath.",
+      "description_de": "Ein erfrischendes Kraut mit charakteristischem Mentholaroma. Ideal für Tee zur Unterstützung der Verdauung und zur Erfrischung des Atems.",
+      "description_pl": "Orzeźwiające zioło o charakterystycznym aromacie mentolu. Świetne do herbaty wspomagającej trawienie i odświeżającej oddech."
     },
     {
       "id": 3,
       "name_cs": "Šalvěj lékařská",
       "name_eng": "Sage",
+      "name_de": "Salbei",
+      "name_pl": "Szałwia lekarska",
       "latin_name": "Salvia officinalis",
       "images": [
         "obrazky/flowers/salvia_officinalis_1.jpg",
         "obrazky/flowers/salvia_officinalis_2.jpg"
       ],
       "description_cs": "Léčivka se stříbřitými listy, známá svými protizánětlivými účinky. V kuchyni k tučným masům.",
-      "description_eng": "A medicinal herb with silvery leaves, known for its anti-inflammatory effects. Used in cooking with fatty meats."
+      "description_eng": "A medicinal herb with silvery leaves, known for its anti-inflammatory effects. Used in cooking with fatty meats.",
+      "description_de": "Ein Heilkräuter mit silbrigen Blättern, bekannt für seine entzündungshemmenden Wirkungen. Wird in der Küche mit fettem Fleisch verwendet.",
+      "description_pl": "Zioło lecznicze o srebrzystych liściach, znane ze swoich właściwości przeciwzapalnych. Stosowane w kuchni z tłustym mięsem."
     },
     {
       "id": 4,
       "name_cs": "Meduňka lékařská",
       "name_eng": "Lemon balm",
+      "name_de": "Zitronenmelisse",
+      "name_pl": "Melisa lekarska", 
       "latin_name": "Melissa officinalis",
       "images": [
         "obrazky/flowers/melissa_officinalis_1.jpg",
         "obrazky/flowers/melissa_officinalis_2.jpg"
       ],
       "description_cs": "Bylina s jemnou citronovou vůní, která zklidňuje nervy a podporuje zdravý spánek.",
-      "description_eng": "An herb with a gentle lemon scent that soothes nerves and promotes healthy sleep."
+      "description_eng": "An herb with a gentle lemon scent that soothes nerves and promotes healthy sleep.",
+      "description_de": "Ein Kraut mit sanftem Zitronenduft, das die Nerven beruhigt und einen gesunden Schlaf fördert.",
+      "description_pl": "Zioło o delikatnym cytrynowym zapachu, które łagodzi nerwy i wspomaga zdrowy sen."
     },
     {
       "id": 5,
       "name_cs": "Bazalka pravá",
       "name_eng": "Basil",
+      "name_de": "Basilikum",
+      "name_pl": "Bazylia pospolita",
       "latin_name": "Ocimum basilicum",
       "images": [
         "obrazky/flowers/ocimum_basilicum_1.jpg",
         "obrazky/flowers/ocimum_basilicum_2.jpg"
       ],
       "description_cs": "Královna italské kuchyně s výraznou sladkou vůní. Základní složka pesta a salátů Caprese.",
-      "description_eng": "The queen of Italian cuisine with a distinct sweet aroma. A key ingredient in pesto and Caprese salads."
+      "description_eng": "The queen of Italian cuisine with a distinct sweet aroma. A key ingredient in pesto and Caprese salads.",
+      "description_de": "Die Königin der italienischen Küche mit einem ausgeprägten süßen Aroma. Eine wichtige Zutat in Pesto und Caprese-Salaten.",
+      "description_pl": "Królowa kuchni włoskiej o wyraźnym słodkim aromacie. Kluczowy składnik pesto i sałatek Caprese."
     }
   ]
 }

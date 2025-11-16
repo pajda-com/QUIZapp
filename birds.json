@@ -9,6 +9,8 @@
       "id": 1,
       "name_cs": "Rorýs obecný",
       "name_eng": "Common Swift",
+      "name_de": "Mauersegler",
+      "name_pl": "Jerzyk zwyczajny",
 	    "latin_name": "Apus apus",
       "images": [
         "obrazky/birds/apus_apus_1.jpg",
@@ -18,12 +20,16 @@
         "obrazky/birds/apus_apus_5.jpg"
       ],
       "description_cs": "Rorýsi mají srpovitá křídla a krátký vidličnatý ocas. Jsou to výborní letci kteří většinu života tráví ve vzduchu.",
-      "description_eng": "Swifts have sickle-shaped wings and a short forked tail. They are excellent fliers that spend most of their lives in the air."
+      "description_eng": "Swifts have sickle-shaped wings and a short forked tail. They are excellent fliers that spend most of their lives in the air.",
+      "description_de": "Mauersegler haben sichelförmige Flügel und einen kurzen gegabelten Schwanz. Sie sind ausgezeichnete Flieger, die den Großteil ihres Lebens in der Luft verbringen.",
+      "description_pl": "Jerzyki mają sierpowate skrzydła i krótki rozwidlony ogon. Są doskonałymi lotnikami, którzy większość swojego życia spędzają w powietrzu."
     },
     {
       "id": 2,
       "name_cs": "Vrabec polní",
       "name_eng": "Eurasian Tree Sparrow",
+      "name_de": "Feldsperling",
+      "name_pl": "Wróbel polny",
 	    "latin_name": "Passer montanus",
       "images": [
         "obrazky/birds/passer_montanus_1.jpg",
@@ -33,12 +39,16 @@
         "obrazky/birds/passer_montanus_5.jpg"
       ],
       "description_cs": "Vrabec polní má hnědé zbarvení s černou skvrnou na tvářích. Samec má šedý temeno hlavy.",
-      "description_eng": "The Eurasian Tree Sparrow has brown coloring with a black spot on its cheeks. The male has a gray crown."
+      "description_eng": "The Eurasian Tree Sparrow has brown coloring with a black spot on its cheeks. The male has a gray crown.",
+      "description_de": "Der Feldsperling hat eine braune Färbung mit einem schwarzen Fleck auf den Wangen. Das Männchen hat eine graue Krone.",
+      "description_pl": "Wróbel polny ma brązowe ubarwienie z czarną plamą na policzkach. Samiec ma szarą koronę."
     },
     {
       "id": 3,
       "name_cs": "Sýkora koňadra", 
       "name_eng": "Great Tit",
+      "name_de": "Kohlmeise",
+      "name_pl": "Bogatka",
       "latin_name": "Parus major",
 	    "images": [
         "obrazky/birds/parus_major_1.jpg",
@@ -48,12 +58,16 @@
         "obrazky/birds/parus_major_5.jpg"
       ],
       "description_cs": "Sýkora koňadra má žluté bříško s černým pruhem uprostřed. Hlava je černá s bílými lícemi.",
-      "description_eng": "The Great Tit has a yellow belly with a black stripe down the middle. The head is black with white cheeks."
+      "description_eng": "The Great Tit has a yellow belly with a black stripe down the middle. The head is black with white cheeks.",
+      "description_de": "Die Kohlmeise hat einen gelben Bauch mit einem schwarzen Streifen in der Mitte. Der Kopf ist schwarz mit weißen Wangen.",
+      "description_pl": "Bogatka ma żółty brzuch z czarnym paskiem pośrodku. Głowa jest czarna z białymi policzkami."
     },
     {
       "id": 4,
       "name_cs": "Kos černý",
       "name_eng": "Common Blackbird",
+      "name_de": "Amsel",
+      "name_pl": "Kos zwyczajny",
       "latin_name": "Turdus merula",
 	    "images": [
         "obrazky/birds/turdus_merula_1.jpg",
@@ -63,12 +77,16 @@
         "obrazky/birds/turdus_merula_5.jpg"
       ],
       "description_cs": "Kos černý je celý černý s výrazným žlutým zobákem. Samice jsou hnědé s tmavším zobákem.",
-      "description_eng": "The Common Blackbird is entirely black with a distinctive yellow beak. Females are brown with a darker beak."
+      "description_eng": "The Common Blackbird is entirely black with a distinctive yellow beak. Females are brown with a darker beak.",
+      "description_de": "Die Amsel ist vollständig schwarz mit einem markanten gelben Schnabel. Die Weibchen sind braun mit einem dunkleren Schnabel.",
+      "description_pl": "Kos zwyczajny jest całkowicie czarny z charakterystycznym żółtym dziobem. Samice są brązowe z ciemniejszym dziobem."
     },
     {
       "id": 5,
       "name_cs": "Čáp bílý",
       "name_eng": "White Stork",
+      "name_de": "Weißstorch",
+      "name_pl": "Bocian biały",
       "latin_name": "Ciconia ciconia",
 	    "images": [
         "obrazky/birds/ciconia_ciconia_1.jpg",
@@ -78,12 +96,16 @@
         "obrazky/birds/ciconia_ciconia_5.jpg"
       ],
       "description_cs": "Čáp bílý je velký bílý pták s černými letkami a dlouhým červeným zobákem. Hnízdí na komínech a sloupech.",
-      "description_eng": "The White Stork is a large white bird with black flight feathers and a long red beak. It nests on chimneys and poles."
+      "description_eng": "The White Stork is a large white bird with black flight feathers and a long red beak. It nests on chimneys and poles.",
+      "description_de": "Der Weißstorch ist ein großer weißer Vogel mit schwarzen Flugfedern und einem langen roten Schnabel. Er nistet auf Schornsteinen und Pfosten.",
+      "description_pl": "Bocian biały to duży biały ptak z czarnymi lotkami i długim czerwonym dziobem. Gniazduje na kominach i słupach."
     },
     {
       "id": 6,
       "name_cs": "Sedmihlásek hajní",
       "name_eng": "Icterine Warbler",
+      "name_de": "Gelbspötter",
+      "name_pl": "Śpiewak żółty",
       "latin_name": "Hippolais icterina",
 	    "images": [
         "obrazky/birds/hippolais_icterina_1.jpg",
@@ -93,12 +115,16 @@
         "obrazky/birds/hippolais_icterina_5.jpg"
       ],
       "description_cs": "Sedmihlásek hajní je malý zpěvný pták s olivově zeleným zbarvením a žlutým bříškem. Má výrazný zpěv.",
-      "description_eng": "The Icterine Warbler is a small songbird with olive-green coloring and a yellow belly. It has a distinctive song."
+      "description_eng": "The Icterine Warbler is a small songbird with olive-green coloring and a yellow belly. It has a distinctive song.",
+      "description_de": "Der Gelbspötter ist ein kleiner Singvogel mit olivgrüner Färbung und gelbem Bauch. Er hat einen markanten Gesang.",
+      "description_pl": "Śpiewak żółty to mały ptak śpiewający o oliwkowo-zielonym ubarwieniu i żółtym brzuchu. Ma charakterystyczny śpiew."
     },
     {
       "id": 7,
       "name_cs": "Rákosník zpěvný",
       "name_eng": "Great Reed Warbler",
+      "name_de": "Drosselrohrsänger",
+      "name_pl": "Trzciniak",
       "latin_name": "Acrocephalus palustris",
 	    "images": [
         "obrazky/birds/acrocephalus_palustris_1.jpg",
@@ -108,12 +134,16 @@
         "obrazky/birds/acrocephalus_palustris_5.jpg"
       ],
       "description_cs": "Rákosník zpěvný je malý hnědý pták s proužkovaným hřbetem a světlým bříškem. Často se skrývá v rákosí a má melodický zpěv.",
-      "description_eng": "The Great Reed Warbler is a small brown bird with a striped back and light belly. It often hides in reeds and has a melodic song."
+      "description_eng": "The Great Reed Warbler is a small brown bird with a striped back and light belly. It often hides in reeds and has a melodic song.",
+      "description_de": "Der Drosselrohrsänger ist ein kleiner brauner Vogel mit gestreiftem Rücken und hellem Bauch. Er versteckt sich oft im Schilf und hat einen melodischen Gesang.",
+      "description_pl": "Trzciniak to mały brązowy ptak z paskowanym grzbietem i jasnym brzuchem. Często ukrywa się w trzcinach i ma melodyjny śpiew."
     },
     {
       "id": 8,
       "name_cs": "Pěnice slavíková",
       "name_eng": "Garden Warbler",
+      "name_de": "Gartengrasmücke",
+      "name_pl": "Śpiewak ogrodowy",
       "latin_name": "Sylvia borin",
 	    "images": [
         "obrazky/birds/sylvia_borin_1.jpg",
@@ -123,12 +153,16 @@
         "obrazky/birds/sylvia_borin_5.jpg"
       ],
       "description_cs": "Pěnice slavíková je malý pták s olivově zeleným zbarvením na zádech a světlým bříškem. Má krásný zpěv připomínající slavíka.",
-      "description_eng": "The Garden Warbler is a small bird with olive-green coloring on its back and a light belly. It has a beautiful song reminiscent of a nightingale."
+      "description_eng": "The Garden Warbler is a small bird with olive-green coloring on its back and a light belly. It has a beautiful song reminiscent of a nightingale.",
+      "description_de": "Die Gartengrasmücke ist ein kleiner Vogel mit olivgrüner Färbung auf dem Rücken und hellem Bauch. Sie hat einen schönen Gesang, der an eine Nachtigall erinnert.",
+      "description_pl": "Śpiewak ogrodowy to mały ptak o oliwkowo-zielonym upierzeniu na grzbiecie i jasnym brzuchu. Ma piękny śpiew przypominający słowika."
     },
     {
       "id": 9,
       "name_cs": "Strnad obecný",
       "name_eng": "Yellowhammer",
+      "name_de": "Goldammer",
+      "name_pl": "Trznadel",
       "latin_name": "Emberiza citrinella",
 	    "images": [
         "obrazky/birds/emberiza_citrinella_1.jpg",
@@ -138,12 +172,16 @@
         "obrazky/birds/emberiza_citrinella_5.jpg"
       ],
       "description_cs": "Strnad obecný je malý pták s výrazným žlutým zbarvením na hlavě a hnědým proužkovaným tělem. Samec má černé pruhy na hlavě.",
-      "description_eng": "The Yellowhammer is a small bird with distinctive yellow coloring on its head and a brown striped body. The male has black stripes on its head."
+      "description_eng": "The Yellowhammer is a small bird with distinctive yellow coloring on its head and a brown striped body. The male has black stripes on its head.",
+      "description_de": "Die Goldammer ist ein kleiner Vogel mit auffälliger gelber Färbung am Kopf und braun gestreiftem Körper. Das Männchen hat schwarze Streifen am Kopf.",
+      "description_pl": "Trznadel to mały ptak o charakterystycznym żółtym ubarwieniu na głowie i brązowym, prążkowanym ciele. Samiec ma czarne paski na głowie."
     },
     {
       "id": 10,
       "name_cs": "Dlask tlustozobý",
       "name_eng": "Hawfinch",
+      "name_de": "Kernbeißer",
+      "name_pl": "Głowienka",
       "latin_name": "Coccothraustes coccothraustes",
       "images": [
         "obrazky/birds/coccothraustes_coccothraustes_1.jpg",
@@ -153,7 +191,9 @@
         "obrazky/birds/coccothraustes_coccothraustes_5.jpg"
       ],
       "description_cs": "Dlask tlustozobý je robustní pták s mohutným zobákem, který mu umožňuje rozlousknout tvrdá semena. Má pestré zbarvení s kombinací hnědé, černé a bílé.",
-      "description_eng": "The Hawfinch is a robust bird with a powerful beak that allows it to crack hard seeds. It has a colorful plumage with a combination of brown, black, and white."
+      "description_eng": "The Hawfinch is a robust bird with a powerful beak that allows it to crack hard seeds. It has a colorful plumage with a combination of brown, black, and white.",
+      "description_de": "Der Kernbeißer ist ein kräftiger Vogel mit einem starken Schnabel, der es ihm ermöglicht, harte Samen zu knacken. Er hat ein buntes Gefieder mit einer Kombination aus Braun, Schwarz und Weiß.",
+      "description_pl": "Głowienka to krzepki ptak z potężnym dziobem, który pozwala mu rozłupywać twarde nasiona. Ma kolorowe upierzenie z kombinacją brązu, czerni i bieli."
     }
   ]
 }
