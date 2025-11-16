@@ -449,7 +449,7 @@
         let allItemNames = [];
         let remainingItems = [];
         let maxQuestions = 5;
-        let currentQuizMaxQuestions = 10;
+        let currentQuizMaxQuestions = 200;
         let currentLanguage = 'cs';
         let translations = {};
 
@@ -617,6 +617,10 @@
             updateQuestionCountDisplay();
         }
 
+        function resetQuestionCount() {
+            currentQuizMaxQuestions = 200; // Nebo jakákoli výchozí hodnota
+            updateQuestionCountDisplay();
+        }
         // ==================== UNIVERZÁLNÍ KVIZOVÉ FUNKCE ====================
         function startQuiz(quizType) {
             console.log('Start kvízu:', quizType);
@@ -918,12 +922,16 @@
             document.getElementById('quizArea').style.display = 'none';
             document.getElementById('quizResults').style.display = 'none';
             document.getElementById('quizMenu').style.display = 'block';
+
+            resetQuestionCount()
         }
 
         // NOVÁ FUNKCE: Návrat do menu přímo z kvízu
         function returnToMenuFromQuiz() {
             if (confirm(getText('confirmExit'))) {
                 returnToMenu();
+
+                resetQuestionCount()
             }
         }
 
