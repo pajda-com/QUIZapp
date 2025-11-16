@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "name_cs": "České ptactvo",
+    "version": "1.0",
+    "imagesPerItem": 5
+  },
+  "birds": [
+    {
+      "id": 1,
+      "name_cs": "Rorýs obecný",
+      "name_eng": "Common Swift",
+	    "latin_name": "Apus apus",
+      "images": [
+        "obrazky/birds/apus_apus_1.jpg",
+        "obrazky/birds/apus_apus_2.jpg",
+        "obrazky/birds/apus_apus_3.jpg",
+        "obrazky/birds/apus_apus_4.jpg", 
+        "obrazky/birds/apus_apus_5.jpg"
+      ],
+      "description_cs": "Rorýsi mají srpovitá křídla a krátký vidličnatý ocas. Jsou to výborní letci kteří většinu života tráví ve vzduchu.",
+      "description_eng": "Swifts have sickle-shaped wings and a short forked tail. They are excellent fliers that spend most of their lives in the air."
+    },
+    {
+      "id": 2,
+      "name_cs": "Vrabec polní",
+      "name_eng": "Eurasian Tree Sparrow",
+	    "latin_name": "Passer montanus",
+      "images": [
+        "obrazky/birds/passer_montanus_1.jpg",
+        "obrazky/birds/passer_montanus_2.jpg",
+        "obrazky/birds/passer_montanus_3.jpg",
+        "obrazky/birds/passer_montanus_4.jpg",
+        "obrazky/birds/passer_montanus_5.jpg"
+      ],
+      "description_cs": "Vrabec polní má hnědé zbarvení s černou skvrnou na tvářích. Samec má šedý temeno hlavy.",
+      "description_eng": "The Eurasian Tree Sparrow has brown coloring with a black spot on its cheeks. The male has a gray crown."
+    },
+    {
+      "id": 3,
+      "name_cs": "Sýkora koňadra", 
+      "name_eng": "Great Tit",
+      "latin_name": "Parus major",
+	    "images": [
+        "obrazky/birds/parus_major_1.jpg",
+        "obrazky/birds/parus_major_2.jpg",
+        "obrazky/birds/parus_major_3.jpg",
+        "obrazky/birds/parus_major_4.jpg",
+        "obrazky/birds/parus_major_5.jpg"
+      ],
+      "description_cs": "Sýkora koňadra má žluté bříško s černým pruhem uprostřed. Hlava je černá s bílými lícemi.",
+      "description_eng": "The Great Tit has a yellow belly with a black stripe down the middle. The head is black with white cheeks."
+    },
+    {
+      "id": 4,
+      "name_cs": "Kos černý",
+      "name_eng": "Common Blackbird",
+      "latin_name": "Turdus merula",
+	    "images": [
+        "obrazky/birds/turdus_merula_1.jpg",
+        "obrazky/birds/turdus_merula_2.jpg",
+        "obrazky/birds/turdus_merula_3.jpg",
+        "obrazky/birds/turdus_merula_4.jpg",
+        "obrazky/birds/turdus_merula_5.jpg"
+      ],
+      "description_cs": "Kos černý je celý černý s výrazným žlutým zobákem. Samice jsou hnědé s tmavším zobákem.",
+      "description_eng": "The Common Blackbird is entirely black with a distinctive yellow beak. Females are brown with a darker beak."
+    },
+    {
+      "id": 5,
+      "name_cs": "Čáp bílý",
+      "name_eng": "White Stork",
+      "latin_name": "Ciconia ciconia",
+	    "images": [
+        "obrazky/birds/ciconia_ciconia_1.jpg",
+        "obrazky/birds/ciconia_ciconia_2.jpg", 
+        "obrazky/birds/ciconia_ciconia_3.jpg",
+        "obrazky/birds/ciconia_ciconia_4.jpg",
+        "obrazky/birds/ciconia_ciconia_5.jpg"
+      ],
+      "description_cs": "Čáp bílý je velký bílý pták s černými letkami a dlouhým červeným zobákem. Hnízdí na komínech a sloupech.",
+      "description_eng": "The White Stork is a large white bird with black flight feathers and a long red beak. It nests on chimneys and poles."
+    },
+    {
+      "id": 6,
+      "name_cs": "Sedmihlásek hajní",
+      "name_eng": "Icterine Warbler",
+      "latin_name": "Hippolais icterina",
+	    "images": [
+        "obrazky/birds/hippolais_icterina_1.jpg",
+        "obrazky/birds/hippolais_icterina_2.jpg", 
+        "obrazky/birds/hippolais_icterina_3.jpg",
+        "obrazky/birds/hippolais_icterina_4.jpg",
+        "obrazky/birds/hippolais_icterina_5.jpg"
+      ],
+      "description_cs": "Sedmihlásek hajní je malý zpěvný pták s olivově zeleným zbarvením a žlutým bříškem. Má výrazný zpěv.",
+      "description_eng": "The Icterine Warbler is a small songbird with olive-green coloring and a yellow belly. It has a distinctive song."
+    },
+    {
+      "id": 7,
+      "name_cs": "Rákosník zpěvný",
+      "name_eng": "Great Reed Warbler",
+      "latin_name": "Acrocephalus palustris",
+	    "images": [
+        "obrazky/birds/acrocephalus_palustris_1.jpg",
+        "obrazky/birds/acrocephalus_palustris_2.jpg", 
+        "obrazky/birds/acrocephalus_palustris_3.jpg",
+        "obrazky/birds/acrocephalus_palustris_4.jpg",
+        "obrazky/birds/acrocephalus_palustris_5.jpg"
+      ],
+      "description_cs": "Rákosník zpěvný je malý hnědý pták s proužkovaným hřbetem a světlým bříškem. Často se skrývá v rákosí a má melodický zpěv.",
+      "description_eng": "The Great Reed Warbler is a small brown bird with a striped back and light belly. It often hides in reeds and has a melodic song."
+    },
+    {
+      "id": 8,
+      "name_cs": "Pěnice slavíková",
+      "name_eng": "Garden Warbler",
+      "latin_name": "Sylvia borin",
+	    "images": [
+        "obrazky/birds/sylvia_borin_1.jpg",
+        "obrazky/birds/sylvia_borin_2.jpg", 
+        "obrazky/birds/sylvia_borin_3.jpg",
+        "obrazky/birds/sylvia_borin_4.jpg",
+        "obrazky/birds/sylvia_borin_5.jpg"
+      ],
+      "description_cs": "Pěnice slavíková je malý pták s olivově zeleným zbarvením na zádech a světlým bříškem. Má krásný zpěv připomínající slavíka.",
+      "description_eng": "The Garden Warbler is a small bird with olive-green coloring on its back and a light belly. It has a beautiful song reminiscent of a nightingale."
+    },
+    {
+      "id": 9,
+      "name_cs": "Strnad obecný",
+      "name_eng": "Yellowhammer",
+      "latin_name": "Emberiza citrinella",
+	    "images": [
+        "obrazky/birds/emberiza_citrinella_1.jpg",
+        "obrazky/birds/emberiza_citrinella_2.jpg", 
+        "obrazky/birds/emberiza_citrinella_3.jpg",
+        "obrazky/birds/emberiza_citrinella_4.jpg",
+        "obrazky/birds/emberiza_citrinella_5.jpg"
+      ],
+      "description_cs": "Strnad obecný je malý pták s výrazným žlutým zbarvením na hlavě a hnědým proužkovaným tělem. Samec má černé pruhy na hlavě.",
+      "description_eng": "The Yellowhammer is a small bird with distinctive yellow coloring on its head and a brown striped body. The male has black stripes on its head."
+    },
+    {
+      "id": 10,
+      "name_cs": "Dlask tlustozobý",
+      "name_eng": "Hawfinch",
+      "latin_name": "Coccothraustes coccothraustes",
+      "images": [
+        "obrazky/birds/coccothraustes_coccothraustes_1.jpg",
+        "obrazky/birds/coccothraustes_coccothraustes_2.jpg", 
+        "obrazky/birds/coccothraustes_coccothraustes_3.jpg",
+        "obrazky/birds/coccothraustes_coccothraustes_4.jpg",
+        "obrazky/birds/coccothraustes_coccothraustes_5.jpg"
+      ],
+      "description_cs": "Dlask tlustozobý je robustní pták s mohutným zobákem, který mu umožňuje rozlousknout tvrdá semena. Má pestré zbarvení s kombinací hnědé, černé a bílé.",
+      "description_eng": "The Hawfinch is a robust bird with a powerful beak that allows it to crack hard seeds. It has a colorful plumage with a combination of brown, black, and white."
+    }
+  ]
+}

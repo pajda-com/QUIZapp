@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "name": "České kytky",
+    "version": "1.0",
+    "imagesPerItem": 2
+  },
+  "flowers": [
+    {
+      "id": 1,
+      "name_cs": "Rozmarýn lékařský",
+      "name_eng": "Rosemary",
+      "latin_name": "Rosmarinus officinalis",
+      "images": [
+        "obrazky/flowers/rosmarinus_officinalis_1.jpg",
+        "obrazky/flowers/rosmarinus_officinalis_2.jpg"
+      ],
+      "description_cs": "Aromatická bylina s jehličkovitými listy, symbol vzpomínky. Používá se do tučných jídel a na prohřátí organismu.",
+      "description_eng": "An aromatic herb with needle-like leaves, symbolizing remembrance. Used in rich dishes and to warm the body."
+    },
+    {
+      "id": 2,
+      "name_cs": "Máta peprná",
+      "name_eng": "Peppermint",
+      "latin_name": "Mentha × piperita",
+      "images": [
+        "obrazky/flowers/mentha_piperita_1.jpg",
+        "obrazky/flowers/mentha_piperita_2.jpg"
+      ],
+      "description_cs": "Osvěžující bylina s typickým mentolovým aroma. Skvělá na čaj pro podporu trávení a svěží dech.",
+      "description_eng": "A refreshing herb with a characteristic menthol aroma. Great for tea to aid digestion and freshen breath."
+    },
+    {
+      "id": 3,
+      "name_cs": "Šalvěj lékařská",
+      "name_eng": "Sage",
+      "latin_name": "Salvia officinalis",
+      "images": [
+        "obrazky/flowers/salvia_officinalis_1.jpg",
+        "obrazky/flowers/salvia_officinalis_2.jpg"
+      ],
+      "description_cs": "Léčivka se stříbřitými listy, známá svými protizánětlivými účinky. V kuchyni k tučným masům.",
+      "description_eng": "A medicinal herb with silvery leaves, known for its anti-inflammatory effects. Used in cooking with fatty meats."
+    },
+    {
+      "id": 4,
+      "name_cs": "Meduňka lékařská",
+      "name_eng": "Lemon balm",
+      "latin_name": "Melissa officinalis",
+      "images": [
+        "obrazky/flowers/melissa_officinalis_1.jpg",
+        "obrazky/flowers/melissa_officinalis_2.jpg"
+      ],
+      "description_cs": "Bylina s jemnou citronovou vůní, která zklidňuje nervy a podporuje zdravý spánek.",
+      "description_eng": "An herb with a gentle lemon scent that soothes nerves and promotes healthy sleep."
+    },
+    {
+      "id": 5,
+      "name_cs": "Bazalka pravá",
+      "name_eng": "Basil",
+      "latin_name": "Ocimum basilicum",
+      "images": [
+        "obrazky/flowers/ocimum_basilicum_1.jpg",
+        "obrazky/flowers/ocimum_basilicum_2.jpg"
+      ],
+      "description_cs": "Královna italské kuchyně s výraznou sladkou vůní. Základní složka pesta a salátů Caprese.",
+      "description_eng": "The queen of Italian cuisine with a distinct sweet aroma. A key ingredient in pesto and Caprese salads."
+    }
+  ]
+}
