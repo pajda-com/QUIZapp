@@ -353,12 +353,6 @@
             --shadow: rgba(0,0,0,0.2);
         }
 
-        .theme-selector {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-        
         [data-theme="dark"] {
             /* TMAVÉ TÉMA */
             --bg-color: #1a1a2e;
@@ -370,6 +364,12 @@
             --score-bg: #2d3748;
             --border-color: #4a6572;
             --shadow: rgba(0,0,0,0.5);
+        }
+
+        .theme-selector {
+            position: absolute;
+            top: 20px;
+            left: 20px;
         }
 
         /* Aplikuj proměnné na elementy */
@@ -441,17 +441,21 @@
         <!-- MENU VÝBĚRU KVIZU -->
         <div id="quizMenu">
             
+
+
             <!-- VÝBĚR JAZYKA -->
             <div class="language-selector">
                 <button class="language-button active" onclick="changeLanguage('cs')">Česky</button>
                 <button class="language-button" onclick="changeLanguage('en')">English</button>
+                <button class="language-button" onclick="changeLanguage('de')">Deutsch</button>
+                <button class="language-button" onclick="changeLanguage('pl')">Polski</button>
             </div>
-
+           
             <!-- Výběr tématu -->
             <div class="theme-selector">
                 <button class="theme-toggle" onclick="toggleTheme()" title="Přepnout téma" id="themeToggle">🌙</button>
             </div>
-            
+
             <h1 id="selectQuiz">🎯 Vyber si kvíz</h1>
             
             <!-- ČÍSELNÍK PRO POČET OTÁZEK -->
@@ -585,14 +589,25 @@
             return translations[currentLanguage][key] || translations['cs'][key] || key;
         }
 
-        // Funkce pro získání správného jazykového pole podle aktuálního jazyka
-        function getNameField() {
-            return currentLanguage === 'cs' ? 'name_cs' : 'name_eng';
-        }
+function getNameField() {
+    const fields = {
+        'cs': 'name_cs',
+        'en': 'name_eng', 
+        'de': 'name_de',
+        'pl': 'name_pl'
+    };
+    return fields[currentLanguage] || 'name_eng';
+}
 
-        function getDescriptionField() {
-            return currentLanguage === 'cs' ? 'description_cs' : 'description_eng';
-        }
+function getDescriptionField() {
+    const fields = {
+        'cs': 'description_cs',
+        'en': 'description_eng',
+        'de': 'description_de',
+        'pl': 'description_pl'
+    };
+    return fields[currentLanguage] || 'description_eng';
+}
 
         // Funkce pro přenačtení kvízu s novým jazykem
         function reloadQuizWithNewLanguage() {
