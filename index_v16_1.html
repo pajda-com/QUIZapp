@@ -353,6 +353,12 @@
             --shadow: rgba(0,0,0,0.2);
         }
 
+        .theme-selector {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        
         [data-theme="dark"] {
             /* TMAVÉ TÉMA */
             --bg-color: #1a1a2e;
@@ -441,10 +447,10 @@
                 <button class="language-button" onclick="changeLanguage('en')">English</button>
             </div>
 
-<!-- Výběr tématu -->
-<div class="quiz-header">
-    <button class="theme-toggle" onclick="toggleTheme()" title="Přepnout téma" id="themeToggle">🌙</button>
-</div>
+            <!-- Výběr tématu -->
+            <div class="theme-selector">
+                <button class="theme-toggle" onclick="toggleTheme()" title="Přepnout téma" id="themeToggle">🌙</button>
+            </div>
             
             <h1 id="selectQuiz">🎯 Vyber si kvíz</h1>
             
