@@ -338,6 +338,82 @@
         .language-button.active {
             background-color: #2196F3;
         }
+
+        /* Výběr světle/tmavého režimu podle preferencí uživatele */
+        :root {
+            /* SVĚTLÉ TÉMA (výchozí) */
+            --bg-color: #f0f8ff;
+            --text-color: #333;
+            --card-bg: #ffffff;
+            --primary-color: #4CAF50;
+            --primary-hover: #45a049;
+            --secondary-color: #2196F3;
+            --score-bg: #e8f5e9;
+            --border-color: #2c5530;
+            --shadow: rgba(0,0,0,0.2);
+        }
+
+        [data-theme="dark"] {
+            /* TMAVÉ TÉMA */
+            --bg-color: #1a1a2e;
+            --text-color: #e6e6e6;
+            --card-bg: #16213e;
+            --primary-color: #389738;
+            --primary-hover: #2e7d32;
+            --secondary-color: #1976d2;
+            --score-bg: #2d3748;
+            --border-color: #4a6572;
+            --shadow: rgba(0,0,0,0.5);
+        }
+
+        /* Aplikuj proměnné na elementy */
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .quiz-menu, .quiz-container, #quizResults {
+            background-color: var(--card-bg);
+        }
+
+        button {
+            background-color: var(--primary-color);
+        }
+
+        button:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .menu-button {
+            background-color: var(--secondary-color);
+        }
+
+        .score-container, .question-counter {
+            background-color: var(--score-bg);
+        }
+
+        .quiz-image {
+            border-color: var(--border-color);
+        }
+
+        /* TLAČÍTKO PRO PŘEPÍNÁNÍ TÉMATU */
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+
+        .theme-toggle:hover {
+            background-color: var(--score-bg);
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
@@ -364,6 +440,11 @@
                 <button class="language-button active" onclick="changeLanguage('cs')">Česky</button>
                 <button class="language-button" onclick="changeLanguage('en')">English</button>
             </div>
+
+<!-- Výběr tématu -->
+<div class="quiz-header">
+    <button class="theme-toggle" onclick="toggleTheme()" title="Přepnout téma" id="themeToggle">🌙</button>
+</div>
             
             <h1 id="selectQuiz">🎯 Vyber si kvíz</h1>
             
@@ -469,8 +550,13 @@
                 .catch(error => {
                     console.error('Chyba při načítání překladů:', error);
                     alert('Nelze načíst překlady. Kontaktujte správce.');
+                })
+                .then(() => {
+                    loadThemePreference(); // ← Načti uložené téma
+                    updateUI();
                 });
-        }
+
+            }
 
         // ==================== INTERNATIONALIZACE ====================
         function changeLanguage(lang) {
@@ -549,6 +635,53 @@
             }
             
             updateStats();
+                // Aktualizuj text tlačítka tématu
+            const themeToggle = document.getElementById('themeToggle');
+            if (themeToggle) {
+                themeToggle.title = currentTheme === 'light' ? getText('darkMode') : getText('lightMode');
+            }
+        }
+        
+
+
+        // ==================== SPRÁVA TÉMAT ====================
+        let currentTheme = 'light';
+
+        function toggleTheme() {
+            const themeToggle = document.getElementById('themeToggle');
+            
+            if (currentTheme === 'light') {
+                // Přepni na tmavé téma
+                document.documentElement.setAttribute('data-theme', 'dark');
+                themeToggle.textContent = '☀️';
+                themeToggle.title = getText('lightMode');
+                currentTheme = 'dark';
+            } else {
+                // Přepni na světlé téma
+                document.documentElement.removeAttribute('data-theme');
+                themeToggle.textContent = '🌙';
+                themeToggle.title = getText('darkMode');
+                currentTheme = 'light';
+            }
+            
+            // Ulož preferenci do localStorage
+            localStorage.setItem('theme', currentTheme);
+        }
+
+        function loadThemePreference() {
+            const savedTheme = localStorage.getItem('theme');
+            const themeToggle = document.getElementById('themeToggle');
+            
+            if (savedTheme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                themeToggle.textContent = '☀️';
+                themeToggle.title = getText('lightMode');
+                currentTheme = 'dark';
+            } else {
+                themeToggle.textContent = '🌙';
+                themeToggle.title = getText('darkMode');
+                currentTheme = 'light';
+            }
         }
 
         // ==================== PŘIHLÁŠENÍ ====================
@@ -621,6 +754,7 @@
             currentQuizMaxQuestions = 200; // Nebo jakákoli výchozí hodnota
             updateQuestionCountDisplay();
         }
+
         // ==================== UNIVERZÁLNÍ KVIZOVÉ FUNKCE ====================
         function startQuiz(quizType) {
             console.log('Start kvízu:', quizType);
@@ -930,7 +1064,7 @@
         function returnToMenuFromQuiz() {
             if (confirm(getText('confirmExit'))) {
                 returnToMenu();
-
+                
                 resetQuestionCount()
             }
         }
