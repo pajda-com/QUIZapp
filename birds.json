@@ -194,6 +194,234 @@
       "description_eng": "The Hawfinch is a robust bird with a powerful beak that allows it to crack hard seeds. It has a colorful plumage with a combination of brown, black, and white.",
       "description_de": "Der Kernbeißer ist ein kräftiger Vogel mit einem starken Schnabel, der es ihm ermöglicht, harte Samen zu knacken. Er hat ein buntes Gefieder mit einer Kombination aus Braun, Schwarz und Weiß.",
       "description_pl": "Głowienka to krzepki ptak z potężnym dziobem, który pozwala mu rozłupywać twarde nasiona. Ma kolorowe upierzenie z kombinacją brązu, czerni i bieli."
+    },
+    {
+      "id": 11,
+      "name_cs": "Kachna divoká",
+      "name_eng": "Mallard",
+      "name_de": "Stockente",
+      "name_pl": "Kaczka krzyżówka",
+      "latin_name": "Anas platyrhynchos",
+      "images": [
+        "obrazky/birds/anas_platyrhynchos_1.jpg",
+        "obrazky/birds/anas_platyrhynchos_2.jpg", 
+        "obrazky/birds/anas_platyrhynchos_3.jpg",
+        "obrazky/birds/anas_platyrhynchos_4.jpg",
+        "obrazky/birds/anas_platyrhynchos_5.jpg"
+      ],
+      "description_cs": "Kachna divoká je běžný vodní pták s výrazným zbarvením. Samec má zelenou hlavu, hnědý hrudník a šedé tělo, zatímco samice jsou hnědé s tmavými skvrnami.",
+      "description_eng": "The Mallard is a common waterfowl with distinctive coloring. The male has a green head, brown chest, and gray body, while the female is brown with dark spots.",
+      "description_de": "Die Stockente ist eine häufige Wasservogelart mit auffälliger Färbung. Das Männchen hat einen grünen Kopf, eine braune Brust und einen grauen Körper, während das Weibchen braun mit dunklen Flecken ist.",
+      "description_pl": "Kaczka krzyżówka to pospolity ptak wodny o charakterystycznym ubarwieniu. Samiec ma zieloną głowę, brązową pierś i szare ciało, podczas gdy samica jest brązowa z ciemnymi plamami."
+    },
+    {
+      "id": 12,
+      "name_cs": "Husa velká",
+      "name_eng": "Greylag Goose",
+      "name_de": "Graugans",
+      "name_pl": "Gęś gęgawa",
+      "latin_name": "Anser anser",
+      "images": [
+        "obrazky/birds/anser_anser_1.jpg",
+        "obrazky/birds/anser_anser_2.jpg", 
+        "obrazky/birds/anser_anser_3.jpg",
+        "obrazky/birds/anser_anser_4.jpg",
+        "obrazky/birds/anser_anser_5.jpg"
+      ],
+      "description_cs": "Husa velká je velký pták s šedým peřím, růžovým zobákem a oranžovými nohama. Je známá svými hlasitými zvuky a migračními zvyky.",
+      "description_eng": "The Greylag Goose is a large bird with grey feathers, a pink beak, and orange legs. It is known for its loud calls and migratory habits.",
+      "description_de": "Die Graugans ist ein großer Vogel mit grauem Gefieder, einem rosa Schnabel und orangen Beinen. Sie ist bekannt für ihre lauten Rufe und ihre Zuggewohnheiten.",
+      "description_pl": "Gęś gęgawa to duży ptak o szarym upierzeniu, różowym dziobie i pomarańczowych nogach. Znana jest z głośnych odgłosów i zwyczajów migracyjnych."
+    },
+    {
+      "id": 13,
+      "name_cs": "Káně lesní",
+      "name_eng": "Common Buzzard",
+      "name_de": "Mäusebussard",
+      "name_pl": "Bielik zwyczajny",
+      "latin_name": "Buteo buteo",
+      "images": [
+        "obrazky/birds/buteo_buteo_1.jpg",
+        "obrazky/birds/buteo_buteo_2.jpg", 
+        "obrazky/birds/buteo_buteo_3.jpg",
+        "obrazky/birds/buteo_buteo_4.jpg",
+        "obrazky/birds/buteo_buteo_5.jpg"
+      ],
+      "description_cs": "Káně lesní je středně velký dravý pták s širokými křídly a krátkým ocasem. Má hnědé zbarvení s různými odstíny a skvrnami.",
+      "description_eng": "The Common Buzzard is a medium-sized bird of prey with broad wings and a short tail. It has brown coloring with various shades and spots.",
+      "description_de": "Der Mäusebussard ist ein mittelgroßer Greifvogel mit breiten Flügeln und kurzem Schwanz. Er hat eine braune Färbung mit verschiedenen Schattierungen und Flecken.",
+      "description_pl": "Bielik zwyczajny to średniej wielkości ptak drapieżny o szerokich skrzydłach i krótkim ogonie. Ma brązowe ubarwienie z różnymi odcieniami i plamami."
+    },
+    {
+      "id": 14,
+      "name_cs": "Čáp černý",
+      "name_eng": "Black Stork",
+      "name_de": "Schwarzstorch",
+      "name_pl": "Bocian czarny",
+      "latin_name": "Ciconia nigra",
+      "images": [
+        "obrazky/birds/ciconia_nigra_1.jpg",
+        "obrazky/birds/ciconia_nigra_2.jpg", 
+        "obrazky/birds/ciconia_nigra_3.jpg",
+        "obrazky/birds/ciconia_nigra_4.jpg",
+        "obrazky/birds/ciconia_nigra_5.jpg"
+      ],
+      "description_cs": "Čáp černý je velký pták s černým peřím a bílým břichem. Má dlouhý červený zobák a nohy a je známý svým plachým chováním.",
+      "description_eng": "The Black Stork is a large bird with black feathers and a white belly. It has a long red beak and legs and is known for its shy behavior.",
+      "description_de": "Der Schwarzstorch ist ein großer Vogel mit schwarzem Gefieder und weißem Bauch. Er hat einen langen roten Schnabel und Beine und ist für sein scheues Verhalten bekannt.",
+      "description_pl": "Bocian czarny to duży ptak o czarnym upierzeniu i białym brzuchu. Ma długi czerwony dziób i nogi, znany jest ze swojego płochliwego zachowania."
+    },
+    {
+      "id": 15,
+      "name_cs": "Holub domácí",
+      "name_eng": "Rock Pigeon",
+      "name_de": "Haustaube",
+      "name_pl": "Gołąb domowy",
+      "latin_name": "Columba livia f. domestica",
+      "images": [
+        "obrazky/birds/columba_livia_f_domestica_1.jpg",
+        "obrazky/birds/columba_livia_f_domestica_2.jpg", 
+        "obrazky/birds/columba_livia_f_domestica_3.jpg",
+        "obrazky/birds/columba_livia_f_domestica_4.jpg",
+        "obrazky/birds/columba_livia_f_domestica_5.jpg"
+      ],
+      "description_cs": "Holub domácí je běžný městský pták s různými barevnými variantami, včetně šedé, bílé a černé. Má krátký krk a kulatou hlavu.",
+      "description_eng": "The Rock Pigeon is a common urban bird with various color variants, including gray, white, and black. It has a short neck and a rounded head.",
+      "description_de": "Die Haustaube ist ein häufiger Stadtvogel mit verschiedenen Farbvarianten, darunter Grau, Weiß und Schwarz. Sie hat einen kurzen Hals und einen runden Kopf.",
+      "description_pl": "Gołąb domowy to pospolity ptak miejski o różnych wariantach kolorystycznych, w tym szarym, białym i czarnym. Ma krótka szyję i zaokrągloną głowę."
+    },
+    {
+      "id": 16,
+      "name_cs": "Holub hřivnáč",
+      "name_eng": "Common Wood Pigeon",
+      "name_de": "Ringeltaube",
+      "name_pl": "Grzywacz",
+      "latin_name": "Columba palumbus",
+      "images": [
+        "obrazky/birds/columba_palumbus_1.jpg",
+        "obrazky/birds/columba_palumbus_2.jpg", 
+        "obrazky/birds/columba_palumbus_3.jpg",
+        "obrazky/birds/columba_palumbus_4.jpg",
+        "obrazky/birds/columba_palumbus_5.jpg"
+      ],
+      "description_cs": "Holub hřivnáč je velký pták s šedým peřím, bílými skvrnami na krku a růžovým nádechem na hrudi. Má hlasité houkání.",
+      "description_eng": "The Common Wood Pigeon is a large bird with gray feathers, white patches on the neck, and a pinkish hue on the chest. It has a loud cooing call.",
+      "description_de": "Die Ringeltaube ist ein großer Vogel mit grauem Gefieder, weißen Flecken am Hals und einem rosa Schimmer auf der Brust. Sie hat einen lauten Ruf.",
+      "description_pl": "Grzywacz to duży ptak o szarym upierzeniu, białych plamach na szyi i różowym odcieniu na piersi. Ma głośne gruchanie."
+    },
+    {
+      "id": 17,
+      "name_cs": "Labut velká",
+      "name_eng": "Mute Swan",
+      "name_de": "Höckerschwan",
+      "name_pl": "Łabędź niemy",
+      "latin_name": "Cygnus olor",
+      "images": [
+        "obrazky/birds/cygnus_olor_1.jpg",
+        "obrazky/birds/cygnus_olor_2.jpg", 
+        "obrazky/birds/cygnus_olor_3.jpg",
+        "obrazky/birds/cygnus_olor_4.jpg",
+        "obrazky/birds/cygnus_olor_5.jpg"
+      ],
+      "description_cs": "Labut velká je velký bílý pták s dlouhým krkem a oranžovým zobákem s černou skvrnou u základu. Je známá svou elegantní plavbou po vodě.",
+      "description_eng": "The Mute Swan is a large white bird with a long neck and an orange beak with a black spot at the base. It is known for its graceful swimming on water.",
+      "description_de": "Der Höckerschwan ist ein großer weißer Vogel mit langem Hals und einem orangefarbenen Schnabel mit einem schwarzen Fleck an der Basis. Er ist bekannt für sein anmutiges Schwimmen auf dem Wasser.",
+      "description_pl": "Łabędź niemy to duży biały ptak o długiej szyi i pomarańczowym dziobie z czarną plamą u podstawy. Znany jest ze swojego eleganckiego pływania po wodzie."
+    },
+    {
+      "id": 18,
+      "name_cs": "Krahujec obecný",
+      "name_eng": "Common Kestrel",
+      "name_de": "Turmfalke",
+      "name_pl": "Krogulec zwyczajny",
+      "latin_name": "Falco tinnunculus",
+      "images": [
+        "obrazky/birds/falco_tinnunculus_1.jpg",
+        "obrazky/birds/falco_tinnunculus_2.jpg", 
+        "obrazky/birds/falco_tinnunculus_3.jpg",
+        "obrazky/birds/falco_tinnunculus_4.jpg",
+        "obrazky/birds/falco_tinnunculus_5.jpg"
+      ],
+      "description_cs": "Krahujec obecný je středně velký dravý pták s rezavě hnědým peřím a černými skvrnami. Často ho lze vidět, jak visí ve vzduchu při lovu malých savců a ptáků.",
+      "description_eng": "The Common Kestrel is a medium-sized bird of prey with reddish-brown feathers and black spots. It is often seen hovering in the air while hunting small mammals and birds.",
+      "description_de": "Der Turmfalke ist ein mittelgroßer Greifvogel mit rötlich-braunem Gefieder und schwarzen Flecken. Man sieht ihn oft in der Luft schweben, während er kleine Säugetiere und Vögel jagt.",
+      "description_pl": "Krogulec zwyczajny to średniej wielkości ptak drapieżny o rdzawo-brązowym upierzeniu z czarnymi plamami. Często można go zobaczyć wiszącego w powietrzu podczas polowania na małe ssaki i ptaki."
+    },
+    {
+      "id": 19,
+      "name_cs": "Orel mořský",
+      "name_eng": "White-tailed Eagle",
+      "name_de": "Seeadler",
+      "name_pl": "Orzeł bielik",
+      "latin_name": "Haliaetus albicilla",
+      "images": [
+        "obrazky/birds/haliaetus_albicilla_1.jpg",
+        "obrazky/birds/haliaetus_albicilla_2.jpg", 
+        "obrazky/birds/haliaetus_albicilla_3.jpg",
+        "obrazky/birds/haliaetus_albicilla_4.jpg",
+        "obrazky/birds/haliaetus_albicilla_5.jpg"
+      ],
+      "description_cs": "Orel mořský je velký dravý pták s mohutnými křídly a bílým ocasem. Jeho zobák je silný a zahnutý, ideální pro lov ryb a jiných vodních živočichů.",
+      "description_eng": "The White-tailed Eagle is a large bird of prey with powerful wings and a white tail. Its beak is strong and hooked, ideal for hunting fish and other aquatic animals.",
+      "description_de": "Der Seeadler ist ein großer Greifvogel mit kräftigen Flügeln und weißem Schwanz. Sein Schnabel ist stark und gekrümmt, ideal zum Jagen von Fischen und anderen Wasserlebewesen.",
+      "description_pl": "Orzeł bielik to duży ptak drapieżny o potężnych skrzydłach i białym ogonie. Jego dziób jest silny i zakrzywiony, idealny do polowania na ryby i inne zwierzęta wodne."
+    },
+    {
+      "id": 20,
+      "name_cs": "Racek chechtavý",
+      "name_eng": "Black-headed Gull",
+      "name_de": "Lachmöwe",
+      "name_pl": "Mewa śmieszka",
+      "latin_name": "Chroicocephalus ridibundus",
+      "images": [
+        "obrazky/birds/chroicocephalus_ridibundus_1.jpg",
+        "obrazky/birds/chroicocephalus_ridibundus_2.jpg", 
+        "obrazky/birds/chroicocephalus_ridibundus_3.jpg",
+        "obrazky/birds/chroicocephalus_ridibundus_4.jpg",
+        "obrazky/birds/chroicocephalus_ridibundus_5.jpg"
+      ],
+      "description_cs": "Racek chechtavý je středně velký mořský pták s bílým tělem, šedými křídly a černou hlavou během hnízdní sezóny. Má červený zobák a nohy.",
+      "description_eng": "The Black-headed Gull is a medium-sized seabird with a white body, gray wings, and a black head during the breeding season. It has a red beak and legs.",
+      "description_de": "Die Lachmöwe ist ein mittelgroßer Meeresvogel mit weißem Körper, grauen Flügeln und schwarzem Kopf während der Brutzeit. Sie hat einen roten Schnabel und Beine.",
+      "description_pl": "Mewa śmieszka to średniej wielkości ptak morski o białym ciele, szarych skrzydłach i czarnej głowie podczas sezonu lęgowego. Ma czerwony dziób i nogi."
+    },
+    {
+      "id": 21,
+      "name_cs": "Křepelka polní",
+      "name_eng": "Common Quail",
+      "name_de": "Wachtel",
+      "name_pl": "Przepiórka zwyczajna",
+      "latin_name": "Perdix perdix",
+      "images": [
+        "obrazky/birds/perdix_perdix_1.jpg",
+        "obrazky/birds/perdix_perdix_2.jpg", 
+        "obrazky/birds/perdix_perdix_3.jpg",
+        "obrazky/birds/perdix_perdix_4.jpg",
+        "obrazky/birds/perdix_perdix_5.jpg"
+      ],
+      "description_cs": "Křepelka polní je malý zemní pták s hnědým a šedým zbarvením, které mu poskytuje vynikající kamufláž v travnatém prostředí. Má krátké nohy a kulatý tvar těla.",
+      "description_eng": "The Common Quail is a small ground-dwelling bird with brown and gray coloring that provides excellent camouflage in grassy environments. It has short legs and a rounded body shape.",
+      "description_de": "Die Wachtel ist ein kleiner bodenbewohnender Vogel mit brauner und grauer Färbung, die eine hervorragende Tarnung in grasbewachsenen Umgebungen bietet. Sie hat kurze Beine und eine abgerundete Körperform.",
+      "description_pl": "Przepiórka zwyczajna to mały ptak naziemny o brązowo-szarym ubarwieniu, które zapewnia doskonałe kamuflaże w trawiastym środowisku. Ma krótkie nogi i zaokrąglony kształt ciała."
+    },
+    {
+      "id": 22,
+      "name_cs": "Bažant obecný",
+      "name_eng": "Common Pheasant",
+      "name_de": "Fasan",
+      "name_pl": "Bażant zwyczajny",
+      "latin_name": "Phasianus colchicus",
+      "images": [
+        "obrazky/birds/phasianus_colchicus_1.jpg",
+        "obrazky/birds/phasianus_colchicus_2.jpg", 
+        "obrazky/birds/phasianus_colchicus_3.jpg",
+        "obrazky/birds/phasianus_colchicus_4.jpg",
+        "obrazky/birds/phasianus_colchicus_5.jpg"
+      ],
+      "description_cs": "Bažant obecný je velký pták s pestrým zbarvením. Samec má lesklé zelené a modré peří na hlavě, červené tváře a dlouhý ocas.",
+      "description_eng": "The Common Pheasant is a large bird with colorful plumage. The male has shiny green and blue feathers on its head, red facial skin, and a long tail.",
+      "description_de": "Der Fasan ist ein großer Vogel mit buntem Gefieder. Das Männchen hat glänzend grüne und blaue Federn am Kopf, rote Gesichtshaut und einen langen Schwanz.",
+      "description_pl": "Bażant zwyczajny to duży ptak o kolorowym upierzeniu. Samiec ma błyszczące zielone i niebieskie pióra na głowie, czerwoną skórę na twarzy i długi ogon."
     }
   ]
 }
