@@ -2,7 +2,7 @@
 A modern, multilingual quiz application for identifying birds, flowers, and trees through interactive image-based questions.
 
 Features 🚀
-🌐 Multilingual Support - Czech, English, and German interfaces
+🌐 Multilingual Support - Czech, English, German and Polish interfaces
 🎯 Multiple Quiz Types - Birds, Flowers, and Trees identification
 📱 Responsive Design - Works on desktop and mobile devices
 🎨 Beautiful UI - Clean, intuitive interface with smooth animations
