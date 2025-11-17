@@ -84,6 +84,742 @@
       "description_eng": "The queen of Italian cuisine with a distinct sweet aroma. A key ingredient in pesto and Caprese salads.",
       "description_de": "Die Königin der italienischen Küche mit einem ausgeprägten süßen Aroma. Eine wichtige Zutat in Pesto und Caprese-Salaten.",
       "description_pl": "Królowa kuchni włoskiej o wyraźnym słodkim aromacie. Kluczowy składnik pesto i sałatek Caprese."
+    },
+        {
+      "id": 6,
+      "name_cs": "Tymián obecný",
+      "name_eng": "Thyme",
+      "name_de": "Thymian",
+      "name_pl": "Tymianek pospolity",
+      "latin_name": "Thymus vulgaris",
+      "images": [
+        "obrazky/flowers/thymus_vulgaris_1.jpg",
+        "obrazky/flowers/thymus_vulgaris_2.jpg"
+      ],
+      "description_cs": "Koření s jemnými lístky a intenzivní, zemitou chutí. Nezbytný do francouzské kuchyně a na grilování.",
+      "description_eng": "A spice with delicate leaves and an intense, earthy flavor. Essential in French cuisine and for grilling.",
+      "description_de": "Ein Gewürz mit zarten Blättern und intensivem, erdigem Geschmack. Unverzichtbar in der französischen Küche und zum Grillen.",
+      "description_pl": "Przyprawa o delikatnych liściach i intensywnym, ziemistym smaku. Niezbędna w kuchni francuskiej i do grillowania."
+    },
+    {
+      "id": 7,
+      "name_cs": "Levandule lékařská",
+      "name_eng": "Lavender",
+      "name_de": "Lavendel",
+      "name_pl": "Lawenda wąskolistna / lekarska",
+      "latin_name": "Lavandula angustifolia / officinalis",
+      "images": [
+        "obrazky/flowers/lavandula_angustifolia_1.jpg",
+        "obrazky/flowers/lavandula_angustifolia_2.jpg"
+      ],
+      "description_cs": "Bylina s nezaměnitelnou fialovou barukou a uklidňující vůní. Používá se do sáčků i do sladkých dezertů.",
+      "description_eng": "An herb with a distinctive purple color and calming scent. Used in sachets and sweet desserts.",
+      "description_de": "Ein Kraut mit unverwechselbarer violetter Farbe und beruhigendem Duft. Wird in Säckchen und süßen Desserts verwendet.",
+      "description_pl": "Zioło o charakterystycznym fioletowym kolorze i kojącym zapachu. Stosowane w saszetkach i słodkich deserach."
+    },
+    {
+      "id": 8,
+      "name_cs": "Heřmánek pravý",
+      "name_eng": "Chamomile",
+      "name_de": "Kamille",
+      "name_pl": "Rumianek pospolity",
+      "latin_name": "Matricaria chamomilla",
+      "images": [
+        "obrazky/flowers/matricaria_chamomilla_1.jpg",
+        "obrazky/flowers/matricaria_chamomilla_2.jpg"
+      ],
+      "description_cs": "Bylinka s jemnými květy podobnými sedmikrásce. Je známá pro své zklidňující účinky na zažívání i nervy.",
+      "description_eng": "An herb with delicate daisy-like flowers. Known for its calming effects on digestion and nerves.",
+      "description_de": "Ein Kraut mit zarten, gänseblümchenähnlichen Blüten. Bekannt für seine beruhigende Wirkung auf Verdauung und Nerven.",
+      "description_pl": "Zioło o delikatnych kwiatach podobnych do stokrotek. Znane ze swoich uspokajających właściwości na trawienie i nerwy."
+    },
+    {
+      "id": 9,
+      "name_cs": "Majoránka zahradní",
+      "name_eng": "Marjoram",
+      "name_de": "Majoran",
+      "name_pl": "Majeranek ogrodowy",
+      "latin_name": "Origanum majorana",
+      "images": [
+        "obrazky/flowers/origanum_majorana_1.jpg",
+        "obrazky/flowers/origanum_majorana_2.jpg"
+      ],
+      "description_cs": "Jemné koření s teplou, sladkou vůní. Klíčová přísada do bramboráku, zabijačkových specialit a polévek.",
+      "description_eng": "A mild spice with a warm, sweet aroma. A key ingredient in potato pancakes, slaughterhouse specialties, and soups.",
+      "description_de": "Ein mildes Gewürz mit warmem, süßem Aroma. Eine wichtige Zutat in Kartoffelpuffern, Schlachthof-Spezialitäten und Suppen.",
+      "description_pl": "Łagodna przyprawa o ciepłym, słodkim aromacie. Kluczowy składnik placków ziemniaczanych, specjałów rzeźniczych i zup."
+    },
+    {
+      "id": 10,
+      "name_cs": "Dobromysl obecná",
+      "name_eng": "Oregano",
+      "name_de": "Oregano",
+      "name_pl": "Lebiodka pospolita",
+      "latin_name": "Origanum vulgare",
+      "images": [
+        "obrazky/flowers/origanum_vulgare_1.jpg",
+        "obrazky/flowers/origanum_vulgare_2.jpg"
+      ],
+      "description_cs": "Silně aromatická bylina, nepostradatelná v italské a řecké kuchyni, zejména na pizzu a do rajčatových omáček.",
+      "description_eng": "A strongly aromatic herb, indispensable in Italian and Greek cuisine, especially on pizza and in tomato sauces.",
+      "description_de": "Ein stark aromatisches Kraut, unverzichtbar in der italienischen und griechischen Küche, besonders auf Pizza und in Tomatensaucen.",
+      "description_pl": "Silnie aromatyczne zioło, niezbędne w kuchni włoskiej i greckiej, szczególnie na pizzę i do sosów pomidorowych."
+    },
+    {
+      "id": 11,
+      "name_cs": "Kopr vonný",
+      "name_eng": "Dill",
+      "name_de": "Dill",
+      "name_pl": "Koper ogrodowy",
+      "latin_name": "Anethum graveolens",
+      "images": [
+        "obrazky/flowers/anethum_graveolens_1.jpg",
+        "obrazky/flowers/anethum_graveolens_2.jpg"
+      ],
+      "description_cs": "Bylina s jemnými nitkovitými listy a specifickou vůní. Klasika k okurkám, rybám a do omáček.",
+      "description_eng": "An herb with delicate thread-like leaves and a distinctive aroma. A classic for pickles, fish, and sauces.",
+      "description_de": "Ein Kraut mit zarten, fadenartigen Blättern und einem unverwechselbaren Aroma. Ein Klassiker für Gurken, Fisch und Saucen.",
+      "description_pl": "Zioło o delikatnych, nitkowatych liściach i charakterystycznym aromacie. Klasyka do ogórków, ryb i sosów."
+    },
+    {
+      "id": 12,
+      "name_cs": "Pažitka pobřežní",
+      "name_eng": "Chives",
+      "name_de": "Schnittlauch",
+      "name_pl": "Szczypiorek",
+      "latin_name": "Allium schoenoprasum",
+      "images": [
+        "obrazky/flowers/allium_schoenoprasum_1.jpg",
+        "obrazky/flowers/allium_schoenoprasum_2.jpg"
+      ],
+      "description_cs": "Jemná cibulová bylina s dutými stvoly. Skvělá do pomazánek, salátů a na posypání polévek.",
+      "description_eng": "A mild onion herb with hollow stems. Great for spreads, salads, and as a soup garnish.",
+      "description_de": "Ein mildes Zwiebelkraut mit hohlen Stielen. Ideal für Aufstriche, Salate und als Suppendekoration.",
+      "description_pl": "Łagodne zioło cebulowe z pustymi łodygami. Doskonałe do past, sałatek i jako dodatek do zup."
+    },
+    {
+      "id": 13,
+      "name_cs": "Petržel kadeřavá",
+      "name_eng": "Curly parsley",
+      "name_de": "Glatte Petersilie",
+      "name_pl": "Pietruszka kędzierzawa",
+      "latin_name": "Petroselinum crispum",
+      "images": [
+        "obrazky/flowers/petroselinum_crispum_1.jpg",
+        "obrazky/flowers/petroselinum_crispum_2.jpg"
+      ],
+      "description_cs": "Oblíbená dekorativní bylina s kadeřavými listy. Bohatá na vitamín C a železo.",
+      "description_eng": "A popular decorative herb with curly leaves. Rich in vitamin C and iron.",
+      "description_de": "Ein beliebtes dekoratives Kraut mit krausen Blättern. Reich an Vitamin C und Eisen.",
+      "description_pl": "Popularne zioło ozdobne o kręconych liściach. Bogate w witaminę C i żelazo."
+    },
+    {
+      "id": 14,
+      "name_cs": "Libeček lékařský",
+      "name_eng": "Lovage",
+      "name_de": "Liebstöckel",
+      "name_pl": "Lubczyk ogrodowy",
+      "latin_name": "Levisticum officinale",
+      "images": [
+        "obrazky/flowers/levisticum_officinale_1.jpg",
+        "obrazky/flowers/levisticum_officinale_2.jpg"
+      ],
+      "description_cs": "Bylina s intenzivní chutí připomínající maggi. Základ české polévky a bujónů.",
+      "description_eng": "An herb with an intense flavor reminiscent of Maggi. A staple in Czech soups and broths.",
+      "description_de": "Ein Kraut mit intensivem Geschmack, der an Maggi erinnert. Ein Grundbestandteil tschechischer Suppen und Brühen.",
+      "description_pl": "Zioło o intensywnym smaku przypominającym Maggi. Podstawa czeskich zup i bulionów."
+    },
+    {
+      "id": 15,
+      "name_cs": "Saturejka zahradní",
+      "name_eng": "Summer savory",
+      "name_de": "Bohnenkraut",
+      "name_pl": "Cząber ogrodowy",
+      "latin_name": "Satureja hortensis",
+      "images": [
+        "obrazky/flowers/satureja_hortensis_1.jpg",
+        "obrazky/flowers/satureja_hortensis_2.jpg"
+      ],
+      "description_cs": "Koření s peprnou, lehce palčivou chutí. Výborné k luštěninám, aby byly lépe stravitelné.",
+      "description_eng": "A spice with a peppery, slightly pungent flavor. Excellent with legumes to improve digestibility.",
+      "description_de": "Ein Gewürz mit pfeffrigem, leicht scharfem Geschmack. Hervorragend zu Hülsenfrüchten, um die Verdaulichkeit zu verbessern.",
+      "description_pl": "Przyprawa o pieprznym, lekko pikantnym smaku. Doskonała do roślin strączkowych, aby poprawić trawienie."
+    },
+    {
+      "id": 16,
+      "name_cs": "Yzop lékařský",
+      "name_eng": "Hyssop",
+      "name_de": "Ysop",
+      "name_pl": "Izop lekarski",
+      "latin_name": "Hyssopus officinalis",
+      "images": [
+        "obrazky/flowers/hyssopus_officinalis_1.jpg",
+        "obrazky/flowers/hyssopus_officinalis_2.jpg"
+      ],
+      "description_cs": "Hořká bylina s modrými květy, používaná do bylinkových likérů a k tučným masům.",
+      "description_eng": "A bitter herb with blue flowers, used in herbal liqueurs and with fatty meats.",
+      "description_de": "Ein bitteres Kraut mit blauen Blüten, das in Kräuterlikören und zu fettem Fleisch verwendet wird.",
+      "description_pl": "Gorzka zioło o niebieskich kwiatach, używana w likierach ziołowych i do tłustych mięs."
+    },
+    {
+      "id": 17,
+      "name_cs": "Pelyněk pravý",
+      "name_eng": "Wormwood",
+      "name_de": "Wermut",
+      "name_pl": "Bylica piołun",
+      "latin_name": "Artemisia absinthium",
+      "images": [
+        "obrazky/flowers/artemisia_absinthium_1.jpg",
+        "obrazky/flowers/artemisia_absinthium_2.jpg"
+      ],
+      "description_cs": "Velmi hořká bylina, základní složka absintu. Podporuje trávení a chuť k jídlu.",
+      "description_eng": "A very bitter herb, a key ingredient in absinthe. It supports digestion and appetite.",
+      "description_de": "Ein sehr bitteres Kraut, ein Hauptbestandteil von Absinth. Es fördert die Verdauung und den Appetit.",
+      "description_pl": "Bardzo gorzka zioło, kluczowy składnik absyntu. Wspomaga trawienie i apetyt."
+    },
+    {
+      "id": 18,
+      "name_cs": "Popenec obecný",
+      "name_eng": "Ground ivy",
+      "name_de": "Gundermann",
+      "name_pl": "Bluszczyk kurdybanek",
+      "latin_name": "Glechoma hederacea",
+      "images": [
+        "obrazky/flowers/glechoma_hederacea_1.jpg",
+        "obrazky/flowers/glechoma_hederacea_2.jpg"
+      ],
+      "description_cs": "Ploživá bylina s fialovými květy, roste volně v přírodě. Chuťově podobná majoránce.",
+      "description_eng": "A creeping herb with purple flowers, grows wild in nature. Flavor similar to marjoram.",
+      "description_de": "Ein kriechendes Kraut mit violetten Blüten, wächst wild in der Natur. Geschmack ähnlich wie Majoran.",
+      "description_pl": "Płożące zioło o fioletowych kwiatach, rośnie dziko w przyrodzie. Smak podobny do majeranku."
+    },
+    {
+      "id": 19,
+      "name_cs": "Máta klasnatá",
+      "name_eng": "Spearmint",
+      "name_de": "Grüne Minze",
+      "name_pl": "Mięta zielona",
+      "latin_name": "Mentha spicata",
+      "images": [
+        "obrazky/flowers/mentha_spicata_1.jpg",
+        "obrazky/flowers/mentha_spicata_2.jpg"
+      ],
+      "description_cs": "Máta s jemnou, sladkou chutí, vhodná do mojita a asijských jídel.",
+      "description_eng": "Mint with a mild, sweet flavor, suitable for mojitos and Asian dishes.",
+      "description_de": "Minze mit mildem, süßlichem Geschmack, geeignet für Mojitos und asiatische Gerichte.",
+      "description_pl": "Mięta o łagodnym, słodkim smaku, odpowiednia do mojito i dań azjatyckich."
+    },
+    {
+      "id": 20,
+      "name_cs": "Šanta kočičí",
+      "name_eng": "Catnip",
+      "name_de": "Katzenminze",
+      "name_pl": "Kocimiętka",
+      "latin_name": "Nepeta cataria",
+      "images": [
+        "obrazky/flowers/nepeta_cataria_1.jpg",
+        "obrazky/flowers/nepeta_cataria_2.jpg"
+      ],
+      "description_cs": "Bylina, která svou vůní přitahuje kočky. Na lidi má naopak uklidňující účinek.",
+      "description_eng": "An herb that attracts cats with its scent. It has a calming effect on humans.",
+      "description_de": "Ein Kraut, das Katzen mit seinem Duft anzieht. Es hat eine beruhigende Wirkung auf Menschen.",
+      "description_pl": "Zioło, które przyciąga koty swoim zapachem. Działa uspokajająco na ludzi."
+    },
+    {
+      "id": 21,
+      "name_cs": "Routa vonná",
+      "name_eng": "Rue",
+      "name_de": "Weinraute",
+      "name_pl": "Ruta zwyczajna",
+      "latin_name": "Ruta graveolens",
+      "images": [
+        "obrazky/flowers/ruta_graveolens_1.jpg",
+        "obrazky/flowers/ruta_graveolens_2.jpg"
+      ],
+      "description_cs": "Aromatická bylina se silným aroma a hořkou chutí. Používá se v malém množství.",
+      "description_eng": "An aromatic herb with a strong aroma and bitter taste. Used in small amounts.",
+      "description_de": "Ein aromatisches Kraut mit starkem Aroma und bitterem Geschmack. Wird in kleinen Mengen verwendet.",
+      "description_pl": "Aromatyczne zioło o silnym aromacie i gorzkim smaku. Stosowane w małych ilościach."
+    },
+    {
+      "id": 22,
+      "name_cs": "Andělika lékařská",
+      "name_eng": "Angelica",
+      "name_de": "Engelwurz",
+      "name_pl": "Arcydzięgiel",
+      "latin_name": "Angelica archangelica",
+      "images": [
+        "obrazky/flowers/angelica_archangelica_1.jpg",
+        "obrazky/flowers/angelica_archangelica_2.jpg"
+      ],
+      "description_cs": "Mohutná bylina s vonnými semeny a stonky, které se kandují. Používá se do likérů.",
+      "description_eng": "A robust herb with fragrant seeds and stems that are candied. Used in liqueurs.",
+      "description_de": "Eine kräftige Pflanze mit duftenden Samen und Stängeln, die kandiert werden. Wird in Likören verwendet.",
+      "description_pl": "Mocne zioło o aromatycznych nasionach i łodygach, które są kandyzowane. Stosowane w likierach."
+    },
+    {
+      "id": 23,
+      "name_cs": "Kozlík lékařský",
+      "name_eng": "Valerian",
+      "name_de": "Baldrian",
+      "name_pl": "Waleriana",
+      "latin_name": "Valeriana officinalis",
+      "images": [
+        "obrazky/flowers/valeriana_officinalis_1.jpg",
+        "obrazky/flowers/valeriana_officinalis_2.jpg"
+      ],
+      "description_cs": "Známé přírodní sedativum, které pomáhá při nespavosti a úzkosti. Má charakteristický pach.",
+      "description_eng": "A well-known natural sedative that helps with insomnia and anxiety. It has a distinctive odor.",
+      "description_de": "Ein bekanntes natürliches Beruhigungsmittel, das bei Schlaflosigkeit und Angstzuständen hilft. Es hat einen charakteristischen Geruch.",
+      "description_pl": "Znane naturalne sedatywum, które pomaga przy bezsenności i lękach. Ma charakterystyczny zapach."
+    },
+    {
+      "id": 24,
+      "name_cs": "Měsíček lékařský",
+      "name_eng": "Calendula",
+      "name_de": "Ringelblume",
+      "name_pl": "Nagietek lekarski",
+      "latin_name": "Calendula officinalis",
+      "images": [
+        "obrazky/flowers/calendula_officinalis_1.jpg",
+        "obrazky/flowers/calendula_officinalis_2.jpg"
+      ],
+      "description_cs": "Bylina se zářivě oranžovými květy. Hojivá na kůži, používá se v mastích a čajích.",
+      "description_eng": "A herb with bright orange flowers. Healing for the skin, used in ointments and teas.",
+      "description_de": "Eine Pflanze mit leuchtend orangefarbenen Blüten. Heilend für die Haut, wird in Salben und Tees verwendet.",
+      "description_pl": "Zioło o jaskrawych pomarańczowych kwiatach. Lecznicze dla skóry, stosowane w maściach i herbatach."
+    },
+    {
+      "id": 25,
+      "name_cs": "Máta vodní",
+      "name_eng": "Water mint",
+      "name_de": "Wasserminze",
+      "name_pl": "Mięta wodna",
+      "latin_name": "Mentha aquatica",
+      "images": [
+        "obrazky/flowers/mentha_aquatica_1.jpg",
+        "obrazky/flowers/mentha_aquatica_2.jpg"
+      ],
+      "description_cs": "Divoký druh máty rostoucí u vody. Má výraznou mentolovou chuť.",
+      "description_eng": "A wild mint species growing near water. It has a strong menthol flavor.",
+      "description_de": "Eine wilde Minzart, die am Wasser wächst. Sie hat einen ausgeprägten Mentholgeschmack.",
+      "description_pl": "Dziki gatunek mięty rosnący przy wodzie. Ma wyraźny smak mentolowy."
+    },
+    {
+      "id": 26,
+      "name_cs": "Třezalka tečkovaná",
+      "name_eng": "St. John's Wort",
+      "name_de": "Johanniskraut",
+      "name_pl": "Dziurawiec zwyczajny",
+      "latin_name": "Hypericum perforatum",
+      "images": [
+        "obrazky/flowers/hypericum_perforatum_1.jpg",
+        "obrazky/flowers/hypericum_perforatum_2.jpg"
+      ],
+      "description_cs": "Bylina se žlutými květy, která se používá na léčbu lehkých depresí. Známá jako přírodní antidepresivum.",
+      "description_eng": "A herb with yellow flowers used to treat mild depression. Known as a natural antidepressant.",
+      "description_de": "Eine Pflanze mit gelben Blüten, die zur Behandlung leichter Depressionen verwendet wird. Bekannt als natürliches Antidepressivum.",
+      "description_pl": "Zioło o żółtych kwiatach stosowane w leczeniu łagodnej depresji. Znane jako naturalny antydepresant."
+    },
+    {
+      "id": 27,
+      "name_cs": "Jablečník obecný",
+      "name_eng": "Horehound",
+      "name_de": "Andorn",
+      "name_pl": "Białe goryczuszka",
+      "latin_name": "Marrubium vulgare",
+      "images": [
+        "obrazky/flowers/marrubium_vulgare_1.jpg",
+        "obrazky/flowers/marrubium_vulgare_2.jpg"
+      ],
+      "description_cs": "Hořká bylina používaná jako expektorans při kašli a jako přírodní sladidlo v cukrovinkách.",
+      "description_eng": "A bitter herb used as an expectorant for coughs and as a natural sweetener in candies.",
+      "description_de": "Ein bitteres Kraut, das als Expektorans bei Husten und als natürlicher Süßstoff in Süßigkeiten verwendet wird.",
+      "description_pl": "Gorzka zioło stosowane jako wykrztuśny na kaszel i jako naturalny słodzik w cukierkach."
+    },
+    {
+      "id": 28,
+      "name_cs": "Pampeliška lékařská",
+      "name_eng": "Dandelion",
+      "name_de": "Löwenzahn",
+      "name_pl": "Mniszek lekarski",
+      "latin_name": "Taraxacum officinale",
+      "images": [
+        "obrazky/flowers/taraxacum_officinale_1.jpg",
+        "obrazky/flowers/taraxacum_officinale_2.jpg"
+      ],
+      "description_cs": "Běžná plevelná rostlina, jejíž listy jsou výborné do jarních salátů a kořen se používá na detoxikaci jater.",
+      "description_eng": "A common weed whose leaves are excellent in spring salads and whose root is used for liver detoxification.",
+      "description_de": "Eine häufige Unkrautpflanze, deren Blätter hervorragend in Frühlingssalaten sind und deren Wurzel zur Leberentgiftung verwendet wird.",
+      "description_pl": "Pospolity chwast, którego liście są doskonałe do wiosennych sałatek, a korzeń jest używany do detoksykacji wątroby."
+    },
+    {
+      "id": 29,
+      "name_cs": "Přeslička rolní",
+      "name_eng": "Field horsetail",
+      "name_de": "Ackerschachtelhalm",
+      "name_pl": "Skrzyp polny",
+      "latin_name": "Equisetum arvense",
+      "images": [
+        "obrazky/flowers/equisetum_arvense_1.jpg",
+        "obrazky/flowers/equisetum_arvense_2.jpg"
+      ],
+      "description_cs": "Vytrvalá bylina bohatá na křemík, používaná na posílení vlasů, nehtů a pojivových tkání.",
+      "description_eng": "A perennial herb rich in silica, used to strengthen hair, nails, and connective tissues.",
+      "description_de": "Ein mehrjähriges Kraut, das reich an Silizium ist und zur Stärkung von Haaren, Nägeln und Bindegewebe verwendet wird.",
+      "description_pl": "Bylina wieloletnia bogata w krzem, stosowana do wzmacniania włosów, paznokci i tkanek łącznych."
+    },
+    {
+      "id": 30,
+      "name_cs": "Jitrocel kopinatý",
+      "name_eng": "Ribwort plantain",
+      "name_de": "Spitzwegerich",
+      "name_pl": "Babka lancetowata",
+      "latin_name": "Plantago lanceolata",
+      "images": [
+        "obrazky/flowers/plantago_lanceolata_1.jpg",
+        "obrazky/flowers/plantago_lanceolata_2.jpg"
+      ],
+      "description_cs": "Bylina s úzkými listy, která se přikládá na štípance a drobná poranění pro urychlení hojení.",
+      "description_eng": "A herb with narrow leaves that is applied to insect bites and minor wounds to speed up healing.",
+      "description_de": "Eine Pflanze mit schmalen Blättern, die auf Insektenstiche und kleine Wunden aufgetragen wird, um die Heilung zu beschleunigen.",
+      "description_pl": "Zioło o wąskich liściach, które stosuje się na ukąszenia owadów i drobne rany, aby przyspieszyć gojenie."
+    },
+    {
+      "id": 31,
+      "name_cs": "Kontryhel obecný",
+      "name_eng": "Lady's mantle",
+      "name_de": "Frauenmantel",
+      "name_pl": "Przywrotnik pospolity",
+      "latin_name": "Alchemilla vulgaris",
+      "images": [
+        "obrazky/flowers/alchemilla_vulgaris_1.jpg",
+        "obrazky/flowers/alchemilla_vulgaris_2.jpg"
+      ],
+      "description_cs": "Bylina s dekorativními listy, která je tradičně používána na ženské potíže a zažívací problémy.",
+      "description_eng": "A herb with decorative leaves traditionally used for women's ailments and digestive problems.",
+      "description_de": "Eine Pflanze mit dekorativen Blättern, die traditionell bei Frauenleiden und Verdauungsproblemen verwendet wird.",
+      "description_pl": "Zioło o dekoracyjnych liściach, tradycyjnie stosowane na dolegliwości kobiece i problemy trawienne."
+    },
+    {
+      "id": 32,
+      "name_cs": "Divizna velkokvětá",
+      "name_eng": "Dense-flowered mullein",
+      "name_de": "Großblütige Königskerze",
+      "name_pl": "Dziewanna gęstokwiatowa",
+      "latin_name": "Verbascum densiflorum",
+      "images": [
+        "obrazky/flowers/verbascum_densiflorum_1.jpg",
+        "obrazky/flowers/verbascum_densiflorum_2.jpg"
+      ],
+      "description_cs": "Statná bylina se žlutými květy, jejíž květy se suší na čaj pomáhající při kašli a nachlazení.",
+      "description_eng": "A sturdy herb with yellow flowers, whose flowers are dried for tea that helps with coughs and colds.",
+      "description_de": "Eine robuste Pflanze mit gelben Blüten, deren Blüten für Tee getrocknet werden, der bei Husten und Erkältungen hilft.",
+      "description_pl": "Mocne zioło o żółtych kwiatach, których kwiaty są suszone na herbatę pomagającą przy kaszlu i przeziębieniach."
+    },
+    {
+      "id": 33,
+      "name_cs": "Svízel syřišťový",
+      "name_eng": "Lady's bedstraw",
+      "name_de": "Echtes Labkraut",
+      "name_pl": "Przytulia właściwa",
+      "latin_name": "Galium verum",
+      "images": [
+        "obrazky/flowers/galium_verum_1.jpg",
+        "obrazky/flowers/galium_verum_2.jpg"
+      ],
+      "description_cs": "Bylina s vonnými žlutými květy, která se historicky používala k srážení mléka při výrobě sýra.",
+      "description_eng": "A herb with fragrant yellow flowers that was historically used to curdle milk in cheese making.",
+      "description_de": "Eine Pflanze mit duftenden gelben Blüten, die historisch zur Milchgerinnung bei der Käseherstellung verwendet wurde.",
+      "description_pl": "Zioło o pachnących żółtych kwiatach, które historycznie używano do zsiadania mleka przy produkcji sera."
+    },
+    {
+      "id": 34,
+      "name_cs": "Řebříček obecný",
+      "name_eng": "Yarrow",
+      "name_de": "Schafgarbe",
+      "name_pl": "Krwawnik pospolity",
+      "latin_name": "Achillea millefolium",
+      "images": [
+        "obrazky/flowers/achillea_millefolium_1.jpg",
+        "obrazky/flowers/achillea_millefolium_2.jpg"
+      ],
+      "description_cs": "Bylina s jemně zpeřenými listy a bílými květy. Zastavuje krvácení a pomáhá při zažívacích potížích.",
+      "description_eng": "A herb with finely divided leaves and white flowers. It stops bleeding and helps with digestive problems.",
+      "description_de": "Eine Pflanze mit fein gefiederten Blättern und weißen Blüten. Sie stoppt Blutungen und hilft bei Verdauungsproblemen.",
+      "description_pl": "Zioło o drobno pierzastych liściach i białych kwiatach. Zatrzymuje krwawienie i pomaga przy problemach trawiennych."
+    },
+    {
+      "id": 35,
+      "name_cs": "Plicník lékařský",
+      "name_eng": "Common lungwort",
+      "name_de": "Gewöhnliches Lungenkraut",
+      "name_pl": "Miodunka plamista",
+      "latin_name": "Pulmonaria officinalis",
+      "images": [
+        "obrazky/flowers/pulmonaria_officinalis_1.jpg",
+        "obrazky/flowers/pulmonaria_officinalis_2.jpg"
+      ],
+      "description_cs": "Bylina s skvrnitými listy a růžovo-modrými květy. Tradičně se používá na onemocnění dýchacích cest.",
+      "description_eng": "A herb with spotted leaves and pink-blue flowers. Traditionally used for respiratory ailments.",
+      "description_de": "Eine Pflanze mit gefleckten Blättern und rosa-blauen Blüten. Traditionell bei Atemwegserkrankungen verwendet.",
+      "description_pl": "Zioło o cętkowanych liściach i różowo-niebieskich kwiatach. Tradycyjnie stosowane na dolegliwości układu oddechowego."
+    },
+    {
+      "id": 36,
+      "name_cs": "Violka vonná",
+      "name_eng": "Sweet violet",
+      "name_de": "Duftveilchen",
+      "name_pl": "Fiołek wonny",
+      "latin_name": "Viola odorata",
+      "images": [
+        "obrazky/flowers/viola_odorata_1.jpg",
+        "obrazky/flowers/viola_odorata_2.jpg"
+      ],
+      "description_cs": "Nízká vytrvalá bylina s vonnými fialovými květy. Používá se do sirupů a parfémů.",
+      "description_eng": "A low perennial herb with fragrant purple flowers. Used in syrups and perfumes.",
+      "description_de": "Eine niedrige mehrjährige Pflanze mit duftenden violetten Blüten. Wird in Sirupen und Parfums verwendet.",
+      "description_pl": "Niska bylina wieloletnia o pachnących fioletowych kwiatach. Stosowana w syropach i perfumach."
+    },
+    {
+      "id": 37,
+      "name_cs": "Kuklík městský",
+      "name_eng": "Wood avens",
+      "name_de": "Echte Nelkenwurz",
+      "name_pl": "Kuklik pospolity",
+      "latin_name": "Geum urbanum",
+      "images": [
+        "obrazky/flowers/geum_urbanum_1.jpg",
+        "obrazky/flowers/geum_urbanum_2.jpg"
+      ],
+      "description_cs": "Bylina s vonnými kořeny, které připomínají hřebíček. Používá se jako koření a v lidovém léčitelství.",
+      "description_eng": "A herb with fragrant roots that resemble cloves. Used as a spice and in folk medicine.",
+      "description_de": "Eine Pflanze mit duftenden Wurzeln, die an Nelken erinnern. Wird als Gewürz und in der Volksmedizin verwendet.",
+      "description_pl": "Roślina z pachnącymi korzeniami przypominającymi goździki. Stosowana jako przyprawa i w ziołolecznictwie."
+    },
+    {
+      "id": 38,
+      "name_cs": "Hluchavka bílá",
+      "name_eng": "White dead-nettle",
+      "name_de": "Weiße Taubnessel",
+      "name_pl": "Jasnota biała",
+      "latin_name": "Lamium album",
+      "images": [
+        "obrazky/flowers/lamium_album_1.jpg",
+        "obrazky/flowers/lamium_album_2.jpg"
+      ],
+      "description_cs": "Bylina podobná kopřivě, která ale nepálí. Její květy se používají do čajů na uklidnění.",
+      "description_eng": "A plant similar to nettle but without stinging hairs. Its flowers are used in calming teas.",
+      "description_de": "Eine Pflanze, die der Brennnessel ähnelt, aber nicht brennt. Ihre Blüten werden in Beruhigungstees verwendet.",
+      "description_pl": "Roślina podobna do pokrzywy, ale nie parzy. Jej kwiaty są używane w herbatkach uspokajających."
+    },
+    {
+      "id": 39,
+      "name_cs": "Čekanka obecná",
+      "name_eng": "Chicory",
+      "name_de": "Gemeine Wegwarte",
+      "name_pl": "Cykoria podróżnik",
+      "latin_name": "Cichorium intybus",
+      "images": [
+        "obrazky/flowers/cichorium_intybus_1.jpg",
+        "obrazky/flowers/cichorium_intybus_2.jpg"
+      ],
+      "description_cs": "Bylina s jasně modrými květy. Její pražený kořen se používá jako náhražka kávy.",
+      "description_eng": "A herb with bright blue flowers. Its roasted root is used as a coffee substitute.",
+      "description_de": "Eine Pflanze mit leuchtend blauen Blüten. Ihre geröstete Wurzel wird als Kaffeeersatz verwendet.",
+      "description_pl": "Roślina o jasnoniebieskich kwiatach. Jej palony korzeń jest używany jako substytut kawy."
+    },
+    {
+      "id": 40,
+      "name_cs": "Fenykl obecný",
+      "name_eng": "Fennel",
+      "name_de": "Fenchel",
+      "name_pl": "Fenkuł włoski",
+      "latin_name": "Foeniculum vulgare",
+      "images": [
+        "obrazky/flowers/foeniculum_vulgare_1.jpg",
+        "obrazky/flowers/foeniculum_vulgare_2.jpg"
+      ],
+      "description_cs": "Bylina s anýzovou chutí. Podporuje trávení a uvolňuje křeče. Semena se žvýkají pro svěží dech.",
+      "description_eng": "A herb with an anise-like flavor. Aids digestion and relieves cramps. Seeds are chewed for fresh breath.",
+      "description_de": "Eine Pflanze mit anisartigem Geschmack. Fördert die Verdauung und löst Krämpfe. Samen werden für frischen Atem gekaut.",
+      "description_pl": "Roślina o anyżowym smaku. Wspomaga trawienie i łagodzi skurcze. Nasiona żuje się dla świeżego oddechu."
+    },
+    {
+      "id": 41,
+      "name_cs": "Anýz vonný",
+      "name_eng": "Anise",
+      "name_de": "Anis",
+      "name_pl": "Biedrzeniec anyż",
+      "latin_name": "Pimpinella anisum",
+      "images": [
+        "obrazky/flowers/pimpinella_anisum_1.jpg",
+        "obrazky/flowers/pimpinella_anisum_2.jpg"
+      ],
+      "description_cs": "Bylina s výrazně sladkou, lékořicovou chutí. Používá se do pečiva, likérů a proti nadýmání.",
+      "description_eng": "A herb with a distinctly sweet, licorice-like flavor. Used in baked goods, liqueurs, and against bloating.",
+      "description_de": "Eine Pflanze mit einem ausgeprägten süßen, lakritzartigen Geschmack. Wird in Backwaren, Likören und gegen Blähungen verwendet.",
+      "description_pl": "Roślina o wyraźnie słodkim, lukrecjowym smaku. Stosowana w wypiekach, likierach i przeciw wzdęciom."
+    },
+    {
+      "id": 42,
+      "name_cs": "Kmín kořenný",
+      "name_eng": "Caraway",
+      "name_de": "Kümmel",
+      "name_pl": "Kminek zwyczajny",
+      "latin_name": "Carum carvi",
+      "images": [
+        "obrazky/flowers/carum_carvi_1.jpg",
+        "obrazky/flowers/carum_carvi_2.jpg"
+      ],
+      "description_cs": "Dvouletá bylina se známými semeny, která se používají do chleba, sýrů a dušených jídel proti nadýmání.",
+      "description_eng": "A biennial herb with well-known seeds used in bread, cheeses, and stews to prevent bloating.",
+      "description_de": "Eine zweijährige Pflanze mit bekannten Samen, die in Brot, Käse und Eintöpfen gegen Blähungen verwendet werden.",
+      "description_pl": "Dwuletnia roślina o znanych nasionach, używanych do chleba, serów i potraw duszonych przeciw wzdęciom."
+    },
+    {
+      "id": 43,
+      "name_cs": "Koriandr setý",
+      "name_eng": "Coriander",
+      "name_de": "Koriander",
+      "name_pl": "Kolendra siewna",
+      "latin_name": "Coriandrum sativum",
+      "images": [
+        "obrazky/flowers/coriandrum_sativum_1.jpg",
+        "obrazky/flowers/coriandrum_sativum_2.jpg"
+      ],
+      "description_cs": "Bylina, jejíž listy (koriandr) a semena (koriandr) se hojně používají v asijské a mexické kuchyni.",
+      "description_eng": "A herb whose leaves (cilantro) and seeds (coriander) are widely used in Asian and Mexican cuisine.",
+      "description_de": "Eine Pflanze, deren Blätter (Korianderkraut) und Samen (Koriander) in der asiatischen und mexikanischen Küche weit verbreitet sind.",
+      "description_pl": "Roślina, której liście (kolendra) i nasiona (kolendra) są powszechnie używane w kuchni azjatyckiej i meksykańskiej."
+    },
+    {
+      "id": 44,
+      "name_cs": "Kerblík třebule",
+      "name_eng": "Chervil",
+      "name_de": "Kerbel",
+      "name_pl": "Trybula ogrodowa",
+      "latin_name": "Anthriscus cerefolium",
+      "images": [
+        "obrazky/flowers/anthriscus_cerefolium_1.jpg",
+        "obrazky/flowers/anthriscus_cerefolium_2.jpg"
+      ],
+      "description_cs": "Jemná bylina s anýzovou příchutí, podobná petrželi. Základ francouzské směsi 'fines herbes'.",
+      "description_eng": "A delicate herb with an anise-like flavor, similar to parsley. A base of the French 'fines herbes' blend.",
+      "description_de": "Ein zartes Kraut mit anisartigem Geschmack, ähnlich wie Petersilie. Grundlage der französischen 'fines herbes'-Mischung.",
+      "description_pl": "Delikatne zioło o anyżowym smaku, podobne do pietruszki. Podstawa francuskiej mieszanki 'fines herbes'."
+    },
+    {
+      "id": 45,
+      "name_cs": "Pelyněk estragon",
+      "name_eng": "French tarragon",
+      "name_de": "Französischer Estragon",
+      "name_pl": "Estragon francuski",
+      "latin_name": "Artemisia dracunculus var. sativa",
+      "images": [
+        "obrazky/flowers/artemisia_dracunculus_sativa_1.jpg",
+        "obrazky/flowers/artemisia_dracunculus_sativa_2.jpg"
+      ],
+      "description_cs": "Pravý, francouzský estragon s jemnější chutí, který se množí pouze vegetativně.",
+      "description_eng": "True French tarragon with a more delicate flavor, which propagates only vegetatively.",
+      "description_de": "Echter französischer Estragon mit feinerem Geschmack, der sich nur vegetativ vermehrt.",
+      "description_pl": "Prawdziwy estragon francuski o delikatniejszym smaku, który rozmnaża się tylko wegetatywnie."
+    },
+    {
+      "id": 46,
+      "name_cs": "Světlík lékařský",
+      "name_eng": "Eyebright",
+      "name_de": "Gemeiner Augentrost",
+      "name_pl": "Świetlik łąkowy",
+      "latin_name": "Euphrasia officinalis",
+      "images": [
+        "obrazky/flowers/euphrasia_officinalis_1.jpg",
+        "obrazky/flowers/euphrasia_officinalis_2.jpg"
+      ],
+      "description_cs": "Drobná bylina tradičně používaná ve formě očních kapek a obkladů na záněty očí a oční únavu.",
+      "description_eng": "A small herb traditionally used in the form of eye drops and compresses for eye inflammation and fatigue.",
+      "description_de": "Eine kleine Pflanze, die traditionell in Form von Augentropfen und Kompressen bei Augenentzündungen und Müdigkeit verwendet wird.",
+      "description_pl": "Drobna roślina tradycyjnie stosowana w postaci kropli do oczu i okładów na stany zapalne i zmęczenie oczu."
+    },
+    {
+      "id": 47,
+      "name_cs": "Vlaštovičník větší",
+      "name_eng": "Greater celandine",
+      "name_de": "Schöllkraut",
+      "name_pl": "Glistnik jaskółcze ziele",
+      "latin_name": "Chelidonium majus",
+      "images": [
+        "obrazky/flowers/chelidonium_majus_1.jpg",
+        "obrazky/flowers/chelidonium_majus_2.jpg"
+      ],
+      "description_cs": "Bylina s oranžovo-žlutým mlékem, které se používá na bradavice. Vnitřně je jedovatý.",
+      "description_eng": "A herb with orange-yellow sap that is used on warts. It is poisonous when taken internally.",
+      "description_de": "Eine Pflanze mit orange-gelbem Milchsaft, der gegen Warzen verwendet wird. Ist innerlich giftig.",
+      "description_pl": "Roślina o pomarańczowo-żółtym soku, stosowanym na brodawki. Jest trująca przy spożyciu wewnętrznym."
+    },
+    {
+      "id": 48,
+      "name_cs": "Potočnice lékařská",
+      "name_eng": "Watercress",
+      "name_de": "Echte Brunnenkresse",
+      "name_pl": "Rukiew wodna",
+      "latin_name": "Nasturtium officinale",
+      "images": [
+        "obrazky/flowers/nasturtium_officinale_1.jpg",
+        "obrazky/flowers/nasturtium_officinale_2.jpg"
+      ],
+      "description_cs": "Vodní bylina s peprnou chutí, bohatá na vitamíny. Výborná do salátů jako řeřicha.",
+      "description_eng": "An aquatic herb with a peppery taste, rich in vitamins. Excellent in salads like garden cress.",
+      "description_de": "Eine Wasserpflanze mit pfeffrigem Geschmack, reich an Vitaminen. Hervorragend in Salaten wie Gartenkresse.",
+      "description_pl": "Wodna roślina o pieprznym smaku, bogata w witaminy. Doskonała do sałatek jak rzeżucha."
+    },
+    {
+      "id": 49,
+      "name_cs": "Šrucha zelná",
+      "name_eng": "Common purslane",
+      "name_de": "Portulak",
+      "name_pl": "Portulaka pospolita",
+      "latin_name": "Portulaca oleracea",
+      "images": [
+        "obrazky/flowers/portulaca_oleracea_1.jpg",
+        "obrazky/flowers/portulaca_oleracea_2.jpg"
+      ],
+      "description_cs": "Šťavnatá bylina s masitými listy, bohatá na omega-3 mastné kyseliny. Používá se v salátech.",
+      "description_eng": "A succulent herb with fleshy leaves, rich in omega-3 fatty acids. Used in salads.",
+      "description_de": "Eine sukkulente Pflanze mit fleischigen Blättern, reich an Omega-3-Fettsäuren. Wird in Salaten verwendet.",
+      "description_pl": "Soczysta roślina o mięsistych liściach, bogata w kwasy tłuszczowe omega-3. Stosowana w sałatkach."
+    },
+    {
+      "id": 50,
+      "name_cs": "Rukevník východní",
+      "name_eng": "Turkish rocket",
+      "name_de": "Orientalisches Zackenschötchen",
+      "name_pl": "Rukiewnik wschodni",
+      "latin_name": "Bunias orientalis",
+      "images": [
+        "obrazky/flowers/bunias_orientalis_1.jpg",
+        "obrazky/flowers/bunias_orientalis_2.jpg"
+      ],
+      "description_cs": "Invazivní bylina, jejíž mladé listy a výhony chutnají po ředkvičkách a jsou vhodné do salátů.",
+      "description_eng": "An invasive herb whose young leaves and shoots taste like radishes and are suitable for salads.",
+      "description_de": "Eine invasive Pflanze, deren junge Blätter und Triebe nach Radieschen schmecken und für Salate geeignet sind.",
+      "description_pl": "Inwazyjna roślina, której młode liście i pędy smakują jak rzodkiewki i nadają się do sałatek."
+    },
+    {
+      "id": 51,
+      "name_cs": "Šťovík kyselý",
+      "name_eng": "Sorrel",
+      "name_de": "Sauerampfer",
+      "name_pl": "Szczaw zwyczajny",
+      "latin_name": "Rumex acetosa",
+      "images": [
+        "obrazky/flowers/rumex_acetosa_1.jpg",
+        "obrazky/flowers/rumex_acetosa_2.jpg"
+      ],
+      "description_cs": "Bylina s kyselou chutí, ze které se připravuje lahodná polévka nebo se přidává do salátů.",
+      "description_eng": "A herb with a sour taste, from which a delicious soup is prepared or added to salads.",
+      "description_de": "Eine Pflanze mit saurem Geschmack, aus der eine köstliche Suppe zubereitet oder Salaten beigefügt wird.",
+      "description_pl": "Roślina o kwaśnym smaku, z której przygotowuje się zupę lub dodaje do sałatek."
     }
   ]
 }
