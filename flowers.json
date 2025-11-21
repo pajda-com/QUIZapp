@@ -16,6 +16,10 @@
         "obrazky/flowers/rosmarinus_officinalis_1.jpg",
         "obrazky/flowers/rosmarinus_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "rosmarinus_officinalis_1.jpg": "Autor: H. Zell – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11026897",
+        "rosmarinus_officinalis_2.jpg": "Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=9451"
+      },
       "description_cs": "Aromatická bylina s jehličkovitými listy, symbol vzpomínky. Používá se do tučných jídel a na prohřátí organismu.",
       "description_eng": "An aromatic herb with needle-like leaves, symbolizing remembrance. Used in rich dishes and to warm the body.",
       "description_de": "Ein aromatisches Kraut mit nadelartigen Blättern, das Erinnerung symbolisiert. Wird in fettreichen Gerichten verwendet und wärmt den Körper.",
@@ -32,6 +36,10 @@
         "obrazky/flowers/mentha_piperita_1.jpg",
         "obrazky/flowers/mentha_piperita_2.jpg"
       ],
+      "image_credits": {
+        "mentha_piperita_1.jpg": "Autor: Vlastní dílo, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=10701606",
+        "mentha_piperita_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255374"
+      },
       "description_cs": "Osvěžující bylina s typickým mentolovým aroma. Skvělá na čaj pro podporu trávení a svěží dech.",
       "description_eng": "A refreshing herb with a characteristic menthol aroma. Great for tea to aid digestion and freshen breath.",
       "description_de": "Ein erfrischendes Kraut mit charakteristischem Mentholaroma. Ideal für Tee zur Unterstützung der Verdauung und zur Erfrischung des Atems.",
@@ -48,6 +56,10 @@
         "obrazky/flowers/salvia_officinalis_1.jpg",
         "obrazky/flowers/salvia_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "salvia_officinalis_1.jpg": "Autor: Jörg Hempel, CC BY-SA 3.0 de, https://commons.wikimedia.org/w/index.php?curid=2534806",
+        "salvia_officinalis_2.jpg": "Autor: Walther Otto Müller – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255453"
+      },
       "description_cs": "Léčivka se stříbřitými listy, známá svými protizánětlivými účinky. V kuchyni k tučným masům.",
       "description_eng": "A medicinal herb with silvery leaves, known for its anti-inflammatory effects. Used in cooking with fatty meats.",
       "description_de": "Ein Heilkräuter mit silbrigen Blättern, bekannt für seine entzündungshemmenden Wirkungen. Wird in der Küche mit fettem Fleisch verwendet.",
@@ -58,12 +70,16 @@
       "name_cs": "Meduňka lékařská",
       "name_eng": "Lemon balm",
       "name_de": "Zitronenmelisse",
-      "name_pl": "Melisa lekarska", 
+      "name_pl": "Melisa lekarska",
       "latin_name": "Melissa officinalis",
       "images": [
         "obrazky/flowers/melissa_officinalis_1.jpg",
         "obrazky/flowers/melissa_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "melissa_officinalis_1.jpg": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=125035",
+        "melissa_officinalis_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255373"
+      },
       "description_cs": "Bylina s jemnou citronovou vůní, která zklidňuje nervy a podporuje zdravý spánek.",
       "description_eng": "An herb with a gentle lemon scent that soothes nerves and promotes healthy sleep.",
       "description_de": "Ein Kraut mit sanftem Zitronenduft, das die Nerven beruhigt und einen gesunden Schlaf fördert.",
@@ -80,12 +96,16 @@
         "obrazky/flowers/ocimum_basilicum_1.jpg",
         "obrazky/flowers/ocimum_basilicum_2.jpg"
       ],
+      "image_credits": {
+        "ocimum_basilicum_1.jpg": "By Photo by David J. Stang - source: David Stang. First published at ZipcodeZoo.com, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=61034900",
+        "ocimum_basilicum_2.jpg": ""
+      },
       "description_cs": "Královna italské kuchyně s výraznou sladkou vůní. Základní složka pesta a salátů Caprese.",
       "description_eng": "The queen of Italian cuisine with a distinct sweet aroma. A key ingredient in pesto and Caprese salads.",
       "description_de": "Die Königin der italienischen Küche mit einem ausgeprägten süßen Aroma. Eine wichtige Zutat in Pesto und Caprese-Salaten.",
       "description_pl": "Królowa kuchni włoskiej o wyraźnym słodkim aromacie. Kluczowy składnik pesto i sałatek Caprese."
     },
-        {
+    {
       "id": 6,
       "name_cs": "Tymián obecný",
       "name_eng": "Thyme",
@@ -96,6 +116,10 @@
         "obrazky/flowers/thymus_vulgaris_1.jpg",
         "obrazky/flowers/thymus_vulgaris_2.jpg"
       ],
+      "image_credits": {
+        "thymus_vulgaris_1.jpg": "By Forest & Kim Starr, CC BY 3.0 us, https://commons.wikimedia.org/w/index.php?curid=71810784",
+        "thymus_vulgaris_2.jpg": "Autor: Walther Otto Müller – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255631"
+      },
       "description_cs": "Koření s jemnými lístky a intenzivní, zemitou chutí. Nezbytný do francouzské kuchyně a na grilování.",
       "description_eng": "A spice with delicate leaves and an intense, earthy flavor. Essential in French cuisine and for grilling.",
       "description_de": "Ein Gewürz mit zarten Blättern und intensivem, erdigem Geschmack. Unverzichtbar in der französischen Küche und zum Grillen.",
@@ -112,6 +136,10 @@
         "obrazky/flowers/lavandula_angustifolia_1.jpg",
         "obrazky/flowers/lavandula_angustifolia_2.jpg"
       ],
+      "image_credits": {
+        "lavandula_angustifolia_1.jpg": "Autor: Sten Porse – Self-published work by Sten Porse, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=179047",
+        "lavandula_angustifolia_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255365"
+      },
       "description_cs": "Bylina s nezaměnitelnou fialovou barukou a uklidňující vůní. Používá se do sáčků i do sladkých dezertů.",
       "description_eng": "An herb with a distinctive purple color and calming scent. Used in sachets and sweet desserts.",
       "description_de": "Ein Kraut mit unverwechselbarer violetter Farbe und beruhigendem Duft. Wird in Säckchen und süßen Desserts verwendet.",
@@ -128,6 +156,10 @@
         "obrazky/flowers/matricaria_chamomilla_1.jpg",
         "obrazky/flowers/matricaria_chamomilla_2.jpg"
       ],
+      "image_credits": {
+        "matricaria_chamomilla_1.jpg": "Autor: FloraTrek 2008 – http://floratrek.hautetfort.com/archive/2008/07/31/camomille-le-soleil-d-egypte.html, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5549389",
+        "matricaria_chamomilla_2.jpg": "Autor: Franz Eugen Köhler, in Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255369"
+      },
       "description_cs": "Bylinka s jemnými květy podobnými sedmikrásce. Je známá pro své zklidňující účinky na zažívání i nervy.",
       "description_eng": "An herb with delicate daisy-like flowers. Known for its calming effects on digestion and nerves.",
       "description_de": "Ein Kraut mit zarten, gänseblümchenähnlichen Blüten. Bekannt für seine beruhigende Wirkung auf Verdauung und Nerven.",
@@ -144,6 +176,10 @@
         "obrazky/flowers/origanum_majorana_1.jpg",
         "obrazky/flowers/origanum_majorana_2.jpg"
       ],
+      "image_credits": {
+        "origanum_majorana_1.jpg": "Autor: Forest & Kim Starr, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=6186581",
+        "origanum_majorana_2.jpg": "Domínio público, https://commons.wikimedia.org/w/index.php?curid=9455"
+      },
       "description_cs": "Jemné koření s teplou, sladkou vůní. Klíčová přísada do bramboráku, zabijačkových specialit a polévek.",
       "description_eng": "A mild spice with a warm, sweet aroma. A key ingredient in potato pancakes, slaughterhouse specialties, and soups.",
       "description_de": "Ein mildes Gewürz mit warmem, süßem Aroma. Eine wichtige Zutat in Kartoffelpuffern, Schlachthof-Spezialitäten und Suppen.",
@@ -160,6 +196,10 @@
         "obrazky/flowers/origanum_vulgare_1.jpg",
         "obrazky/flowers/origanum_vulgare_2.jpg"
       ],
+      "image_credits": {
+        "origanum_vulgare_1.jpg": "Autor: AnRo0002 – Vlastní dílo, CC0, https://commons.wikimedia.org/w/index.php?curid=20401129",
+        "origanum_vulgare_2.jpg": "Volné dílo, https://commons.wikimedia.org/w/index.php?curid=9441"
+      },
       "description_cs": "Silně aromatická bylina, nepostradatelná v italské a řecké kuchyni, zejména na pizzu a do rajčatových omáček.",
       "description_eng": "A strongly aromatic herb, indispensable in Italian and Greek cuisine, especially on pizza and in tomato sauces.",
       "description_de": "Ein stark aromatisches Kraut, unverzichtbar in der italienischen und griechischen Küche, besonders auf Pizza und in Tomatensaucen.",
@@ -176,6 +216,10 @@
         "obrazky/flowers/anethum_graveolens_1.jpg",
         "obrazky/flowers/anethum_graveolens_2.jpg"
       ],
+      "image_credits": {
+        "anethum_graveolens_1.jpg": "Von Tepeyac - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4413610",
+        "anethum_graveolens_2.jpg": "By Illustration_Anethum_graveolens0.jpg: Prof. Dr. Otto Wilhelm Thoméderivative work: Aroche (talk) - Illustration_Anethum_graveolens0.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=6851092"
+      },
       "description_cs": "Bylina s jemnými nitkovitými listy a specifickou vůní. Klasika k okurkám, rybám a do omáček.",
       "description_eng": "An herb with delicate thread-like leaves and a distinctive aroma. A classic for pickles, fish, and sauces.",
       "description_de": "Ein Kraut mit zarten, fadenartigen Blättern und einem unverwechselbaren Aroma. Ein Klassiker für Gurken, Fisch und Saucen.",
@@ -192,6 +236,10 @@
         "obrazky/flowers/allium_schoenoprasum_1.jpg",
         "obrazky/flowers/allium_schoenoprasum_2.jpg"
       ],
+      "image_credits": {
+        "allium_schoenoprasum_1.jpg": "Autor: Karelj – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=34255238",
+        "allium_schoenoprasum_2.jpg": "By Carl Axel Magnus Lindman - «Bilder ur Nordens Flora» Stockholm, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5979179"
+      },
       "description_cs": "Jemná cibulová bylina s dutými stvoly. Skvělá do pomazánek, salátů a na posypání polévek.",
       "description_eng": "A mild onion herb with hollow stems. Great for spreads, salads, and as a soup garnish.",
       "description_de": "Ein mildes Zwiebelkraut mit hohlen Stielen. Ideal für Aufstriche, Salate und als Suppendekoration.",
@@ -208,6 +256,10 @@
         "obrazky/flowers/petroselinum_crispum_1.jpg",
         "obrazky/flowers/petroselinum_crispum_2.jpg"
       ],
+      "image_credits": {
+        "petroselinum_crispum_1.jpg": "Autor: Donovan Govan. – Image taken by me using a Canon PowerShot G3 (reference 7835)., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=122215",
+        "petroselinum_crispum_2.jpg": "By Prof. Dr. Otto Wilhelm Thomé - www.biolib.de Original book source: Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz 1885, Gera, Germany, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8864"
+      },
       "description_cs": "Oblíbená dekorativní bylina s kadeřavými listy. Bohatá na vitamín C a železo.",
       "description_eng": "A popular decorative herb with curly leaves. Rich in vitamin C and iron.",
       "description_de": "Ein beliebtes dekoratives Kraut mit krausen Blättern. Reich an Vitamin C und Eisen.",
@@ -224,6 +276,10 @@
         "obrazky/flowers/levisticum_officinale_1.jpg",
         "obrazky/flowers/levisticum_officinale_2.jpg"
       ],
+      "image_credits": {
+        "levisticum_officinale_1.jpg": "Autor: 4028mdk09 – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10216137",
+        "levisticum_officinale_2.jpg": "Autor: Prof. Dr. Otto Wilhelm Thomé – Original book source:Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz1885, Gera, GermanyPermission granted to use under GFDL by Kurt StueberSource: www.biolib.de, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=4097139"
+      },
       "description_cs": "Bylina s intenzivní chutí připomínající maggi. Základ české polévky a bujónů.",
       "description_eng": "An herb with an intense flavor reminiscent of Maggi. A staple in Czech soups and broths.",
       "description_de": "Ein Kraut mit intensivem Geschmack, der an Maggi erinnert. Ein Grundbestandteil tschechischer Suppen und Brühen.",
@@ -240,6 +296,10 @@
         "obrazky/flowers/satureja_hortensis_1.jpg",
         "obrazky/flowers/satureja_hortensis_2.jpg"
       ],
+      "image_credits": {
+        "satureja_hortensis_1.jpg": "Autor: Karelj – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=20296048",
+        "satureja_hortensis_2.jpg": "Autor: Johann Georg Sturm (Painter: Jacob Sturm) – Fig. from book Deutschlands Flora in Abbildungen at http://www.biolib.de, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=767467"
+      },
       "description_cs": "Koření s peprnou, lehce palčivou chutí. Výborné k luštěninám, aby byly lépe stravitelné.",
       "description_eng": "A spice with a peppery, slightly pungent flavor. Excellent with legumes to improve digestibility.",
       "description_de": "Ein Gewürz mit pfeffrigem, leicht scharfem Geschmack. Hervorragend zu Hülsenfrüchten, um die Verdaulichkeit zu verbessern.",
@@ -256,6 +316,10 @@
         "obrazky/flowers/hyssopus_officinalis_1.jpg",
         "obrazky/flowers/hyssopus_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "hyssopus_officinalis_1.jpg": "By H. Zell - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10415334",
+        "hyssopus_officinalis_2.jpg": "By User:Topjabot - Original book source:Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz1885, Gera, GermanySource: www.biolib.de, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9426"
+      },
       "description_cs": "Hořká bylina s modrými květy, používaná do bylinkových likérů a k tučným masům.",
       "description_eng": "A bitter herb with blue flowers, used in herbal liqueurs and with fatty meats.",
       "description_de": "Ein bitteres Kraut mit blauen Blüten, das in Kräuterlikören und zu fettem Fleisch verwendet wird.",
@@ -272,6 +336,10 @@
         "obrazky/flowers/artemisia_absinthium_1.jpg",
         "obrazky/flowers/artemisia_absinthium_2.jpg"
       ],
+      "image_credits": {
+        "artemisia_absinthium_1.jpg": "By David Monniaux - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2198171",
+        "artemisia_absinthium_2.jpg": "Von Franz Eugen Köhler, Köhler's Medizinal-Pflanzen - List of Koehler Images, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=255501"
+      },
       "description_cs": "Velmi hořká bylina, základní složka absintu. Podporuje trávení a chuť k jídlu.",
       "description_eng": "A very bitter herb, a key ingredient in absinthe. It supports digestion and appetite.",
       "description_de": "Ein sehr bitteres Kraut, ein Hauptbestandteil von Absinth. Es fördert die Verdauung und den Appetit.",
@@ -288,6 +356,10 @@
         "obrazky/flowers/glechoma_hederacea_1.jpg",
         "obrazky/flowers/glechoma_hederacea_2.jpg"
       ],
+      "image_credits": {
+        "glechoma_hederacea_1.jpg": "By Agnieszka Kwiecień, Nova - Paša darbs, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=98140036",
+        "glechoma_hederacea_2.jpg": "By Johann Georg Sturm (Painter: Jacob Sturm) - Figure from Deutschlands Flora in Abbildungen at http://www.biolib.de, Public Domain, https://commons.wikimedia.org/w/index.php?curid=742743"
+      },
       "description_cs": "Ploživá bylina s fialovými květy, roste volně v přírodě. Chuťově podobná majoránce.",
       "description_eng": "A creeping herb with purple flowers, grows wild in nature. Flavor similar to marjoram.",
       "description_de": "Ein kriechendes Kraut mit violetten Blüten, wächst wild in der Natur. Geschmack ähnlich wie Majoran.",
@@ -304,6 +376,10 @@
         "obrazky/flowers/mentha_spicata_1.jpg",
         "obrazky/flowers/mentha_spicata_2.jpg"
       ],
+      "image_credits": {
+        "mentha_spicata_1.jpg": "By AnRo0002 - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=34240726",
+        "mentha_spicata_2.jpg": "By Prof. Dr. Otto Wilhelm Thomé - www.biolib.de - Original book source: Prof. Dr. Otto Wilhelm Thomé, Flora von Deutschland, Österreich und der Schweiz, 1885, Gera, Germany., Public Domain, https://commons.wikimedia.org/w/index.php?curid=9430"
+      },
       "description_cs": "Máta s jemnou, sladkou chutí, vhodná do mojita a asijských jídel.",
       "description_eng": "Mint with a mild, sweet flavor, suitable for mojitos and Asian dishes.",
       "description_de": "Minze mit mildem, süßlichem Geschmack, geeignet für Mojitos und asiatische Gerichte.",
@@ -320,6 +396,10 @@
         "obrazky/flowers/nepeta_cataria_1.jpg",
         "obrazky/flowers/nepeta_cataria_2.jpg"
       ],
+      "image_credits": {
+        "nepeta_cataria_1.jpg": "Autor: Forest & Kim Starr, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=6186258",
+        "nepeta_cataria_2.jpg": "Autor: Johann Georg Sturm (Painter: Jacob Sturm) – Fig. from book Deutschlands Flora in Abbildungen at http://www.biolib.de, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=742712"
+      },
       "description_cs": "Bylina, která svou vůní přitahuje kočky. Na lidi má naopak uklidňující účinek.",
       "description_eng": "An herb that attracts cats with its scent. It has a calming effect on humans.",
       "description_de": "Ein Kraut, das Katzen mit seinem Duft anzieht. Es hat eine beruhigende Wirkung auf Menschen.",
@@ -336,6 +416,10 @@
         "obrazky/flowers/ruta_graveolens_1.jpg",
         "obrazky/flowers/ruta_graveolens_2.jpg"
       ],
+      "image_credits": {
+        "ruta_graveolens_1.jpg": "Autor: H. Zell – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11040400",
+        "ruta_graveolens_2.jpg": "Volné dílo, https://commons.wikimedia.org/w/index.php?curid=9144"
+      },
       "description_cs": "Aromatická bylina se silným aroma a hořkou chutí. Používá se v malém množství.",
       "description_eng": "An aromatic herb with a strong aroma and bitter taste. Used in small amounts.",
       "description_de": "Ein aromatisches Kraut mit starkem Aroma und bitterem Geschmack. Wird in kleinen Mengen verwendet.",
@@ -352,6 +436,10 @@
         "obrazky/flowers/angelica_archangelica_1.jpg",
         "obrazky/flowers/angelica_archangelica_2.jpg"
       ],
+      "image_credits": {
+        "angelica_archangelica_1.jpg": "Autor: Robert Flogaus-Faust – Vlastní dílo, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=69955136",
+        "angelica_archangelica_2.jpg": "By Franz Eugen Köhler, Köhler's Medizinal-Pflanzen - List of Koehler Images, Public Domain, https://commons.wikimedia.org/w/index.php?curid=255106"
+      },
       "description_cs": "Mohutná bylina s vonnými semeny a stonky, které se kandují. Používá se do likérů.",
       "description_eng": "A robust herb with fragrant seeds and stems that are candied. Used in liqueurs.",
       "description_de": "Eine kräftige Pflanze mit duftenden Samen und Stängeln, die kandiert werden. Wird in Likören verwendet.",
@@ -368,6 +456,10 @@
         "obrazky/flowers/valeriana_officinalis_1.jpg",
         "obrazky/flowers/valeriana_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "valeriana_officinalis_1.jpg": "By H. Zell - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11436870",
+        "valeriana_officinalis_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255477"
+      },
       "description_cs": "Známé přírodní sedativum, které pomáhá při nespavosti a úzkosti. Má charakteristický pach.",
       "description_eng": "A well-known natural sedative that helps with insomnia and anxiety. It has a distinctive odor.",
       "description_de": "Ein bekanntes natürliches Beruhigungsmittel, das bei Schlaflosigkeit und Angstzuständen hilft. Es hat einen charakteristischen Geruch.",
@@ -384,6 +476,10 @@
         "obrazky/flowers/calendula_officinalis_1.jpg",
         "obrazky/flowers/calendula_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "calendula_officinalis_1.jpg": "By Betty Cai - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=40667475",
+        "calendula_officinalis_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255289"
+      },
       "description_cs": "Bylina se zářivě oranžovými květy. Hojivá na kůži, používá se v mastích a čajích.",
       "description_eng": "A herb with bright orange flowers. Healing for the skin, used in ointments and teas.",
       "description_de": "Eine Pflanze mit leuchtend orangefarbenen Blüten. Heilend für die Haut, wird in Salben und Tees verwendet.",
@@ -400,6 +496,10 @@
         "obrazky/flowers/mentha_aquatica_1.jpg",
         "obrazky/flowers/mentha_aquatica_2.jpg"
       ],
+      "image_credits": {
+        "mentha_aquatica_1.jpg": "Autor: H. Zell – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10676187",
+        "mentha_aquatica_2.jpg": "By Jan Kops - www.BioLib.de, Public Domain, https://commons.wikimedia.org/w/index.php?curid=18888704"
+      },
       "description_cs": "Divoký druh máty rostoucí u vody. Má výraznou mentolovou chuť.",
       "description_eng": "A wild mint species growing near water. It has a strong menthol flavor.",
       "description_de": "Eine wilde Minzart, die am Wasser wächst. Sie hat einen ausgeprägten Mentholgeschmack.",
@@ -416,6 +516,10 @@
         "obrazky/flowers/hypericum_perforatum_1.jpg",
         "obrazky/flowers/hypericum_perforatum_2.jpg"
       ],
+      "image_credits": {
+        "hypericum_perforatum_1.jpg": "Autor: Bff – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=39480931",
+        "hypericum_perforatum_2.jpg": "Von Prof. Dr. Thomé, Otto Wilhelm - www.biolib.de, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=3378367"
+      },
       "description_cs": "Bylina se žlutými květy, která se používá na léčbu lehkých depresí. Známá jako přírodní antidepresivum.",
       "description_eng": "A herb with yellow flowers used to treat mild depression. Known as a natural antidepressant.",
       "description_de": "Eine Pflanze mit gelben Blüten, die zur Behandlung leichter Depressionen verwendet wird. Bekannt als natürliches Antidepressivum.",
@@ -432,6 +536,10 @@
         "obrazky/flowers/marrubium_vulgare_1.jpg",
         "obrazky/flowers/marrubium_vulgare_2.jpg"
       ],
+      "image_credits": {
+        "marrubium_vulgare_1.jpg": "Von H. Zell - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10661264",
+        "marrubium_vulgare_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255579"
+      },
       "description_cs": "Hořká bylina používaná jako expektorans při kašli a jako přírodní sladidlo v cukrovinkách.",
       "description_eng": "A bitter herb used as an expectorant for coughs and as a natural sweetener in candies.",
       "description_de": "Ein bitteres Kraut, das als Expektorans bei Husten und als natürlicher Süßstoff in Süßigkeiten verwendet wird.",
@@ -448,6 +556,10 @@
         "obrazky/flowers/taraxacum_officinale_1.jpg",
         "obrazky/flowers/taraxacum_officinale_2.jpg"
       ],
+      "image_credits": {
+        "taraxacum_officinale_1.jpg": "Autor: Pohled 111 – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=44696852",
+        "taraxacum_officinale_2.jpg": "By Walther Otto Müller - List of Koehler ImagesThe Internet Archive, Public Domain, https://commons.wikimedia.org/w/index.php?curid=255466"
+      },
       "description_cs": "Běžná plevelná rostlina, jejíž listy jsou výborné do jarních salátů a kořen se používá na detoxikaci jater.",
       "description_eng": "A common weed whose leaves are excellent in spring salads and whose root is used for liver detoxification.",
       "description_de": "Eine häufige Unkrautpflanze, deren Blätter hervorragend in Frühlingssalaten sind und deren Wurzel zur Leberentgiftung verwendet wird.",
@@ -464,6 +576,10 @@
         "obrazky/flowers/equisetum_arvense_1.jpg",
         "obrazky/flowers/equisetum_arvense_2.jpg"
       ],
+      "image_credits": {
+        "equisetum_arvense_1.jpg": "By MPF - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7583695",
+        "equisetum_arvense_2.jpg": "Autor: Carl Axel Magnus Lindman – «Bilder ur Nordens Flora» Stockholm, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=5983576"
+      },
       "description_cs": "Vytrvalá bylina bohatá na křemík, používaná na posílení vlasů, nehtů a pojivových tkání.",
       "description_eng": "A perennial herb rich in silica, used to strengthen hair, nails, and connective tissues.",
       "description_de": "Ein mehrjähriges Kraut, das reich an Silizium ist und zur Stärkung von Haaren, Nägeln und Bindegewebe verwendet wird.",
@@ -480,6 +596,10 @@
         "obrazky/flowers/plantago_lanceolata_1.jpg",
         "obrazky/flowers/plantago_lanceolata_2.jpg"
       ],
+      "image_credits": {
+        "plantago_lanceolata_1.jpg": "Autor: StaraBlazkova – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3522713",
+        "plantago_lanceolata_2.jpg": "By Johann Georg Sturm (Painter: Jacob Sturm) - Fig. from book Deutschlands Flora in Abbildungen at http://www.biolib.de, Public Domain, https://commons.wikimedia.org/w/index.php?curid=744926"
+      },
       "description_cs": "Bylina s úzkými listy, která se přikládá na štípance a drobná poranění pro urychlení hojení.",
       "description_eng": "A herb with narrow leaves that is applied to insect bites and minor wounds to speed up healing.",
       "description_de": "Eine Pflanze mit schmalen Blättern, die auf Insektenstiche und kleine Wunden aufgetragen wird, um die Heilung zu beschleunigen.",
@@ -496,6 +616,10 @@
         "obrazky/flowers/alchemilla_vulgaris_1.jpg",
         "obrazky/flowers/alchemilla_vulgaris_2.jpg"
       ],
+      "image_credits": {
+        "alchemilla_vulgaris_1.jpg": "Autor: H. Zell – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=8968871",
+        "alchemilla_vulgaris_2.jpg": "By Carl Axel Magnus Lindman - Bilder ur Nordens Flora, no. 297, Public Domain, https://commons.wikimedia.org/w/index.php?curid=432457"
+      },
       "description_cs": "Bylina s dekorativními listy, která je tradičně používána na ženské potíže a zažívací problémy.",
       "description_eng": "A herb with decorative leaves traditionally used for women's ailments and digestive problems.",
       "description_de": "Eine Pflanze mit dekorativen Blättern, die traditionell bei Frauenleiden und Verdauungsproblemen verwendet wird.",
@@ -512,6 +636,10 @@
         "obrazky/flowers/verbascum_densiflorum_1.jpg",
         "obrazky/flowers/verbascum_densiflorum_2.jpg"
       ],
+      "image_credits": {
+        "verbascum_densiflorum_1.jpg": "Autor: Schnahacken – selbst fotografiert von Schnahacken, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=935680",
+        "verbascum_densiflorum_2.jpg": ""
+      },
       "description_cs": "Statná bylina se žlutými květy, jejíž květy se suší na čaj pomáhající při kašli a nachlazení.",
       "description_eng": "A sturdy herb with yellow flowers, whose flowers are dried for tea that helps with coughs and colds.",
       "description_de": "Eine robuste Pflanze mit gelben Blüten, deren Blüten für Tee getrocknet werden, der bei Husten und Erkältungen hilft.",
@@ -528,6 +656,10 @@
         "obrazky/flowers/galium_verum_1.jpg",
         "obrazky/flowers/galium_verum_2.jpg"
       ],
+      "image_credits": {
+        "galium_verum_1.jpg": "By Bjoertvedt - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4381591",
+        "galium_verum_2.jpg": "By Carl Axel Magnus Lindman - «Bilder ur Nordens Flora» Stockholm, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5966392"
+      },
       "description_cs": "Bylina s vonnými žlutými květy, která se historicky používala k srážení mléka při výrobě sýra.",
       "description_eng": "A herb with fragrant yellow flowers that was historically used to curdle milk in cheese making.",
       "description_de": "Eine Pflanze mit duftenden gelben Blüten, die historisch zur Milchgerinnung bei der Käseherstellung verwendet wurde.",
@@ -544,6 +676,10 @@
         "obrazky/flowers/achillea_millefolium_1.jpg",
         "obrazky/flowers/achillea_millefolium_2.jpg"
       ],
+      "image_credits": {
+        "achillea_millefolium_1.jpg": "By H. Zell - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=8942319",
+        "achillea_millefolium_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images The Internet Archive, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255484"
+      },
       "description_cs": "Bylina s jemně zpeřenými listy a bílými květy. Zastavuje krvácení a pomáhá při zažívacích potížích.",
       "description_eng": "A herb with finely divided leaves and white flowers. It stops bleeding and helps with digestive problems.",
       "description_de": "Eine Pflanze mit fein gefiederten Blättern und weißen Blüten. Sie stoppt Blutungen und hilft bei Verdauungsproblemen.",
@@ -560,6 +696,10 @@
         "obrazky/flowers/pulmonaria_officinalis_1.jpg",
         "obrazky/flowers/pulmonaria_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "pulmonaria_officinalis_1.jpg": "Autor: T. Kebert – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=103130191",
+        "pulmonaria_officinalis_2.jpg": "Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=8715"
+      },
       "description_cs": "Bylina s skvrnitými listy a růžovo-modrými květy. Tradičně se používá na onemocnění dýchacích cest.",
       "description_eng": "A herb with spotted leaves and pink-blue flowers. Traditionally used for respiratory ailments.",
       "description_de": "Eine Pflanze mit gefleckten Blättern und rosa-blauen Blüten. Traditionell bei Atemwegserkrankungen verwendet.",
@@ -576,6 +716,10 @@
         "obrazky/flowers/viola_odorata_1.jpg",
         "obrazky/flowers/viola_odorata_2.jpg"
       ],
+      "image_credits": {
+        "viola_odorata_1.jpg": "Autor: Petr Filippov – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1851458",
+        "viola_odorata_2.jpg": "Autor: Carl Axel Magnus Lindman – https://runeberg.org/nordflor/224.html, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=723042"
+      },
       "description_cs": "Nízká vytrvalá bylina s vonnými fialovými květy. Používá se do sirupů a parfémů.",
       "description_eng": "A low perennial herb with fragrant purple flowers. Used in syrups and perfumes.",
       "description_de": "Eine niedrige mehrjährige Pflanze mit duftenden violetten Blüten. Wird in Sirupen und Parfums verwendet.",
@@ -592,6 +736,10 @@
         "obrazky/flowers/geum_urbanum_1.jpg",
         "obrazky/flowers/geum_urbanum_2.jpg"
       ],
+      "image_credits": {
+        "geum_urbanum_1.jpg": "Por Didier Descouens - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=105389704",
+        "geum_urbanum_2.jpg": "Por Johann Georg Sturm (Painter: Jacob Sturm) - Figure from Deutschlands Flora in Abbildungen at http://www.biolib.de, Dominio público, https://commons.wikimedia.org/w/index.php?curid=731962"
+      },
       "description_cs": "Bylina s vonnými kořeny, které připomínají hřebíček. Používá se jako koření a v lidovém léčitelství.",
       "description_eng": "A herb with fragrant roots that resemble cloves. Used as a spice and in folk medicine.",
       "description_de": "Eine Pflanze mit duftenden Wurzeln, die an Nelken erinnern. Wird als Gewürz und in der Volksmedizin verwendet.",
@@ -608,6 +756,10 @@
         "obrazky/flowers/lamium_album_1.jpg",
         "obrazky/flowers/lamium_album_2.jpg"
       ],
+      "image_credits": {
+        "lamium_album_1.jpg": "Autor: AnRo0002 – Vlastní dílo, CC0, https://commons.wikimedia.org/w/index.php?curid=63501526",
+        "lamium_album_2.jpg": "Autor: Johann Georg Sturm (Painter: Jacob Sturm) – Figure from Deutschlands Flora in Abbildungen at http://www.biolib.de, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=737767"
+      },
       "description_cs": "Bylina podobná kopřivě, která ale nepálí. Její květy se používají do čajů na uklidnění.",
       "description_eng": "A plant similar to nettle but without stinging hairs. Its flowers are used in calming teas.",
       "description_de": "Eine Pflanze, die der Brennnessel ähnelt, aber nicht brennt. Ihre Blüten werden in Beruhigungstees verwendet.",
@@ -624,6 +776,10 @@
         "obrazky/flowers/cichorium_intybus_1.jpg",
         "obrazky/flowers/cichorium_intybus_2.jpg"
       ],
+      "image_credits": {
+        "cichorium_intybus_1.jpg": "Autor: Krzysztof Ziarnek, Kenraiz – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=107009146",
+        "cichorium_intybus_2.jpg": "Autor: Original book source: Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz 1885, Gera, Germany – www.biolib.de, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=7046954"
+      },
       "description_cs": "Bylina s jasně modrými květy. Její pražený kořen se používá jako náhražka kávy.",
       "description_eng": "A herb with bright blue flowers. Its roasted root is used as a coffee substitute.",
       "description_de": "Eine Pflanze mit leuchtend blauen Blüten. Ihre geröstete Wurzel wird als Kaffeeersatz verwendet.",
@@ -640,6 +796,10 @@
         "obrazky/flowers/foeniculum_vulgare_1.jpg",
         "obrazky/flowers/foeniculum_vulgare_2.jpg"
       ],
+      "image_credits": {
+        "foeniculum_vulgare_1.jpg": "Far Taken by Carsten Niehaus (user:Lumbar). - Propra verko, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=40526",
+        "foeniculum_vulgare_2.jpg": "Autor: Otto Wilhelm Thomé – Prof. Dr. Otto Wilhelm Thomé; Flora von Deutschland, Österreich und der Schweiz - 1885, Gera, Germany - www.biolib.de, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=1412282"
+      },
       "description_cs": "Bylina s anýzovou chutí. Podporuje trávení a uvolňuje křeče. Semena se žvýkají pro svěží dech.",
       "description_eng": "A herb with an anise-like flavor. Aids digestion and relieves cramps. Seeds are chewed for fresh breath.",
       "description_de": "Eine Pflanze mit anisartigem Geschmack. Fördert die Verdauung und löst Krämpfe. Samen werden für frischen Atem gekaut.",
@@ -656,6 +816,10 @@
         "obrazky/flowers/pimpinella_anisum_1.jpg",
         "obrazky/flowers/pimpinella_anisum_2.jpg"
       ],
+      "image_credits": {
+        "pimpinella_anisum_1.jpg": "By A1online2020 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78333214",
+        "pimpinella_anisum_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255129"
+      },
       "description_cs": "Bylina s výrazně sladkou, lékořicovou chutí. Používá se do pečiva, likérů a proti nadýmání.",
       "description_eng": "A herb with a distinctly sweet, licorice-like flavor. Used in baked goods, liqueurs, and against bloating.",
       "description_de": "Eine Pflanze mit einem ausgeprägten süßen, lakritzartigen Geschmack. Wird in Backwaren, Likören und gegen Blähungen verwendet.",
@@ -672,6 +836,10 @@
         "obrazky/flowers/carum_carvi_1.jpg",
         "obrazky/flowers/carum_carvi_2.jpg"
       ],
+      "image_credits": {
+        "carum_carvi_1.jpg": "Par Joanna Boisse — https://atlas.roslin.pl/plant/6635, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=81840968",
+        "carum_carvi_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255512"
+      },
       "description_cs": "Dvouletá bylina se známými semeny, která se používají do chleba, sýrů a dušených jídel proti nadýmání.",
       "description_eng": "A biennial herb with well-known seeds used in bread, cheeses, and stews to prevent bloating.",
       "description_de": "Eine zweijährige Pflanze mit bekannten Samen, die in Brot, Käse und Eintöpfen gegen Blähungen verwendet werden.",
@@ -688,6 +856,10 @@
         "obrazky/flowers/coriandrum_sativum_1.jpg",
         "obrazky/flowers/coriandrum_sativum_2.jpg"
       ],
+      "image_credits": {
+        "coriandrum_sativum_1.jpg": "By Stefan.lefnaer - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=45741494",
+        "coriandrum_sativum_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Köhler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255535"
+      },
       "description_cs": "Bylina, jejíž listy (koriandr) a semena (koriandr) se hojně používají v asijské a mexické kuchyni.",
       "description_eng": "A herb whose leaves (cilantro) and seeds (coriander) are widely used in Asian and Mexican cuisine.",
       "description_de": "Eine Pflanze, deren Blätter (Korianderkraut) und Samen (Koriander) in der asiatischen und mexikanischen Küche weit verbreitet sind.",
@@ -704,6 +876,10 @@
         "obrazky/flowers/anthriscus_cerefolium_1.jpg",
         "obrazky/flowers/anthriscus_cerefolium_2.jpg"
       ],
+      "image_credits": {
+        "anthriscus_cerefolium_1.jpg": "Autor: Rasbak – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=20676770",
+        "anthriscus_cerefolium_2.jpg": "Von Otto Wilhelm Thomé - Originale Buchquelle: Prof. Dr. Thomé's Flora von Deutschland Österreich und der Schweiz in Wort und Bild für Schule und Haus. Band III. Mit 155 Tafeln in Farbendruck nach Originalzeichnungen von Walter Müller in Gera. 1888, Tafel 381, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33379674"
+      },
       "description_cs": "Jemná bylina s anýzovou příchutí, podobná petrželi. Základ francouzské směsi 'fines herbes'.",
       "description_eng": "A delicate herb with an anise-like flavor, similar to parsley. A base of the French 'fines herbes' blend.",
       "description_de": "Ein zartes Kraut mit anisartigem Geschmack, ähnlich wie Petersilie. Grundlage der französischen 'fines herbes'-Mischung.",
@@ -720,6 +896,10 @@
         "obrazky/flowers/artemisia_dracunculus_sativa_1.jpg",
         "obrazky/flowers/artemisia_dracunculus_sativa_2.jpg"
       ],
+      "image_credits": {
+        "artemisia_dracunculus_sativa_1.jpg": "Von Cillas - Eigenes Werk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=6774964",
+        "artemisia_dracunculus_sativa_2.jpg": "Von G.C. Oeder - Artemisia dracunculus Pursh [as Artemisia glauca Pallas ex Willd.]Flora Danica [G.C. Oeder et al], fasicle 36, t. 2119 (1761-1883), Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=76024558"
+      },
       "description_cs": "Pravý, francouzský estragon s jemnější chutí, který se množí pouze vegetativně.",
       "description_eng": "True French tarragon with a more delicate flavor, which propagates only vegetatively.",
       "description_de": "Echter französischer Estragon mit feinerem Geschmack, der sich nur vegetativ vermehrt.",
@@ -736,6 +916,10 @@
         "obrazky/flowers/euphrasia_officinalis_1.jpg",
         "obrazky/flowers/euphrasia_officinalis_2.jpg"
       ],
+      "image_credits": {
+        "euphrasia_officinalis_1.jpg": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=41281",
+        "euphrasia_officinalis_2.jpg": "Von Original book source: Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz 1885, Gera, Germany - www.biolib.de, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=7046496"
+      },
       "description_cs": "Drobná bylina tradičně používaná ve formě očních kapek a obkladů na záněty očí a oční únavu.",
       "description_eng": "A small herb traditionally used in the form of eye drops and compresses for eye inflammation and fatigue.",
       "description_de": "Eine kleine Pflanze, die traditionell in Form von Augentropfen und Kompressen bei Augenentzündungen und Müdigkeit verwendet wird.",
@@ -752,6 +936,10 @@
         "obrazky/flowers/chelidonium_majus_1.jpg",
         "obrazky/flowers/chelidonium_majus_2.jpg"
       ],
+      "image_credits": {
+        "chelidonium_majus_1.jpg": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=126354",
+        "chelidonium_majus_2.jpg": "Autor: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen – List of Koehler Images, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=255299"
+      },
       "description_cs": "Bylina s oranžovo-žlutým mlékem, které se používá na bradavice. Vnitřně je jedovatý.",
       "description_eng": "A herb with orange-yellow sap that is used on warts. It is poisonous when taken internally.",
       "description_de": "Eine Pflanze mit orange-gelbem Milchsaft, der gegen Warzen verwendet wird. Ist innerlich giftig.",
@@ -768,6 +956,10 @@
         "obrazky/flowers/nasturtium_officinale_1.jpg",
         "obrazky/flowers/nasturtium_officinale_2.jpg"
       ],
+      "image_credits": {
+        "nasturtium_officinale_1.jpg": "By Paul venter - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=63881548",
+        "nasturtium_officinale_2.jpg": "Volné dílo, https://commons.wikimedia.org/w/index.php?curid=8632"
+      },
       "description_cs": "Vodní bylina s peprnou chutí, bohatá na vitamíny. Výborná do salátů jako řeřicha.",
       "description_eng": "An aquatic herb with a peppery taste, rich in vitamins. Excellent in salads like garden cress.",
       "description_de": "Eine Wasserpflanze mit pfeffrigem Geschmack, reich an Vitaminen. Hervorragend in Salaten wie Gartenkresse.",
@@ -784,6 +976,10 @@
         "obrazky/flowers/portulaca_oleracea_1.jpg",
         "obrazky/flowers/portulaca_oleracea_2.jpg"
       ],
+      "image_credits": {
+        "portulaca_oleracea_1.jpg": "Autor: ZooFari – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4212646",
+        "portulaca_oleracea_2.jpg": "Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=8874"
+      },
       "description_cs": "Šťavnatá bylina s masitými listy, bohatá na omega-3 mastné kyseliny. Používá se v salátech.",
       "description_eng": "A succulent herb with fleshy leaves, rich in omega-3 fatty acids. Used in salads.",
       "description_de": "Eine sukkulente Pflanze mit fleischigen Blättern, reich an Omega-3-Fettsäuren. Wird in Salaten verwendet.",
@@ -800,6 +996,10 @@
         "obrazky/flowers/bunias_orientalis_1.jpg",
         "obrazky/flowers/bunias_orientalis_2.jpg"
       ],
+      "image_credits": {
+        "bunias_orientalis_1.jpg": "Von Schurdl - Eigenes Werk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35262659",
+        "bunias_orientalis_2.jpg": "Von Carl Axel Magnus Lindman - «Bilder ur Nordens Flora» Stockholm, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=5969411"
+      },
       "description_cs": "Invazivní bylina, jejíž mladé listy a výhony chutnají po ředkvičkách a jsou vhodné do salátů.",
       "description_eng": "An invasive herb whose young leaves and shoots taste like radishes and are suitable for salads.",
       "description_de": "Eine invasive Pflanze, deren junge Blätter und Triebe nach Radieschen schmecken und für Salate geeignet sind.",
@@ -816,6 +1016,10 @@
         "obrazky/flowers/rumex_acetosa_1.jpg",
         "obrazky/flowers/rumex_acetosa_2.jpg"
       ],
+      "image_credits": {
+        "rumex_acetosa_1.jpg": "Autor: Derek Harper, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=14089625",
+        "rumex_acetosa_2.jpg": "Autor: Carl Axel Magnus Lindman – «Bilder ur Nordens Flora» Stockholm, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=5979117"
+      },
       "description_cs": "Bylina s kyselou chutí, ze které se připravuje lahodná polévka nebo se přidává do salátů.",
       "description_eng": "A herb with a sour taste, from which a delicious soup is prepared or added to salads.",
       "description_de": "Eine Pflanze mit saurem Geschmack, aus der eine köstliche Suppe zubereitet oder Salaten beigefügt wird.",

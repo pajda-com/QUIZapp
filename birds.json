@@ -2,7 +2,7 @@
   "metadata": {
     "name_cs": "České ptactvo",
     "version": "1.0",
-    "imagesPerItem": 5
+    "imagesPerItem": 2
   },
   "birds": [
     {
@@ -11,18 +11,19 @@
       "name_eng": "Common Swift",
       "name_de": "Mauersegler",
       "name_pl": "Jerzyk zwyczajny",
-	    "latin_name": "Apus apus",
+      "latin_name": "Apus apus",
       "images": [
         "obrazky/birds/apus_apus_1.jpg",
-        "obrazky/birds/apus_apus_2.jpg",
-        "obrazky/birds/apus_apus_3.jpg",
-        "obrazky/birds/apus_apus_4.jpg", 
-        "obrazky/birds/apus_apus_5.jpg"
+        "obrazky/birds/apus_apus_2.jpg"
       ],
+      "image_credits": {
+        "apus_apus_1.jpg": "By Alexis Lours - Own work, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=170916976",
+        "apus_apus_2.jpg": "Mt Finch - nvtzr l-yd m'lh hytzrh CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=34612772"
+      },
       "description_cs": "Rorýsi mají srpovitá křídla a krátký vidličnatý ocas. Jsou to výborní letci kteří většinu života tráví ve vzduchu.",
       "description_eng": "Swifts have sickle-shaped wings and a short forked tail. They are excellent fliers that spend most of their lives in the air.",
       "description_de": "Mauersegler haben sichelförmige Flügel und einen kurzen gegabelten Schwanz. Sie sind ausgezeichnete Flieger, die den Großteil ihres Lebens in der Luft verbringen.",
-      "description_pl": "Jerzyki mają sierpowate skrzydła i krótki rozwidlony ogon. Są doskonałymi lotnikami, którzy większość swojego życia spędzają w powietrzu."
+      "description_pl": "Jerzyki mají sierpowate skrzydła i krótki rozwidlony ogon. Są doskonałymi lotnikami, którzy większość swojego życia spędzają w powietrzu."
     },
     {
       "id": 2,
@@ -30,14 +31,15 @@
       "name_eng": "Eurasian Tree Sparrow",
       "name_de": "Feldsperling",
       "name_pl": "Wróbel polny",
-	    "latin_name": "Passer montanus",
+      "latin_name": "Passer montanus",
       "images": [
         "obrazky/birds/passer_montanus_1.jpg",
-        "obrazky/birds/passer_montanus_2.jpg",
-        "obrazky/birds/passer_montanus_3.jpg",
-        "obrazky/birds/passer_montanus_4.jpg",
-        "obrazky/birds/passer_montanus_5.jpg"
+        "obrazky/birds/passer_montanus_2.jpg"
       ],
+      "image_credits": {
+        "passer_montanus_1.jpg": "Autor: Andreas Trepte – Vlastní dílo, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5964819",
+        "passer_montanus_2.jpg": "Autorstwa xulescu_g - Passer montanus, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=65794646"
+      },
       "description_cs": "Vrabec polní má hnědé zbarvení s černou skvrnou na tvářích. Samec má šedý temeno hlavy.",
       "description_eng": "The Eurasian Tree Sparrow has brown coloring with a black spot on its cheeks. The male has a gray crown.",
       "description_de": "Der Feldsperling hat eine braune Färbung mit einem schwarzen Fleck auf den Wangen. Das Männchen hat eine graue Krone.",
@@ -45,18 +47,19 @@
     },
     {
       "id": 3,
-      "name_cs": "Sýkora koňadra", 
+      "name_cs": "Sýkora koňadra",
       "name_eng": "Great Tit",
       "name_de": "Kohlmeise",
       "name_pl": "Bogatka",
       "latin_name": "Parus major",
-	    "images": [
+      "images": [
         "obrazky/birds/parus_major_1.jpg",
-        "obrazky/birds/parus_major_2.jpg",
-        "obrazky/birds/parus_major_3.jpg",
-        "obrazky/birds/parus_major_4.jpg",
-        "obrazky/birds/parus_major_5.jpg"
+        "obrazky/birds/parus_major_2.jpg"
       ],
+      "image_credits": {
+        "parus_major_1.jpg": "By Frank Vassen from Brussels, Belgium - Great tit (Parus major), Parc du Rouge-Cloitre, Forêt de Soignes, Brussels, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=62043125",
+        "parus_major_2.jpg": "Autor: Shirley Clarke – Fordingbridge Camera Club, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18594246"
+      },
       "description_cs": "Sýkora koňadra má žluté bříško s černým pruhem uprostřed. Hlava je černá s bílými lícemi.",
       "description_eng": "The Great Tit has a yellow belly with a black stripe down the middle. The head is black with white cheeks.",
       "description_de": "Die Kohlmeise hat einen gelben Bauch mit einem schwarzen Streifen in der Mitte. Der Kopf ist schwarz mit weißen Wangen.",
@@ -69,16 +72,17 @@
       "name_de": "Amsel",
       "name_pl": "Kos zwyczajny",
       "latin_name": "Turdus merula",
-	    "images": [
+      "images": [
         "obrazky/birds/turdus_merula_1.jpg",
-        "obrazky/birds/turdus_merula_2.jpg",
-        "obrazky/birds/turdus_merula_3.jpg",
-        "obrazky/birds/turdus_merula_4.jpg",
-        "obrazky/birds/turdus_merula_5.jpg"
+        "obrazky/birds/turdus_merula_2.jpg"
       ],
+      "image_credits": {
+        "turdus_merula_1.jpg": "Autor: w:User:SonNy cZ – Originally uploaded to wikipedia by w:User:SonNy cZ on 30 May 2007, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3120349",
+        "turdus_merula_2.jpg": "Autor: Darkone – Fotograf: Darkone, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=595056"
+      },
       "description_cs": "Kos černý je celý černý s výrazným žlutým zobákem. Samice jsou hnědé s tmavším zobákem.",
       "description_eng": "The Common Blackbird is entirely black with a distinctive yellow beak. Females are brown with a darker beak.",
-      "description_de": "Die Amsel ist vollständig schwarz mit einem markanten gelben Schnabel. Die Weibchen sind braun mit einem dunkleren Schnabel.",
+      "description_de": "Die Amsel je vollständig schwarz mit einem markanten gelben Schnabel. Die Weibchen sind braun mit einem dunkleren Schnabel.",
       "description_pl": "Kos zwyczajny jest całkowicie czarny z charakterystycznym żółtym dziobem. Samice są brązowe z ciemniejszym dziobem."
     },
     {
@@ -88,13 +92,14 @@
       "name_de": "Weißstorch",
       "name_pl": "Bocian biały",
       "latin_name": "Ciconia ciconia",
-	    "images": [
+      "images": [
         "obrazky/birds/ciconia_ciconia_1.jpg",
-        "obrazky/birds/ciconia_ciconia_2.jpg", 
-        "obrazky/birds/ciconia_ciconia_3.jpg",
-        "obrazky/birds/ciconia_ciconia_4.jpg",
-        "obrazky/birds/ciconia_ciconia_5.jpg"
+        "obrazky/birds/ciconia_ciconia_2.jpg"
       ],
+      "image_credits": {
+        "ciconia_ciconia_1.jpg": "By Charles J. Sharp - Own work, from Sharp Photography, sharpphotography.co.uk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=131667431",
+        "ciconia_ciconia_2.jpg": "By Gergely Gajda - https://www.inaturalist.org/photos/112916256, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=159199115"
+      },
       "description_cs": "Čáp bílý je velký bílý pták s černými letkami a dlouhým červeným zobákem. Hnízdí na komínech a sloupech.",
       "description_eng": "The White Stork is a large white bird with black flight feathers and a long red beak. It nests on chimneys and poles.",
       "description_de": "Der Weißstorch ist ein großer weißer Vogel mit schwarzen Flugfedern und einem langen roten Schnabel. Er nistet auf Schornsteinen und Pfosten.",
@@ -107,13 +112,14 @@
       "name_de": "Gelbspötter",
       "name_pl": "Śpiewak żółty",
       "latin_name": "Hippolais icterina",
-	    "images": [
+      "images": [
         "obrazky/birds/hippolais_icterina_1.jpg",
-        "obrazky/birds/hippolais_icterina_2.jpg", 
-        "obrazky/birds/hippolais_icterina_3.jpg",
-        "obrazky/birds/hippolais_icterina_4.jpg",
-        "obrazky/birds/hippolais_icterina_5.jpg"
+        "obrazky/birds/hippolais_icterina_2.jpg"
       ],
+      "image_credits": {
+        "hippolais_icterina_1.jpg": "By JuliusFajman - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=119420270",
+        "hippolais_icterina_2.jpg": "Von Vogelartinfo - Eigenes Werk, GFDL 1.2, https://commons.wikimedia.org/w/index.php?curid=13276323"
+      },
       "description_cs": "Sedmihlásek hajní je malý zpěvný pták s olivově zeleným zbarvením a žlutým bříškem. Má výrazný zpěv.",
       "description_eng": "The Icterine Warbler is a small songbird with olive-green coloring and a yellow belly. It has a distinctive song.",
       "description_de": "Der Gelbspötter ist ein kleiner Singvogel mit olivgrüner Färbung und gelbem Bauch. Er hat einen markanten Gesang.",
@@ -126,13 +132,14 @@
       "name_de": "Drosselrohrsänger",
       "name_pl": "Trzciniak",
       "latin_name": "Acrocephalus palustris",
-	    "images": [
+      "images": [
         "obrazky/birds/acrocephalus_palustris_1.jpg",
-        "obrazky/birds/acrocephalus_palustris_2.jpg", 
-        "obrazky/birds/acrocephalus_palustris_3.jpg",
-        "obrazky/birds/acrocephalus_palustris_4.jpg",
-        "obrazky/birds/acrocephalus_palustris_5.jpg"
+        "obrazky/birds/acrocephalus_palustris_2.jpg"
       ],
+      "image_credits": {
+        "acrocephalus_palustris_1.jpg": "By Аимаина хикари - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=41485515",
+        "acrocephalus_palustris_2.jpg": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=88999"
+      },
       "description_cs": "Rákosník zpěvný je malý hnědý pták s proužkovaným hřbetem a světlým bříškem. Často se skrývá v rákosí a má melodický zpěv.",
       "description_eng": "The Great Reed Warbler is a small brown bird with a striped back and light belly. It often hides in reeds and has a melodic song.",
       "description_de": "Der Drosselrohrsänger ist ein kleiner brauner Vogel mit gestreiftem Rücken und hellem Bauch. Er versteckt sich oft im Schilf und hat einen melodischen Gesang.",
@@ -145,13 +152,14 @@
       "name_de": "Gartengrasmücke",
       "name_pl": "Śpiewak ogrodowy",
       "latin_name": "Sylvia borin",
-	    "images": [
+      "images": [
         "obrazky/birds/sylvia_borin_1.jpg",
-        "obrazky/birds/sylvia_borin_2.jpg", 
-        "obrazky/birds/sylvia_borin_3.jpg",
-        "obrazky/birds/sylvia_borin_4.jpg",
-        "obrazky/birds/sylvia_borin_5.jpg"
+        "obrazky/birds/sylvia_borin_2.jpg"
       ],
+      "image_credits": {
+        "sylvia_borin_1.jpg": "Autor: Biillyboy – https://www.flickr.com/photos/billyboysfotocolection/4843548058/in/photostream/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=11427509",
+        "sylvia_borin_2.jpg": "Par Ron Knight from Seaford, East Sussex, United Kingdom — Garden Warbler, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=81384724"
+      },
       "description_cs": "Pěnice slavíková je malý pták s olivově zeleným zbarvením na zádech a světlým bříškem. Má krásný zpěv připomínající slavíka.",
       "description_eng": "The Garden Warbler is a small bird with olive-green coloring on its back and a light belly. It has a beautiful song reminiscent of a nightingale.",
       "description_de": "Die Gartengrasmücke ist ein kleiner Vogel mit olivgrüner Färbung auf dem Rücken und hellem Bauch. Sie hat einen schönen Gesang, der an eine Nachtigall erinnert.",
@@ -164,13 +172,14 @@
       "name_de": "Goldammer",
       "name_pl": "Trznadel",
       "latin_name": "Emberiza citrinella",
-	    "images": [
+      "images": [
         "obrazky/birds/emberiza_citrinella_1.jpg",
-        "obrazky/birds/emberiza_citrinella_2.jpg", 
-        "obrazky/birds/emberiza_citrinella_3.jpg",
-        "obrazky/birds/emberiza_citrinella_4.jpg",
-        "obrazky/birds/emberiza_citrinella_5.jpg"
+        "obrazky/birds/emberiza_citrinella_2.jpg"
       ],
+      "image_credits": {
+        "emberiza_citrinella_1.jpg": "By Andreas Trepte - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=38974913",
+        "emberiza_citrinella_2.jpg": "Autor: Аимаина хикари – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35834287"
+      },
       "description_cs": "Strnad obecný je malý pták s výrazným žlutým zbarvením na hlavě a hnědým proužkovaným tělem. Samec má černé pruhy na hlavě.",
       "description_eng": "The Yellowhammer is a small bird with distinctive yellow coloring on its head and a brown striped body. The male has black stripes on its head.",
       "description_de": "Die Goldammer ist ein kleiner Vogel mit auffälliger gelber Färbung am Kopf und braun gestreiftem Körper. Das Männchen hat schwarze Streifen am Kopf.",
@@ -185,11 +194,12 @@
       "latin_name": "Coccothraustes coccothraustes",
       "images": [
         "obrazky/birds/coccothraustes_coccothraustes_1.jpg",
-        "obrazky/birds/coccothraustes_coccothraustes_2.jpg", 
-        "obrazky/birds/coccothraustes_coccothraustes_3.jpg",
-        "obrazky/birds/coccothraustes_coccothraustes_4.jpg",
-        "obrazky/birds/coccothraustes_coccothraustes_5.jpg"
+        "obrazky/birds/coccothraustes_coccothraustes_2.jpg"
       ],
+      "image_credits": {
+        "coccothraustes_coccothraustes_1.jpg": "Autor: Marek Szczepanek – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=55847",
+        "coccothraustes_coccothraustes_2.jpg": "Autorstwa Hubert Joswowitz-Niemierski - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=30504538"
+      },
       "description_cs": "Dlask tlustozobý je robustní pták s mohutným zobákem, který mu umožňuje rozlousknout tvrdá semena. Má pestré zbarvení s kombinací hnědé, černé a bílé.",
       "description_eng": "The Hawfinch is a robust bird with a powerful beak that allows it to crack hard seeds. It has a colorful plumage with a combination of brown, black, and white.",
       "description_de": "Der Kernbeißer ist ein kräftiger Vogel mit einem starken Schnabel, der es ihm ermöglicht, harte Samen zu knacken. Er hat ein buntes Gefieder mit einer Kombination aus Braun, Schwarz und Weiß.",
@@ -204,11 +214,12 @@
       "latin_name": "Anas platyrhynchos",
       "images": [
         "obrazky/birds/anas_platyrhynchos_1.jpg",
-        "obrazky/birds/anas_platyrhynchos_2.jpg", 
-        "obrazky/birds/anas_platyrhynchos_3.jpg",
-        "obrazky/birds/anas_platyrhynchos_4.jpg",
-        "obrazky/birds/anas_platyrhynchos_5.jpg"
+        "obrazky/birds/anas_platyrhynchos_2.jpg"
       ],
+      "image_credits": {
+        "anas_platyrhynchos_1.jpg": "Von Andreas Trepte - Eigenes Werk, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5788747",
+        "anas_platyrhynchos_2.jpg": "Autorstwa Mirus255 - Praca własna, CC0, https://commons.wikimedia.org/w/index.php?curid=150076236"
+      },
       "description_cs": "Kachna divoká je běžný vodní pták s výrazným zbarvením. Samec má zelenou hlavu, hnědý hrudník a šedé tělo, zatímco samice jsou hnědé s tmavými skvrnami.",
       "description_eng": "The Mallard is a common waterfowl with distinctive coloring. The male has a green head, brown chest, and gray body, while the female is brown with dark spots.",
       "description_de": "Die Stockente ist eine häufige Wasservogelart mit auffälliger Färbung. Das Männchen hat einen grünen Kopf, eine braune Brust und einen grauen Körper, während das Weibchen braun mit dunklen Flecken ist.",
@@ -223,11 +234,12 @@
       "latin_name": "Anser anser",
       "images": [
         "obrazky/birds/anser_anser_1.jpg",
-        "obrazky/birds/anser_anser_2.jpg", 
-        "obrazky/birds/anser_anser_3.jpg",
-        "obrazky/birds/anser_anser_4.jpg",
-        "obrazky/birds/anser_anser_5.jpg"
+        "obrazky/birds/anser_anser_2.jpg"
       ],
+      "image_credits": {
+        "anser_anser_1.jpg": "By Diliff - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1385555",
+        "anser_anser_2.jpg": "Autor: MichaelMaggs – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4683191"
+      },
       "description_cs": "Husa velká je velký pták s šedým peřím, růžovým zobákem a oranžovými nohama. Je známá svými hlasitými zvuky a migračními zvyky.",
       "description_eng": "The Greylag Goose is a large bird with grey feathers, a pink beak, and orange legs. It is known for its loud calls and migratory habits.",
       "description_de": "Die Graugans ist ein großer Vogel mit grauem Gefieder, einem rosa Schnabel und orangen Beinen. Sie ist bekannt für ihre lauten Rufe und ihre Zuggewohnheiten.",
@@ -242,11 +254,12 @@
       "latin_name": "Buteo buteo",
       "images": [
         "obrazky/birds/buteo_buteo_1.jpg",
-        "obrazky/birds/buteo_buteo_2.jpg", 
-        "obrazky/birds/buteo_buteo_3.jpg",
-        "obrazky/birds/buteo_buteo_4.jpg",
-        "obrazky/birds/buteo_buteo_5.jpg"
+        "obrazky/birds/buteo_buteo_2.jpg"
       ],
+      "image_credits": {
+        "buteo_buteo_1.jpg": "Von Morbakka - Eigenes Werk, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=158851400",
+        "buteo_buteo_2.jpg": "Autor: Mark Medcalf – Wild BuzzardUploaded by snowmanradio, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=16519034"
+      },
       "description_cs": "Káně lesní je středně velký dravý pták s širokými křídly a krátkým ocasem. Má hnědé zbarvení s různými odstíny a skvrnami.",
       "description_eng": "The Common Buzzard is a medium-sized bird of prey with broad wings and a short tail. It has brown coloring with various shades and spots.",
       "description_de": "Der Mäusebussard ist ein mittelgroßer Greifvogel mit breiten Flügeln und kurzem Schwanz. Er hat eine braune Färbung mit verschiedenen Schattierungen und Flecken.",
@@ -261,11 +274,12 @@
       "latin_name": "Ciconia nigra",
       "images": [
         "obrazky/birds/ciconia_nigra_1.jpg",
-        "obrazky/birds/ciconia_nigra_2.jpg", 
-        "obrazky/birds/ciconia_nigra_3.jpg",
-        "obrazky/birds/ciconia_nigra_4.jpg",
-        "obrazky/birds/ciconia_nigra_5.jpg"
+        "obrazky/birds/ciconia_nigra_2.jpg"
       ],
+      "image_credits": {
+        "ciconia_nigra_1.jpg": "Autor: Marek Szczepanek – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=47682",
+        "ciconia_nigra_2.jpg": "By Chris Eason - originally posted to Flickr as Black Storks, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=6489838"
+      },
       "description_cs": "Čáp černý je velký pták s černým peřím a bílým břichem. Má dlouhý červený zobák a nohy a je známý svým plachým chováním.",
       "description_eng": "The Black Stork is a large bird with black feathers and a white belly. It has a long red beak and legs and is known for its shy behavior.",
       "description_de": "Der Schwarzstorch ist ein großer Vogel mit schwarzem Gefieder und weißem Bauch. Er hat einen langen roten Schnabel und Beine und ist für sein scheues Verhalten bekannt.",
@@ -280,11 +294,12 @@
       "latin_name": "Columba livia f. domestica",
       "images": [
         "obrazky/birds/columba_livia_f_domestica_1.jpg",
-        "obrazky/birds/columba_livia_f_domestica_2.jpg", 
-        "obrazky/birds/columba_livia_f_domestica_3.jpg",
-        "obrazky/birds/columba_livia_f_domestica_4.jpg",
-        "obrazky/birds/columba_livia_f_domestica_5.jpg"
+        "obrazky/birds/columba_livia_f_domestica_2.jpg"
       ],
+      "image_credits": {
+        "columba_livia_f_domestica_1.jpg": "Alan D. Wilson, www.naturespicsonline.com - http://www.naturespicsonline.com/galleries/14#5 (higher resolution version obtained in correspondence with the website owner), CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=1488292",
+        "columba_livia_f_domestica_2.jpg": "Autor: J.M.Garg – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2840401"
+      },
       "description_cs": "Holub domácí je běžný městský pták s různými barevnými variantami, včetně šedé, bílé a černé. Má krátký krk a kulatou hlavu.",
       "description_eng": "The Rock Pigeon is a common urban bird with various color variants, including gray, white, and black. It has a short neck and a rounded head.",
       "description_de": "Die Haustaube ist ein häufiger Stadtvogel mit verschiedenen Farbvarianten, darunter Grau, Weiß und Schwarz. Sie hat einen kurzen Hals und einen runden Kopf.",
@@ -299,11 +314,12 @@
       "latin_name": "Columba palumbus",
       "images": [
         "obrazky/birds/columba_palumbus_1.jpg",
-        "obrazky/birds/columba_palumbus_2.jpg", 
-        "obrazky/birds/columba_palumbus_3.jpg",
-        "obrazky/birds/columba_palumbus_4.jpg",
-        "obrazky/birds/columba_palumbus_5.jpg"
+        "obrazky/birds/columba_palumbus_2.jpg"
       ],
+      "image_credits": {
+        "columba_palumbus_1.jpg": "By Bengt Nyman from Vaxholm, Sweden - Ringduva, Common wood Pigeon, Columba palumbus EM1B1397, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=68145919",
+        "columba_palumbus_2.jpg": "Von Marek Szczepanek - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12527443"
+      },
       "description_cs": "Holub hřivnáč je velký pták s šedým peřím, bílými skvrnami na krku a růžovým nádechem na hrudi. Má hlasité houkání.",
       "description_eng": "The Common Wood Pigeon is a large bird with gray feathers, white patches on the neck, and a pinkish hue on the chest. It has a loud cooing call.",
       "description_de": "Die Ringeltaube ist ein großer Vogel mit grauem Gefieder, weißen Flecken am Hals und einem rosa Schimmer auf der Brust. Sie hat einen lauten Ruf.",
@@ -318,11 +334,12 @@
       "latin_name": "Cygnus olor",
       "images": [
         "obrazky/birds/cygnus_olor_1.jpg",
-        "obrazky/birds/cygnus_olor_2.jpg", 
-        "obrazky/birds/cygnus_olor_3.jpg",
-        "obrazky/birds/cygnus_olor_4.jpg",
-        "obrazky/birds/cygnus_olor_5.jpg"
+        "obrazky/birds/cygnus_olor_2.jpg"
       ],
+      "image_credits": {
+        "cygnus_olor_1.jpg": "Autor: Sanchezn – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3019282",
+        "cygnus_olor_2.jpg": "Volné dílo, https://commons.wikimedia.org/w/index.php?curid=749407"
+      },
       "description_cs": "Labut velká je velký bílý pták s dlouhým krkem a oranžovým zobákem s černou skvrnou u základu. Je známá svou elegantní plavbou po vodě.",
       "description_eng": "The Mute Swan is a large white bird with a long neck and an orange beak with a black spot at the base. It is known for its graceful swimming on water.",
       "description_de": "Der Höckerschwan ist ein großer weißer Vogel mit langem Hals und einem orangefarbenen Schnabel mit einem schwarzen Fleck an der Basis. Er ist bekannt für sein anmutiges Schwimmen auf dem Wasser.",
@@ -330,19 +347,20 @@
     },
     {
       "id": 18,
-      "name_cs": "Krahujec obecný",
+      "name_cs": "Poštolka obecná",
       "name_eng": "Common Kestrel",
       "name_de": "Turmfalke",
       "name_pl": "Krogulec zwyczajny",
       "latin_name": "Falco tinnunculus",
       "images": [
         "obrazky/birds/falco_tinnunculus_1.jpg",
-        "obrazky/birds/falco_tinnunculus_2.jpg", 
-        "obrazky/birds/falco_tinnunculus_3.jpg",
-        "obrazky/birds/falco_tinnunculus_4.jpg",
-        "obrazky/birds/falco_tinnunculus_5.jpg"
+        "obrazky/birds/falco_tinnunculus_2.jpg"
       ],
-      "description_cs": "Krahujec obecný je středně velký dravý pták s rezavě hnědým peřím a černými skvrnami. Často ho lze vidět, jak visí ve vzduchu při lovu malých savců a ptáků.",
+      "image_credits": {
+        "falco_tinnunculus_1.jpg": "Autor: Mathijs van Lisdonk Photography – https://www.flickr.com/photos/190520896@N02/51169856228/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=116160631",
+        "falco_tinnunculus_2.jpg": "Autor: © Giles Laurent, gileslaurent.com, License CC BY-SA, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=121242269"
+      },
+      "description_cs": "Poštolka obecná je středně velký dravý pták s rezavě hnědým peřím a černými skvrnami. Často ho lze vidět, jak visí ve vzduchu při lovu malých savců a ptáků.",
       "description_eng": "The Common Kestrel is a medium-sized bird of prey with reddish-brown feathers and black spots. It is often seen hovering in the air while hunting small mammals and birds.",
       "description_de": "Der Turmfalke ist ein mittelgroßer Greifvogel mit rötlich-braunem Gefieder und schwarzen Flecken. Man sieht ihn oft in der Luft schweben, während er kleine Säugetiere und Vögel jagt.",
       "description_pl": "Krogulec zwyczajny to średniej wielkości ptak drapieżny o rdzawo-brązowym upierzeniu z czarnymi plamami. Często można go zobaczyć wiszącego w powietrzu podczas polowania na małe ssaki i ptaki."
@@ -356,11 +374,12 @@
       "latin_name": "Haliaetus albicilla",
       "images": [
         "obrazky/birds/haliaetus_albicilla_1.jpg",
-        "obrazky/birds/haliaetus_albicilla_2.jpg", 
-        "obrazky/birds/haliaetus_albicilla_3.jpg",
-        "obrazky/birds/haliaetus_albicilla_4.jpg",
-        "obrazky/birds/haliaetus_albicilla_5.jpg"
+        "obrazky/birds/haliaetus_albicilla_2.jpg"
       ],
+      "image_credits": {
+        "haliaetus_albicilla_1.jpg": "By Bengt Nyman from Vaxholm, Sweden - NZ7_5265, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=130665095",
+        "haliaetus_albicilla_2.jpg": "By Francesco Veronesi from Italy - White-tailed Sea-Eagle - Hokkaido - Japan_S4E9284, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=39980862"
+      },
       "description_cs": "Orel mořský je velký dravý pták s mohutnými křídly a bílým ocasem. Jeho zobák je silný a zahnutý, ideální pro lov ryb a jiných vodních živočichů.",
       "description_eng": "The White-tailed Eagle is a large bird of prey with powerful wings and a white tail. Its beak is strong and hooked, ideal for hunting fish and other aquatic animals.",
       "description_de": "Der Seeadler ist ein großer Greifvogel mit kräftigen Flügeln und weißem Schwanz. Sein Schnabel ist stark und gekrümmt, ideal zum Jagen von Fischen und anderen Wasserlebewesen.",
@@ -375,11 +394,12 @@
       "latin_name": "Chroicocephalus ridibundus",
       "images": [
         "obrazky/birds/chroicocephalus_ridibundus_1.jpg",
-        "obrazky/birds/chroicocephalus_ridibundus_2.jpg", 
-        "obrazky/birds/chroicocephalus_ridibundus_3.jpg",
-        "obrazky/birds/chroicocephalus_ridibundus_4.jpg",
-        "obrazky/birds/chroicocephalus_ridibundus_5.jpg"
+        "obrazky/birds/chroicocephalus_ridibundus_2.jpg"
       ],
+      "image_credits": {
+        "chroicocephalus_ridibundus_1.jpg": "By © Hans Hillewaert, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5548312",
+        "chroicocephalus_ridibundus_2.jpg": "By PierreSelim - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17842843"
+      },
       "description_cs": "Racek chechtavý je středně velký mořský pták s bílým tělem, šedými křídly a černou hlavou během hnízdní sezóny. Má červený zobák a nohy.",
       "description_eng": "The Black-headed Gull is a medium-sized seabird with a white body, gray wings, and a black head during the breeding season. It has a red beak and legs.",
       "description_de": "Die Lachmöwe ist ein mittelgroßer Meeresvogel mit weißem Körper, grauen Flügeln und schwarzem Kopf während der Brutzeit. Sie hat einen roten Schnabel und Beine.",
@@ -394,11 +414,12 @@
       "latin_name": "Perdix perdix",
       "images": [
         "obrazky/birds/perdix_perdix_1.jpg",
-        "obrazky/birds/perdix_perdix_2.jpg", 
-        "obrazky/birds/perdix_perdix_3.jpg",
-        "obrazky/birds/perdix_perdix_4.jpg",
-        "obrazky/birds/perdix_perdix_5.jpg"
+        "obrazky/birds/perdix_perdix_2.jpg"
       ],
+      "image_credits": {
+        "perdix_perdix_1.jpg": "By david galavan - grey partridge at turvey, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=21240044",
+        "perdix_perdix_2.jpg": "Por Marek Szczepanek - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=13404871"
+      },
       "description_cs": "Křepelka polní je malý zemní pták s hnědým a šedým zbarvením, které mu poskytuje vynikající kamufláž v travnatém prostředí. Má krátké nohy a kulatý tvar těla.",
       "description_eng": "The Common Quail is a small ground-dwelling bird with brown and gray coloring that provides excellent camouflage in grassy environments. It has short legs and a rounded body shape.",
       "description_de": "Die Wachtel ist ein kleiner bodenbewohnender Vogel mit brauner und grauer Färbung, die eine hervorragende Tarnung in grasbewachsenen Umgebungen bietet. Sie hat kurze Beine und eine abgerundete Körperform.",
@@ -413,15 +434,36 @@
       "latin_name": "Phasianus colchicus",
       "images": [
         "obrazky/birds/phasianus_colchicus_1.jpg",
-        "obrazky/birds/phasianus_colchicus_2.jpg", 
-        "obrazky/birds/phasianus_colchicus_3.jpg",
-        "obrazky/birds/phasianus_colchicus_4.jpg",
-        "obrazky/birds/phasianus_colchicus_5.jpg"
+        "obrazky/birds/phasianus_colchicus_2.jpg"
       ],
+      "image_credits": {
+        "phasianus_colchicus_1.jpg": "By Peter O'Connor aka anemoneprojectors - Pheasant (Phasianus colchicus) ♂, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=101468037",
+        "phasianus_colchicus_2.jpg": "By Andy Vernon - originally posted to Flickr as Pheasant, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=8653034"
+      },
       "description_cs": "Bažant obecný je velký pták s pestrým zbarvením. Samec má lesklé zelené a modré peří na hlavě, červené tváře a dlouhý ocas.",
       "description_eng": "The Common Pheasant is a large bird with colorful plumage. The male has shiny green and blue feathers on its head, red facial skin, and a long tail.",
       "description_de": "Der Fasan ist ein großer Vogel mit buntem Gefieder. Das Männchen hat glänzend grüne und blaue Federn am Kopf, rote Gesichtshaut und einen langen Schwanz.",
       "description_pl": "Bażant zwyczajny to duży ptak o kolorowym upierzeniu. Samiec ma błyszczące zielone i niebieskie pióra na głowie, czerwoną skórę na twarzy i długi ogon."
+    },
+    {
+      "id": 23,
+      "name_cs": "Puštík obecný",
+      "name_eng": "Tawny Owl",
+      "name_de": "Waldkauz",
+      "name_pl": "Puszczyk zwyczajny",
+      "latin_name": "Strix aluco",
+      "images": [
+        "obrazky/birds/strix_aluco_1.jpg",
+        "obrazky/birds/strix_aluco_2.jpg"
+      ],
+      "image_credits": {
+        "strix_aluco_1.jpg": "By Martin Mecnarowski (http://www.photomecan.eu/) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12691242",
+        "strix_aluco_2.jpg": "Autor: Barry Forbes – https://www.flickr.com/photos/21651868@N07/51650729489/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=116034257"
+      },
+      "description_cs": "Puštík obecný je středně velká sova s kulatou hlavou a výraznými oranžovými očima. Má hnědé a šedé peří, které mu pomáhá splynout s okolním prostředím.",
+      "description_eng": "The Tawny Owl is a medium-sized owl with a round head and distinctive orange eyes. It has brown and gray feathers that help it blend into its surroundings.",
+      "description_de": "Der Waldkauz ist eine mittelgroße Eule mit rundem Kopf und markanten orangefarbenen Augen. Er hat braunes und graues Gefieder, das ihm hilft, sich in seine Umgebung einzufügen.",
+      "description_pl": "Puszczyk zwyczajny to średniej wielkości sowa o okrągłej głowie i charakterystycznych pomarańczowych oczach. Ma brązowe i szare pióra, które pomagają mu wtopić się w otoczenie."
     }
   ]
 }
