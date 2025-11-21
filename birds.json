@@ -464,6 +464,426 @@
       "description_eng": "The Tawny Owl is a medium-sized owl with a round head and distinctive orange eyes. It has brown and gray feathers that help it blend into its surroundings.",
       "description_de": "Der Waldkauz ist eine mittelgroße Eule mit rundem Kopf und markanten orangefarbenen Augen. Er hat braunes und graues Gefieder, das ihm hilft, sich in seine Umgebung einzufügen.",
       "description_pl": "Puszczyk zwyczajny to średniej wielkości sowa o okrągłej głowie i charakterystycznych pomarańczowych oczach. Ma brązowe i szare pióra, które pomagają mu wtopić się w otoczenie."
+    },
+    {
+      "id": 24,
+      "name_cs": "Krkavec velký",
+      "name_eng": "Common Raven",
+      "name_de": "Kolkrabe",
+      "name_pl": "Kruk zwyczajny",
+      "latin_name": "Corvus corax",
+      "images": [
+        "obrazky/birds/corvus_corax_1.jpg",
+        "obrazky/birds/corvus_corax_2.jpg"
+      ],
+      "image_credits": {
+        "corvus_corax_1.jpg": "Autor: Accipiter (R. Altenkamp, Berlin) – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=6806927",
+        "corvus_corax_2.jpg": "Autor: Albert ryba – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=46404427"
+      },
+      "description_cs": "Krkavec velký je velký černý pták s lesklým peřím a silným zobákem. Je známý svou inteligencí a schopností napodobovat zvuky.",
+      "description_eng": "The Common Raven is a large black bird with glossy feathers and a strong beak. It is known for its intelligence and ability to mimic sounds.",
+      "description_de": "Der Kolkrabe ist ein großer schwarzer Vogel mit glänzendem Gefieder und starkem Schnabel. Er ist bekannt für seine Intelligenz und seine Fähigkeit, Geräusche zu imitieren.",
+      "description_pl": "Kruk zwyczajny to duży czarny ptak z błyszczącym upierzeniem i silnym dziobem. Znany jest ze swojej inteligencji i zdolności do naśladowania dźwięků."
+    },
+    {
+      "id": 25,
+      "name_cs": "Vrána černá",
+      "name_eng": "Carrion Crow",
+      "name_de": "Aaskrähe",
+      "name_pl": "Wrona siwa",
+      "latin_name": "Corvus corone",
+      "images": [
+        "obrazky/birds/corvus_corone_1.jpg",
+        "obrazky/birds/corvus_corone_2.jpg"
+      ],
+      "image_credits": {
+        "corvus_corone_1.jpg": "Autor: Marek Szczepanek – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=13485030",
+        "corvus_corone_2.jpg": "Autor: dierat-stock – Crow-1, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=33155653"
+      },
+      "description_cs": "Vrána černá je středně velký černý pták s lesklým peřím a silným zobákem. Je známá svou inteligencí a schopností napodobovat zvuky.",
+      "description_eng": "The Carrion Crow is a medium-sized black bird with glossy feathers and a strong beak. It is known for its intelligence and ability to mimic sounds.",
+      "description_de": "Die Aaskrähe ist ein mittelgroßer schwarzer Vogel mit glänzendem Gefieder und starkem Schnabel. Sie ist bekannt für ihre Intelligenz und ihre Fähigkeit, Geräusche zu imitieren.",
+      "description_pl": "Wrona siwa to średniej wielkości czarny ptak z błyszczącym upierzeniem i silnym dziobem. Znana jest ze swojej inteligencji i zdolności do naśladowania dźwięków."
+    },
+    {
+      "id": 26,
+      "name_cs": "Havran polní",
+      "name_eng": "Rook",
+      "name_de": "Saatkrähe",
+      "name_pl": "Kruk polny",
+      "latin_name": "Corvus frugilegus",
+      "images": [
+        "obrazky/birds/corvus_frugilegus_1.jpg",
+        "obrazky/birds/corvus_frugilegus_2.jpg"
+      ],
+      "image_credits": {
+        "corvus_frugilegus_1.jpg": "Autor: Rafał Komorowski – Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3203876",
+        "corvus_frugilegus_2.jpg": "Autor: foxypa4 – https://www.flickr.com/photos/foxypa4/2203935479/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=5146471"
+      },
+      "description_cs": "Havran polní je středně velký černý pták s lesklým peřím a silným zobákem. Je známý svou inteligencí a schopností napodobovat zvuky.",
+      "description_eng": "The Rook is a medium-sized black bird with glossy feathers and a strong beak. It is known for its intelligence and ability to mimic sounds.",
+      "description_de": "Die Saatkrähe ist ein mittelgroßer schwarzer Vogel mit glänzendem Gefieder und starkem Schnabel. Sie ist bekannt für ihre Intelligenz und ihre Fähigkeit, Geräusche zu imitieren.",
+      "description_pl": "Kruk polny to średniej wielkości czarny ptak z błyszczącym upierzeniem i silnym dziobem. Znany jest ze swojej inteligencji i zdolności do naśladowania dźwięków."
+    },
+    {
+      "id": 27,
+      "name_cs": "Kukačka obecná",
+      "name_eng": "Common Cuckoo",
+      "name_de": "Kuckuck",
+      "name_pl": "Kukułka zwyczajna",
+      "latin_name": "Cuculus canorus",
+      "images": [
+        "obrazky/birds/cuculus_canorus_1.jpg",
+        "obrazky/birds/cuculus_canorus_2.jpg"
+      ],
+      "image_credits": {
+        "cuculus_canorus_1.jpg": "Von Locaguapa - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=23230424",
+        "cuculus_canorus_2.jpg": "Von Vogelartinfo - Eigenes Werk, GFDL 1.2, https://commons.wikimedia.org/w/index.php?curid=13124911"
+      },
+      "description_cs": "Kukačka obecná je středně velký pták s šedým peřím na hlavě a hnědým na těle. Je známá svým charakteristickým voláním a parazitickým způsobem rozmnožování.",
+      "description_eng": "The Common Cuckoo is a medium-sized bird with gray feathers on its head and brown on its body. It is known for its distinctive call and parasitic breeding behavior.",
+      "description_de": "Der Kuckuck ist ein mittelgroßer Vogel mit grauem Gefieder am Kopf und braunem am Körper. Er ist bekannt für seinen charakteristischen Ruf und sein parasitäres Brutverhalten.",
+      "description_pl": "Kukułka zwyczajna to średniej wielkości ptak o szarym upierzeniu na głowie i brązowym na ciele. Znana jest ze swojego charakterystycznego głosu i pasożytniczego sposobu rozmnażania."
+    },
+    {
+      "id": 28,
+      "name_cs": "Sýkora modřinka",
+      "name_eng": "Eurasian Blue Tit",
+      "name_de": "Kleiber",
+      "name_pl": "Modraszka zwyczajna",
+      "latin_name": "Cyanistes caeruleus",
+      "images": [
+        "obrazky/birds/cyanistes_caeruleus_1.jpg",
+        "obrazky/birds/cyanistes_caeruleus_2.jpg"
+      ],
+      "image_credits": {
+        "cyanistes_caeruleus_1.jpg": "Autor: © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=37675470",
+        "cyanistes_caeruleus_2.jpg": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1549984"
+      },
+      "description_cs": "Sýkora modřinka je malý pták s modrým a žlutým peřím. Má výraznou modrou čepičku na hlavě a bílý obličej s černým pruhem přes oči.",
+      "description_eng": "The Eurasian Blue Tit is a small bird with blue and yellow plumage. It has a distinctive blue cap on its head and a white face with a black stripe across the eyes.",
+      "description_de": "Der Kleiber ist ein kleiner Vogel mit blauem und gelbem Gefieder. Er hat eine markante blaue Kappe auf dem Kopf und ein weißes Gesicht mit einem schwarzen Streifen über den Augen.",
+      "description_pl": "Modraszka zwyczajna to mały ptak o niebiesko-żółtym upierzeniu. Ma charakterystyczną niebieską czapeczkę na głowie i biały pysk z czarnym paskiem przez oczy."
+    },
+    {
+      "id": 29,
+      "name_cs": "Strakapoud velký",
+      "name_eng": "Great Spotted Woodpecker",
+      "name_de": "Großer Buntspecht",
+      "name_pl": "Dzięcioł duży",
+      "latin_name": "Dendrocopos major",
+      "images": [
+        "obrazky/birds/dendrocopos_major_1.jpg",
+        "obrazky/birds/dendrocopos_major_2.jpg"
+      ],
+      "image_credits": {
+        "dendrocopos_major_1.jpg": "Autor: Mira ceti – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=6525928",
+        "dendrocopos_major_2.jpg": "Autor: Lorenzo Leoni (User:Lollo1983) – Vlastní dílo, Volné dílo, https://commons.wikimedia.org/w/index.php?curid=4100620"
+      },
+      "description_cs": "Strakapoud velký je středně velký datel s černobílým peřím a červenou skvrnou na spodní straně ocasu. Má silný zobák, který používá k vyhlodávání hnízd v stromech.",
+      "description_eng": "The Great Spotted Woodpecker is a medium-sized woodpecker with black and white plumage and a red patch on the underside of its tail. It has a strong beak that it uses to excavate nests in trees.",
+      "description_de": "Der Große Buntspecht ist ein mittelgroßer Specht mit schwarz-weißem Gefieder und einem roten Fleck an der Unterseite des Schwanzes. Er hat einen starken Schnabel, mit dem er Nester in Bäumen aushöhlt.",
+      "description_pl": "Dzięcioł duży to średniej wielkości dzięcioł o czarno-białym upierzeniu i czerwonej plamie na spodniej stronie ogona. Ma silny dziób, którym wydrąża gniazda w drzewach."
+    },
+    {
+      "id": 30,
+      "name_cs": "Datel velký",
+      "name_eng": "Black Woodpecker",
+      "name_de": "Schwarzspecht",
+      "name_pl": "Dzięcioł czarny",
+      "latin_name": "Dryocopus martius",
+      "images": [
+        "obrazky/birds/dryocopus_martius_1.jpg",
+        "obrazky/birds/dryocopus_martius_2.jpg"
+      ],
+      "image_credits": {
+        "dryocopus_martius_1.jpg": "Autor: H yamaguchi – ハシブトガラス, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=118562390",
+        "dryocopus_martius_2.jpg": "Autor: Alastair Rae from London, United Kingdom - Black Woodpecker, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=29371"
+      },
+      "description_cs": "Datel velký je velký černý datel s červenou skvrnou na hlavě. Má silný zobák, kterým vyhlodává hnízda v stromech.",
+      "description_eng": "The Black Woodpecker is a large black woodpecker with a red patch on its head. It has a strong beak that it uses to excavate nests in trees.",
+      "description_de": "Der Schwarzspecht ist ein großer schwarzer Specht mit einem roten Fleck auf dem Kopf. Er hat einen starken Schnabel, mit dem er Nester in Bäumen aushöhlt.",
+      "description_pl": "Dzięcioł czarny to duży czarny dzięcioł z czerwoną plamą na głowie. Ma silny dziób, którym wydrąża gniazda w drzewach."
+    },
+    {
+      "id": 31,
+      "name_cs": "Pěnkava obecná",
+      "name_eng": "Chaffinch",
+      "name_de": "Buchfink",
+      "name_pl": "Zięba zwyczajna",
+      "latin_name": "Fringilla coelebs",
+      "images": [
+        "obrazky/birds/fringilla_coelebs_1.jpg",
+        "obrazky/birds/fringilla_coelebs_2.jpg"
+      ],
+      "image_credits": {
+        "fringilla_coelebs_1.jpg": "Autor: Kathy Büscher from Rinteln, Deutschland – Buchfink (11), CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=74456112",
+        "fringilla_coelebs_2.jpg": "Autor: Sergiori – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2688771"
+      },
+      "description_cs": "Pěnkava opecná je malý zpěvný pták s barevným peřím. Samec má modrou čepičku, oranžový hrudník a bílé skvrny na křídlech.",
+      "description_eng": "The Chaffinch is a small songbird with colorful plumage. The male has a blue cap, orange chest, and white patches on its wings.",
+      "description_de": "Der Buchfink ist ein kleiner Singvogel mit buntem Gefieder. Das Männchen hat eine blaue Kappe, eine orangefarbene Brust und weiße Flecken auf den Flügeln.",
+      "description_pl": "Zięba zwyczajna to mały ptak śpiewający o kolorowym upierzeniu. Samiec ma niebieską czapeczkę, pomarańczową pierś i białe plamy na skrzydłach."
+    },
+    {
+      "id": 32,
+      "name_cs": "Vrabec domácí",
+      "name_eng": "House Sparrow",
+      "name_de": "Haussperling",
+      "name_pl": "Wróbel zwyczajny",
+      "latin_name": "Passer domesticus",
+      "images": [
+        "obrazky/birds/passer_domesticus_1.jpg",
+        "obrazky/birds/passer_domesticus_2.jpg"
+      ],
+      "image_credits": {
+        "passer_domesticus_1.jpg": "By Rhododendrites - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=125462845",
+        "passer_domesticus_2.jpg": "By J.M.Garg - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2878360"
+      },
+      "description_cs": "Vrabec domácí je malý pták s hnědým a šedým peřím. Samec má černou skvrnu na hrudi a šedou čepičku na hlavě.",
+      "description_eng": "The House Sparrow is a small bird with brown and gray plumage. The male has a black patch on its chest and a gray cap on its head.",
+      "description_de": "Der Haussperling ist ein kleiner Vogel mit braunem und grauem Gefieder. Das Männchen hat einen schwarzen Fleck auf der Brust und eine  graue Kappe auf dem Kopf.",
+      "description_pl": "Wróbel zwyczajny to mały ptak o brązowo-szarym upierzeniu. Samiec ma czarną plamę na piersi i szarą czapeczkę na głowie."
+    },
+    {
+      "id": 33,
+      "name_cs": "Straka obecná",
+      "name_eng": "Eurasian Magpie",
+      "name_de": "Elster",
+      "name_pl": "Sroka zwyczajna",
+      "latin_name": "Pica pica",
+      "images": [
+        "obrazky/birds/pica_pica_1.jpg",
+        "obrazky/birds/pica_pica_2.jpg"
+      ],
+      "image_credits": {
+        "pica_pica_1.jpg": "Autor: Alexis Lours – Vlastní dílo, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=119074862",
+        "pica_pica_2.jpg": "Autor: Benutzer123 na projektu Wikipedia v jazyce němčina (Původní text: Benutzer123 @ de.wikipedia.org) – Na Commons přeneseno z de.wikipedia (Původní text: selbst), Volné dílo, https://commons.wikimedia.org/w/index.php?curid=1932976"
+      },
+      "description_cs": "Straka obecná je středně velký černobílý pták s dlouhým ocasem. Má lesklé peří a je známá svou inteligencí a schopností napodobovat zvuky.",
+      "description_eng": "The Eurasian Magpie is a medium-sized black and white bird with a long tail. It has glossy feathers and is known for its intelligence and ability to mimic sounds.",
+      "description_de": "Die Elster ist ein mittelgroßer schwarz-weißer Vogel mit langem Schwanz. Sie hat glänzendes Gefieder und ist bekannt für ihre Intelligenz und ihre Fähigkeit, Geräusche zu imitieren.",
+      "description_pl": "Sroka zwyczajna to średniej wielkości czarno-biały ptak o długim ogonie. Ma błyszczące pióra i znana jest ze swojej inteligencji oraz zdolności do naśladowania dźwięků."
+    },
+    {
+      "id": 34,
+      "name_cs": "Žluna zelená",
+      "name_eng": "European Green Woodpecker",
+      "name_de": "Grünspecht",
+      "name_pl": "Dzięcioł zielony",
+      "latin_name": "Picus viridis",
+      "images": [
+        "obrazky/birds/picus_viridis_1.jpg",
+        "obrazky/birds/picus_viridis_2.jpg"
+      ],
+      "image_credits": {
+        "picus_viridis_1.jpg": "Autor: Charles J Sharp – Praca własna, from Sharp Photography, sharpphotography, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=39798361",
+        "picus_viridis_2.jpg": "Par Luis García, CC BY-SA 3.0 es, https://commons.wikimedia.org/w/index.php?curid=24848509"
+      },
+      "description_cs": "Žluna zelená je středně velký datel s jasně zeleným peřím a červenou čepičkou na hlavě. Je známá svým hlasitým a charakteristickým zvukem.",
+      "description_eng": "The European Green Woodpecker is a medium-sized woodpecker with bright green plumage and a red cap on its head. It is known for its loud and distinctive call.",
+      "description_de": "Der Grünspecht ist ein mittelgroßer Specht mit leuchtend grünem Gefieder und einer roten Kappe auf dem Kopf. Er ist bekannt für seinen lauten und charakteristischen Ruf.",
+      "description_pl": "Dzięcioł zielony to średniej wielkości dzięcioł o jaskrawozielonym upierzeniu i czerwonej czapce na głowie. Znany jest ze swojego głośnego i charakterystycznego głosu."
+    },
+    {
+      "id": 35,
+      "name_cs": "Rákosník obecný",
+      "name_eng": "Sand Martin",
+      "name_de": "Uferschwalbe",
+      "name_pl": "Brzegówka zwyczajna",
+      "latin_name": "Riparia riparia",
+      "images": [
+        "obrazky/birds/riparia_riparia_1.jpg",
+        "obrazky/birds/riparia_riparia_2.jpg"
+      ],
+      "image_credits": {
+        "riparia_riparia_1.jpg": "Autor: Charles J. Sharp – Vlastní dílo, from Sharp Photography, sharpphotography.co.uk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=122771123",
+        "riparia_riparia_2.jpg": "Autor: Dûrzan cîrano – Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10290907"
+      },
+      "description_cs": "Rákosník obecný je malý pták s hnědým a bílým peřím. Má štíhlé tělo a dlouhé špičaté křídla, která mu umožňují rychlý let nad vodními plochami.",
+      "description_eng": "The Sand Martin is a small bird with brown and white plumage. It has a slender body and long pointed wings that allow it to fly quickly over water bodies.",
+      "description_de": "Die Uferschwalbe ist ein kleiner Vogel mit braunem und weißem Gefieder. Sie hat einen schlanken Körper und lange spitze Flügel, die ihr schnelles Fliegen über Gewässer ermöglichen.",
+      "description_pl": "Brzegówka zwyczajna to mały ptak o brązowo-białym upierzeniu. Ma smukłe ciało i długie spiczaste skrzydła, które pozwalają mu szybko latać nad zbiornikami wodnymi."
+    },
+    {
+      "id": 36,
+      "name_cs": "Brhlík lesní",
+      "name_eng": "Eurasian Nuthatch",
+      "name_de": "Kleiber",
+      "name_pl": "Kowalik zwyczajny",
+      "latin_name": "Sitta europaea",
+      "images": [
+        "obrazky/birds/sitta_europaea_1.jpg",
+        "obrazky/birds/sitta_europaea_2.jpg"
+      ],
+      "image_credits": {
+        "sitta_europaea_1.jpg": "Autor: Frank Vassen from Brussels, Belgium - Eurasian Nuthatch (Sitta europaea), Parc de Woluwé, Brussels, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=62042964",
+        "sitta_europaea_2.jpg": "Autor: Ron Vipond – Nuthatch ( In Explore 19-12-2015 ), CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=92758876"
+      },
+      "description_cs": "Brhlík lesní je malý pták s modrošedým peřím na zádech a oranžovým břichem. Je známý svou schopností pohybovat se hlavou dolů po kmenech stromů.",
+      "description_eng": "The Eurasian Nuthatch is a small bird with blue-gray feathers on its back and an orange belly. It is known for its ability to move headfirst down tree trunks.",
+      "description_de": "Der Kleiber ist ein kleiner Vogel mit blaugrauem Gefieder auf dem Rücken und einem orangefarbenen Bauch. Er ist bekannt für seine Fähigkeit, kopfüber an Baumstämmen zu klettern.",
+      "description_pl": "Kowalik zwyczajny to mały ptak o niebiesko-szarym upierzeniu na grzbiecie i pomarańczowym brzuchu. Znany jest ze swojej zdolności poruszania się głową w dół po pniach drzew."
+    },
+    {
+      "id": 37,
+      "name_cs": "Stehlík obecný",
+      "name_eng": "European Goldfinch",
+      "name_de": "Stieglitz",
+      "name_pl": "Szczygieł zwyczajny",
+      "latin_name": "Carduelis carduelis",
+      "images": [
+        "obrazky/birds/spinus_spinus_1.jpg",
+        "obrazky/birds/spinus_spinus_2.jpg"
+      ],
+      "image_credits": {
+        "spinus_spinus_1.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1761205",
+        "spinus_spinus_2.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1772216"
+      },
+      "description_cs": "Stehlík obecný je malý zpěvný pták s výrazným červeným obličejem, černobílými křídly a žlutým pruhem na křídlech. Je známý svým melodickým zpěvem.",
+      "description_eng": "The European Goldfinch is a small songbird with a distinctive red face, black and white wings, and a yellow wing bar. It is known for its melodic song.",
+      "description_de": "Der Stieglitz ist ein kleiner Singvogel mit einem markanten roten Gesicht, schwarz-weißen Flügeln und einem gelben Flügelbalken. Er ist bekannt für seinen melodischen Gesang.",
+      "description_pl": "Szczygieł zwyczajny to mały ptak śpiewający z charakterystyczną czerwoną twarzą, czarno-białymi skrzydłami i żółtym paskiem na skrzydłach. Znany jest ze swojego melodyjnego śpiewu."
+    },
+    {
+      "id": 38,
+      "name_cs": "Hrdlička zahradní",
+      "name_eng": "Eurasian Collared Dove",
+      "name_de": "Türkentaube",
+      "name_pl": "Gołąb grzywacz",
+      "latin_name": "Streptopelia decaocto",
+      "images": [
+        "obrazky/birds/streptopelia_decaocto_1.jpg",
+        "obrazky/birds/streptopelia_decaocto_2.jpg"
+      ],
+      "image_credits": {
+        "streptopelia_decaocto_1.jpg": "By Andreas Trepte - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=6530700",
+        "streptopelia_decaocto_2.jpg": "Autor: Yaroslav Kontsevoy – Vlastní dílo, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4371640"
+      },
+      "description_cs": "Hrdlička zahradní je středně velký pták s šedohnědým peřím a charakteristickým černým límcem na krku. Často se vyskytuje v městských a venkovských oblastech.",
+      "description_eng": "The Eurasian Collared Dove is a medium-sized bird with gray-brown plumage and a distinctive black collar on its neck. It is commonly found in urban and rural areas.",
+      "description_de": "Die Türkentaube ist ein mittelgroßer Vogel mit graubraunem Gefieder und einem charakteristischen schwarzen Kragen am Hals. Sie ist häufig in städtischen und ländlichen Gebieten anzutreffen.",
+      "description_pl": "Gołąb grzywacz to średniej wielkości ptak o szarobrązowym upierzeniu i charakterystycznym czarnym kołnierzu na szyi. Często  występuje na obszarach miejskich i wiejskich."
+    },
+    {
+      "id": 39,
+      "name_cs": "Špaček obecný",
+      "name_eng": "Common Starling",
+      "name_de": "Star",
+      "name_pl": "Szpak zwyczajny",
+      "latin_name": "Sturnus vulgaris",
+      "images": [
+        "obrazky/birds/sturnus_vulgaris_1.jpg",
+        "obrazky/birds/sturnus_vulgaris_2.jpg"
+      ],
+      "image_credits": {
+        "sturnus_vulgaris_1.jpg": "Autor: Marek Szczepanek – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12866593",
+        "sturnus_vulgaris_2.jpg": "Von © Frank Schulenburg, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=126243768"
+      },
+      "description_cs": "Špaček obecný je středně velký pták s lesklým černým peřím, které má fialové a zelené odlesky. Je známý svou schopností napodobovat zvuky a vytvářet velká hejna.",
+      "description_eng": "The Common Starling is a medium-sized bird with glossy black plumage that has purple and green iridescence. It is known for its ability to mimic sounds and form large flocks.",
+      "description_de": "Der Star ist ein mittelgroßer Vogel mit glänzend schwarzem Gefieder, das violette und grüne Schimmer aufweist. Er ist bekannt für seine Fähigkeit, Geräusche zu imitieren und große Schwärme zu bilden.",
+      "description_pl": "Szpak zwyczajny to średniej wielkości ptak o błyszczącym czarnym upierzeniu z fioletowymi i zielonymi refleksami. Znany jest ze swojej zdolności do naśladowania dźwięków i tworzenia dużych stad."
+    },
+    {
+      "id": 40,
+      "name_cs": "Šedý drozd",
+      "name_eng": "Fieldfare",
+      "name_de": "Wacholderdrossel",
+      "name_pl": "Kwiczoł",
+      "latin_name": "Turdus pilaris",
+      "images": [
+        "obrazky/birds/turdus_pilaris_1.jpg",
+        "obrazky/birds/turdus_pilaris_2.jpg"
+      ],
+      "image_credits": {
+        "turdus_pilaris_1.jpg": "Von Arnstein Rønning - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14936065",
+        "turdus_pilaris_2.jpg": "By Bengt Nyman from Vaxholm, Sweden - Turdus pilaris EM1B9020, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=59268209"
+      },
+      "description_cs": "Šedý drozd je středně velký pták s šedým hřbetem, rezavým ocasem a bílým břichem s černými skvrnami. Často se vyskytuje v lesích a parcích.",
+      "description_eng": "The Fieldfare is a medium-sized bird with a grey back, rusty tail, and white belly with black spots. It is often found in forests and parks.",
+      "description_de": "Die Wacholderdrossel ist ein mittelgroßer Vogel mit grauem Rücken, rostigem Schwanz und weißem Bauch mit schwarzen Flecken. Sie kommt häufig in Wäldern und Parks vor.",
+      "description_pl": "Kwiczoł to średniej wielkości ptak o szarym grzbiecie, rdzawym ogonie i białym brzuchu z czarnymi plamami. Często występuje w lasach i parkach."
+    },
+    {
+      "id": 41,
+      "name_cs": "Skřivan polní",
+      "name_eng": "Eurasian Skylark",
+      "name_de": "Feldlerche",
+      "name_pl": "Skowronek polny",
+      "latin_name": "Alauda arvensis",
+      "images": [
+        "obrazky/birds/alauda_arvensis_1.jpg",
+        "obrazky/birds/alauda_arvensis_2.jpg"
+      ],
+      "image_credits": {
+        "alauda_arvensis_1.jpg": "Autor: Neil Smith – Flickr, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=35142689",
+        "alauda_arvensis_2.jpg": "Autor: User:Diliff – Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7209988"
+      },
+      "description_cs": "Skřivan polní je malý zpěvný pták s hnědým a béžovým peřím, které mu poskytuje vynikající kamufláž v travnatém prostředí. Je známý svým melodickým zpěvem během letu.",
+      "description_eng": "The Eurasian Skylark is a small songbird with brown and beige plumage that provides excellent camouflage in grassy environments. It is known for its melodic song during flight.",
+      "description_de": "Die Feldlerche ist ein kleiner Singvogel mit braunem und beigem Gefieder, das eine hervorragende Tarnung in grasbewachsenen Umgebungen bietet. Sie ist bekannt für ihren melodischen Gesang während des Fluges.",
+      "description_pl": "Skowronek polny to mały ptak śpiewający o brązowym i beżowym upierzeniu, które zapewnia doskonały kamuflaż w trawiastym środowisku. Znany jest ze swojego melodyjnego śpiewu podczas lotu."
+    },
+    {
+      "id": 42,
+      "name_cs": "Ledňáček říční",
+      "name_eng": "Common Kingfisher",
+      "name_de": "Eisvogel",
+      "name_pl": "Zimorodek zwyczajny",
+      "latin_name": "Alcedo atthis",
+      "images": [
+        "obrazky/birds/alcedo_atthis_1.jpg",
+        "obrazky/birds/alcedo_atthis_2.jpg"
+      ],
+      "image_credits": {
+        "alcedo_atthis_1.jpg": "Autor: Andreas Trepte – Vlastní dílo, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=29351592",
+        "alcedo_atthis_2.jpg": "Autor: Skot – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=149445393"
+      },
+      "description_cs": "Ledňáček říční je malý pták s jasně modrým a oranžovým peřím, který je často vidět poblíž řek a jezer. Je známý svým rychlým letem a schopností lovit ryby.",
+      "description_eng": "The Common Kingfisher is a small bird with bright blue and orange plumage, often seen near rivers and lakes. It is known for its rapid flight and ability to catch fish.",
+      "description_de": "Der Eisvogel ist ein kleiner Vogel mit leuchtend blauem und orangefarbenem Gefieder, der oft in der Nähe von Flüssen und Seen zu sehen ist. Er ist bekannt für seinen schnellen Flug und seine Fähigkeit, Fische zu fangen.",
+      "description_pl": "Zimorodek zwyczajny to mały ptak o jaskrawoniebieskim i pomarańczowym upierzeniu, często widywany w pobliżu rzek i jezior. Znany jest ze swojego szybkiego lotu i zdolności do łowienia ryb."
+    },
+    {
+      "id": 43,
+      "name_cs": "Kalous ušatý",
+      "name_eng": "Long-eared Owl",
+      "name_de": "Waldohreule",
+      "name_pl": "Uszatka zwyczajna",
+      "latin_name": "Asio otus",
+      "images": [
+        "obrazky/birds/asio_otus_1.jpg",
+        "obrazky/birds/asio_otus_2.jpg"
+      ],
+      "image_credits": {
+        "asio_otus_1.jpg": "By Francesco Veronesi from Italy - Long-eared Owl - Kisjuszallas - Hungary_S4E0920, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=39977981",
+        "asio_otus_2.jpg": "By Gregory \"Greg\" Smith - originally posted to Flickr as Long-eared Owl - Asio otus, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=9041098"
+      },
+      "description_cs": "Kalous ušatý je středně velká sova s charakteristickými dlouhými ušními štěty. Má hnědé a béžové peří, které mu pomáhá splynout s lesním prostředím. Je aktivní především v noci.",
+      "description_eng": "The Long-eared Owl is a medium-sized owl with distinctive long ear tufts. It has brown and beige plumage that helps it blend into forest environments. It is primarily active at night.",
+      "description_de": "Die Waldohreule ist eine mittelgroße Eule mit charakteristischen langen Ohrbüscheln. Sie hat braunes und beiges Gefieder, das ihr hilft, sich in Waldumgebungen zu tarnen. Sie ist hauptsächlich nachtaktiv.",
+      "description_pl": "Uszatka zwyczajna to średniej wielkości sowa z charakterystycznymi długimi pędzelkami usznymi. Ma brązowe i beżowe upierzenie, które pomaga jej wtopić się w leśne środowisko. Jest aktywna głównie w nocy."
+    },
+    {
+      "id": 44,
+      "name_cs": "Zvonek zelený",
+      "name_eng": "European Greenfinch",
+      "name_de": "Grünfink",
+      "name_pl": "Dzwoniec zwyczajny",
+      "latin_name": "Chloris chloris",
+      "images": [
+        "obrazky/birds/chloris_chloris_1.jpg",
+        "obrazky/birds/chloris_chloris_2.jpg"
+      ],
+      "image_credits": {
+        "chloris_chloris_1.jpg": "Autor: Martin Kunz – Fotografie je vlastním dílem, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=80952768",
+        "chloris_chloris_2.jpg": "Par © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=32648752"
+      },
+      "description_cs": "Zvonek zelený je malý zpěvný pták s jasně zeleným peřím a žlutými skvrnami na křídlech. Je známý svým melodickým zpěvem a častým výskytem v zahradách a parcích.",
+      "description_eng": "The European Greenfinch is a small songbird with bright green plumage and yellow patches on its wings. It is known for its melodic song and frequent presence in gardens and parks.",
+      "description_de": "Der Grünfink ist ein kleiner Singvogel mit leuchtend grünem Gefieder und gelben Flecken auf den Flügeln. Er ist bekannt für seinen melodischen Gesang und sein häufiges Vorkommen in Gärten und Parks.",
+      "description_pl": "Dzwoniec zwyczajny to mały ptak śpiewający o jaskrawozielonym upierzeniu i żółtych plamach na skrzydłach. Znany jest ze swojego melodyjnego śpiewu i częstego występowania w ogrodach i parkach."
     }
   ]
 }
