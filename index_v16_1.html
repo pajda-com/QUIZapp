@@ -153,6 +153,66 @@
             visibility: visible;
         }
 
+        /* CREDIT IKONA A TOOLTIP */
+        .credit-icon {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: help;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            padding: 5px;
+            transition: all 0.3s;
+            border: 2px solid #666;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #666;
+            z-index: 10;
+        }
+
+        .credit-icon:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transform: scale(1.1);
+            border-color: #333;
+            color: #333;
+        }
+
+        .credit-tooltip {
+            visibility: hidden;
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            background-color: #333;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            width: 300px;
+            max-width: 80vw;
+            z-index: 100;
+            font-size: 12px;
+            line-height: 1.3;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .credit-tooltip::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 15px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
+        }
+
+        .credit-icon:hover + .credit-tooltip {
+            visibility: visible;
+        }
+
         /* MOŽNOSTI ODPOVĚDÍ */
         .options {
             display: grid;
@@ -440,8 +500,6 @@
         
         <!-- MENU VÝBĚRU KVIZU -->
         <div id="quizMenu">
-            
-
 
             <!-- VÝBĚR JAZYKA -->
             <div class="language-selector">
@@ -490,8 +548,14 @@
             
             <div class="quiz-container">
                 <img id="quizImage" class="quiz-image" src="" alt="Obrázek">
-                <div class="hint-icon" title="Nápověda">💡</div>
+                
+                <!-- Hint ikona (původní) -->
+                <div id="hintIcon" class="hint-icon" data-title="hintButton">💡</div>
                 <div id="hintTooltip" class="hint-tooltip"></div>
+                
+                <!-- Nová ikona pro informace o fotce -->
+                <div id="creditIcon" class="credit-icon" data-title="photoCredit">ℹ️</div>
+                <div id="creditTooltip" class="credit-tooltip"></div>
             </div>
             
             <div class="options">
@@ -589,25 +653,25 @@
             return translations[currentLanguage][key] || translations['cs'][key] || key;
         }
 
-function getNameField() {
-    const fields = {
-        'cs': 'name_cs',
-        'en': 'name_eng', 
-        'de': 'name_de',
-        'pl': 'name_pl'
-    };
-    return fields[currentLanguage] || 'name_eng';
-}
+        function getNameField() {
+            const fields = {
+                'cs': 'name_cs',
+                'en': 'name_eng', 
+                'de': 'name_de',
+                'pl': 'name_pl'
+            };
+            return fields[currentLanguage] || 'name_eng';
+        }
 
-function getDescriptionField() {
-    const fields = {
-        'cs': 'description_cs',
-        'en': 'description_eng',
-        'de': 'description_de',
-        'pl': 'description_pl'
-    };
-    return fields[currentLanguage] || 'description_eng';
-}
+        function getDescriptionField() {
+            const fields = {
+                'cs': 'description_cs',
+                'en': 'description_eng',
+                'de': 'description_de',
+                'pl': 'description_pl'
+            };
+            return fields[currentLanguage] || 'description_eng';
+        }
 
         // Funkce pro přenačtení kvízu s novým jazykem
         function reloadQuizWithNewLanguage() {
@@ -655,8 +719,20 @@ function getDescriptionField() {
                 document.getElementById('option' + i).textContent = getText('loading');
             }
             
+            // AKTUALIZACE TITULKŮ IKON
+            const hintIcon = document.getElementById('hintIcon');
+            const creditIcon = document.getElementById('creditIcon');
+            
+            if (hintIcon) {
+                hintIcon.title = getText('hintButton');
+            }
+            if (creditIcon) {
+                creditIcon.title = getText('photoCredit');
+            }
+            
             updateStats();
-                // Aktualizuj text tlačítka tématu
+            
+            // Aktualizuj text tlačítka tématu
             const themeToggle = document.getElementById('themeToggle');
             if (themeToggle) {
                 themeToggle.title = currentTheme === 'light' ? getText('darkMode') : getText('lightMode');
@@ -911,40 +987,61 @@ function getDescriptionField() {
             return newArray;
         }
 
-        function loadItem() {
-            if (quizData.length === 0 || currentItemIndex === -1) return;
-            
-            const item = quizData[currentItemIndex];
-            const images = item[currentQuiz.imageField];
-            
-            let randomImage;
-            if (Array.isArray(images)) {
-                if (images.length === 0) {
-                    console.error(`Žádné obrázky pro: ${item[currentQuiz.nameField]}`);
-                    randomImage = "placeholder.jpg";
-                } else {
-                    randomImage = images[Math.floor(Math.random() * images.length)];
-                }
-            } else {
-                randomImage = images;
-            }
-            
-            document.getElementById('quizImage').src = randomImage;
-            document.getElementById('quizImage').alt = item[currentQuiz.nameField];
-            
-            const hint = item[currentQuiz.hintField];
-            document.getElementById('hintTooltip').textContent = hint || getText('hintNotAvailable');
-            
-            const randomOptions = getRandomOptions(item);
-            const buttons = document.querySelectorAll('.options button');
-            randomOptions.forEach((option, index) => {
-                buttons[index].innerHTML = option.displayText;
-                buttons[index].dataset.itemName = option.itemName;
-            });
-            
-            item.currentCorrectIndex = randomOptions.findIndex(opt => opt.isCorrect);
-            updateStats();
+function loadItem() {
+    if (quizData.length === 0 || currentItemIndex === -1) return;
+    
+    const item = quizData[currentItemIndex];
+    const images = item[currentQuiz.imageField];
+    
+    let randomImage;
+    if (Array.isArray(images)) {
+        if (images.length === 0) {
+            console.error(`Žádné obrázky pro: ${item[currentQuiz.nameField]}`);
+            randomImage = "placeholder.jpg";
+        } else {
+            randomImage = images[Math.floor(Math.random() * images.length)];
         }
+    } else {
+        randomImage = images;
+    }
+    
+    document.getElementById('quizImage').src = randomImage;
+    document.getElementById('quizImage').alt = item[currentQuiz.nameField];
+    
+    // Naplnit hint (původní funkce)
+    const hint = item[currentQuiz.hintField];
+    document.getElementById('hintTooltip').textContent = hint || getText('hintNotAvailable');
+    
+    // NAČÍST A NASTAVIT CREDIT INFORMACE
+    const creditInfo = getImageCredit(item, randomImage);
+    document.getElementById('creditTooltip').textContent = creditInfo;
+    
+    const randomOptions = getRandomOptions(item);
+    const buttons = document.querySelectorAll('.options button');
+    randomOptions.forEach((option, index) => {
+        buttons[index].innerHTML = option.displayText;
+        buttons[index].dataset.itemName = option.itemName;
+    });
+    
+    item.currentCorrectIndex = randomOptions.findIndex(opt => opt.isCorrect);
+    updateStats();
+}
+
+// NOVÁ FUNKCE: Získat licenční informace pro obrázek
+function getImageCredit(item, imagePath) {
+    if (!item.image_credits) {
+        return getText('creditNotAvailable');
+    }
+    
+    // Extrahovat název souboru z cesty
+    const fileName = imagePath.split('/').pop();
+    
+    if (item.image_credits[fileName]) {
+        return item.image_credits[fileName];
+    } else {
+        return getText('creditNotAvailable');
+    }
+}
 
         function getNextRandomItem() {
             if (remainingItems.length === 0) return -1;
