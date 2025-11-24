@@ -400,7 +400,7 @@
     {
       "id": 17,
       "groups": ["vodni_ptaci"],
-      "name_cs": "Labut velká",
+      "name_cs": "Labuť velká",
       "name_eng": "Mute Swan",
       "name_de": "Höckerschwan",
       "name_pl": "Łabędź niemy",
@@ -413,7 +413,7 @@
         "cygnus_olor_1.jpg": "Autor: Sanchezn – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3019282",
         "cygnus_olor_2.jpg": "Volné dílo, https://commons.wikimedia.org/w/index.php?curid=749407"
       },
-      "description_cs": "Labut velká je velký bílý pták s dlouhým krkem a oranžovým zobákem s černou skvrnou u základu. Je známá svou elegantní plavbou po vodě.",
+      "description_cs": "Labuť velká je velký bílý pták s dlouhým krkem a oranžovým zobákem s černou skvrnou u základu. Je známá svou elegantní plavbou po vodě.",
       "description_eng": "The Mute Swan is a large white bird with a long neck and an orange beak with a black spot at the base. It is known for its graceful swimming on water.",
       "description_de": "Der Höckerschwan ist ein großer weißer Vogel mit langem Hals und einem orangefarbenen Schnabel mit einem schwarzen Fleck an der Basis. Er ist bekannt für sein anmutiges Schwimmen auf dem Wasser.",
       "description_pl": "Łabędź niemy to duży biały ptak o długiej szyi i pomarańczowym dziobie z czarną plamą u podstawy. Znany jest ze swojego eleganckiego pływania po wodzie."
@@ -778,7 +778,7 @@
     {
       "id": 35,
       "groups": ["pevci"],
-      "name_cs": "Rákosník obecný",
+      "name_cs": "Břehule říční",
       "name_eng": "Sand Martin",
       "name_de": "Uferschwalbe",
       "name_pl": "Brzegówka zwyczajna",
@@ -791,7 +791,7 @@
         "riparia_riparia_1.jpg": "Autor: Charles J. Sharp – Vlastní dílo, from Sharp Photography, sharpphotography.co.uk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=122771123",
         "riparia_riparia_2.jpg": "Autor: Dûrzan cîrano – Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10290907"
       },
-      "description_cs": "Rákosník obecný je malý pták s hnědým a bílým peřím. Má štíhlé tělo a dlouhé špičaté křídla, která mu umožňují rychlý let nad vodními plochami.",
+      "description_cs": "Břehule říční je malý pták s hnědým a bílým peřím. Má štíhlé tělo a dlouhé špičaté křídla, která mu umožňují rychlý let nad vodními plochami.",
       "description_eng": "The Sand Martin is a small bird with brown and white plumage. It has a slender body and long pointed wings that allow it to fly quickly over water bodies.",
       "description_de": "Die Uferschwalbe ist ein kleiner Vogel mit braunem und weißem Gefieder. Sie hat einen schlanken Körper und lange spitze Flügel, die ihr schnelles Fliegen über Gewässer ermöglichen.",
       "description_pl": "Brzegówka zwyczajna to mały ptak o brązowo-białym upierzeniu. Ma smukłe ciało i długie spiczaste skrzydła, które pozwalają mu szybko latać nad zbiornikami wodnymi."
