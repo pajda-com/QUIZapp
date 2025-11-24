@@ -517,6 +517,65 @@
             background-color: var(--score-bg);
             transform: scale(1.1);
         }
+
+        /* STYLY PRO VÝBĚR SKUPIN */
+        .group-selection-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            z-index: 100;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .group-selection-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px var(--shadow);
+            text-align: center;
+        }
+
+        .group-buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .group-buttons-container button {
+            padding: 18px 25px;
+            font-size: 16px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px var(--shadow);
+        }
+
+        .group-buttons-container button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px var(--shadow);
+        }
+
+        .group-selection-footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
     </style>
 </head>
 <body>
@@ -537,7 +596,6 @@
         
         <!-- MENU VÝBĚRU KVIZU -->
         <div id="quizMenu">
-
             <!-- VÝBĚR JAZYKA -->
             <div class="language-selector">
                 <button class="language-button active" onclick="changeLanguage('cs')">Česky</button>
@@ -573,6 +631,21 @@
                 <button onclick="startQuiz('flowers')" class="quiz-button" id="flowersQuizButton">🌼 Poznávej květiny</button>
             </div>
             <p style="color: #666; font-style: italic;" id="moreQuizzesText">Více kvízů připravujeme...</p>
+        </div>
+
+        <!-- VÝBĚR SKUPIN -->
+        <div id="groupSelection" class="group-selection-container">
+            <div class="group-selection-content">
+                <h3 id="selectGroup">Vyber skupinu:</h3>
+                <div id="groupButtons" class="group-buttons-container">
+                    <!-- Tlačítka skupin se vygenerují dynamicky -->
+                </div>
+                <div class="group-selection-footer">
+                    <button onclick="returnToQuizMenu()" class="menu-button">
+                        ← Zpět na výběr kvízu
+                    </button>
+                </div>
+            </div>
         </div>
 
         <!-- UNIVERZÁLNÍ KVIZOVÁ PLOCHA -->
@@ -623,7 +696,8 @@
                 imageField: 'images',
                 nameField: 'name', // Bude dynamicky upraveno podle jazyka
                 scientificField: 'latin_name',
-                hintField: 'description' // Bude dynamicky upraveno podle jazyka
+                hintField: 'description', // Bude dynamicky upraveno podle jazyka
+                groupField: 'group'
             },
             'flowers': {
                 titleKey: 'flowersQuiz',
@@ -631,7 +705,8 @@
                 imageField: 'images', 
                 nameField: 'name', // Bude dynamicky upraveno podle jazyka
                 scientificField: 'latin_name',
-                hintField: 'description' // Bude dynamicky upraveno podle jazyka
+                hintField: 'description', // Bude dynamicky upraveno podle jazyka
+                groupField: 'group'
             }
         };
 
@@ -647,6 +722,7 @@
         let currentQuizMaxQuestions = 200;
         let currentLanguage = 'cs';
         let translations = {};
+        let currentGroup = null;
 
         // ==================== NAČTENÍ PŘEKLADŮ ====================
         function loadTranslations() {
@@ -686,6 +762,12 @@
             // Pokud je aktivní kvíz, načíst data znovu s novým jazykem
             if (currentQuiz) {
                 reloadQuizWithNewLanguage();
+            }
+            
+            // Pokud je zobrazen výběr skupin, aktualizovat skupiny
+            const groupSelection = document.getElementById('groupSelection');
+            if (groupSelection.style.display === 'block') {
+                loadQuizDataForGroupSelection();
             }
         }
 
@@ -759,19 +841,28 @@
                 document.getElementById('option' + i).textContent = getText('loading');
             }
             
+            // Aktualizace tlačítka zpět ve výběru skupin
+            const backButton = document.querySelector('.group-selection-footer .menu-button');
+            if (backButton) {
+                backButton.textContent = getText('returnToQuizSelection');
+            }
+
             // AKTUALIZACE TITULKŮ IKON
             const hintIcon = document.getElementById('hintIcon');
             const creditIcon = document.getElementById('creditIcon');
-            
+                    
             if (hintIcon) {
                 hintIcon.title = getText('hintButton');
             }
             if (creditIcon) {
                 creditIcon.title = getText('photoCredit');
             }
-            
+                    
+            // Aktualizace výběru skupin
+            document.getElementById('selectGroup').textContent = getText('selectGroup');
+                    
             updateStats();
-            
+                    
             // Aktualizuj text tlačítka tématu
             const themeToggle = document.getElementById('themeToggle');
             if (themeToggle) {
@@ -779,8 +870,6 @@
             }
         }
         
-
-
         // ==================== SPRÁVA TÉMAT ====================
         let currentTheme = 'light';
 
@@ -996,7 +1085,7 @@
             }
         });
 
-        // ==================== UNIVERZÁLNÍ KVIZOVÉ FUNKCE ====================
+        // ==================== FUNKCE PRO SKUPINY ====================
         function startQuiz(quizType) {
             console.log('Start kvízu:', quizType);
             
@@ -1020,34 +1109,23 @@
             currentQuiz.nameField = getNameField();
             currentQuiz.hintField = getDescriptionField();
 
-            // Skrýt menu, zobrazit kvíz
+            // Skrýt menu, zobrazit výběr skupin
             document.getElementById('quizMenu').style.display = 'none';
             document.getElementById('quizResults').style.display = 'none';
-            document.getElementById('quizArea').style.display = 'block';
-            document.getElementById('quizTitle').textContent = getText(currentQuiz.titleKey);
+            document.getElementById('quizArea').style.display = 'none';
+            document.getElementById('groupSelection').style.display = 'block';
 
-            // Načíst data
-            loadQuizData();
+            // Načíst data pro zobrazení skupin
+            loadQuizDataForGroupSelection();
         }
 
-        function resetQuizState() {
-            console.log('Resetuji stav kvízu');
-            quizData = [];
-            currentItemIndex = 0;
-            score = 0;
-            totalQuestions = 0;
-            allItemNames = [];
-            remainingItems = [];
-        }
-
-        function loadQuizData() {
+        function loadQuizDataForGroupSelection() {
             if (!currentQuiz) {
                 console.error('currentQuiz je null');
                 return;
             }
 
-            console.log('Načítám data z:', currentQuiz.dataFile);
-            console.log('Používám jazyková pole:', currentQuiz.nameField, currentQuiz.hintField);
+            console.log('Načítám data pro výběr skupin z:', currentQuiz.dataFile);
             
             fetch(currentQuiz.dataFile)
                 .then(response => {
@@ -1055,11 +1133,134 @@
                     return response.json();
                 })
                 .then(data => {
-                    console.log('Data úspěšně načtena');
+                    console.log('Data úspěšně načtena pro výběr skupin', data);
                     
                     const metadata = data.metadata;
-                    let itemsArray;
+                    if (!metadata || !metadata.quizGroups) {
+                        console.error('Chybí metadata nebo quizGroups v JSONu');
+                        document.getElementById('groupButtons').innerHTML = '<p style="color: red;">❌ Chyba: Špatná struktura JSON souboru</p>';
+                        return;
+                    }
                     
+                    const groups = metadata.quizGroups;
+                    
+                    // Získat pole položek pro kontrolu počtu
+                    const possibleKeys = Object.keys(data).filter(key => key !== 'metadata');
+                    let itemsArray;
+                    if (possibleKeys.length > 0) {
+                        itemsArray = data[possibleKeys[0]]; // birds, flowers, atd.
+                    } else {
+                        itemsArray = data.items || data.birds || data;
+                    }
+                    
+                    console.log('Načteno položek:', itemsArray.length);
+                    
+                    // Vytvořit tlačítka skupin
+                    createGroupButtons(groups, itemsArray);
+                })
+                .catch(error => {
+                    console.error('Chyba při načítání dat:', error);
+                    document.getElementById('groupButtons').innerHTML = `<p style="color: red;">❌ Chyba: ${error.message}</p>`;
+                });
+        }
+
+        function createGroupButtons(groups, itemsArray) {
+            const groupButtonsContainer = document.getElementById('groupButtons');
+            groupButtonsContainer.innerHTML = '';
+            
+            console.log('Vytvářím tlačítka pro skupiny:', groups);
+            console.log('Celkem položek:', itemsArray.length);
+            
+            // POJISTKA: Zkontrolovat, zda máme dostatek položek pro skupiny
+            const validGroups = {};
+            
+            for (const [groupId, groupData] of Object.entries(groups)) {
+                // Získat název skupiny v aktuálním jazyce
+                const groupName = typeof groupData === 'object' ? 
+                    (groupData[currentLanguage] || groupData['cs'] || groupId) : 
+                    groupData;
+                    
+                const groupItems = itemsArray.filter(item => 
+                    item.groups && item.groups.includes(groupId)
+                );
+                console.log(`Skupina ${groupName} (${groupId}): ${groupItems.length} položek`);
+                
+                // POJISTKA: Zobrazit pouze skupiny s alespoň 4 položkami
+                if (groupItems.length >= 4) {
+                    validGroups[groupId] = groupName;
+                } else {
+                    console.warn(`Skupina ${groupName} má pouze ${groupItems.length} položek - přeskočena`);
+                }
+            }
+            
+            console.log('Validní skupiny:', validGroups);
+            
+            // Přidat tlačítko "Všechny položky" s překladem
+            const allItemsButton = document.createElement('button');
+            allItemsButton.textContent = getText('allItems') + ' (' + itemsArray.length + ')';
+            allItemsButton.onclick = () => startGroupQuiz(null);
+            groupButtonsContainer.appendChild(allItemsButton);
+            
+            // Přidat tlačítka pro jednotlivé skupiny
+            for (const [groupId, groupName] of Object.entries(validGroups)) {
+                const groupItems = itemsArray.filter(item => 
+                    item.groups && item.groups.includes(groupId)
+                );
+                const button = document.createElement('button');
+                button.textContent = `${groupName} (${groupItems.length})`;
+                button.onclick = () => startGroupQuiz(groupId);
+                groupButtonsContainer.appendChild(button);
+            }
+            
+            // Aktualizovat tlačítko zpět
+            const backButton = document.querySelector('.group-selection-footer .menu-button');
+            if (backButton) {
+                backButton.textContent = getText('returnToQuizSelection');
+            }
+            
+            // Pokud nejsou žádné validní skupiny, zobrazit zprávu
+            if (Object.keys(validGroups).length === 0) {
+                groupButtonsContainer.innerHTML = `<div style="text-align: center; padding: 30px;">
+                    <p style="color: #666; font-style: italic; margin-bottom: 20px;">
+                        Žádné skupiny s dostatečným počtem položek (minimálně 4)
+                    </p>
+                    <button onclick="startGroupQuiz(null)" style="padding: 15px 25px; font-size: 16px; background-color: var(--primary-color); color: white; border: none; border-radius: 10px; cursor: pointer;">
+                        ${getText('allItems')} (${itemsArray.length})
+                    </button>
+                </div>`;
+            }
+        }
+
+        function startGroupQuiz(groupId) {
+            currentGroup = groupId;
+            console.log(`Spouštím kvíz pro skupinu: ${groupId}`);
+            
+            // Skrýt výběr skupin, zobrazit kvíz
+            document.getElementById('groupSelection').style.display = 'none';
+            document.getElementById('quizArea').style.display = 'block';
+            document.getElementById('quizTitle').textContent = getText(currentQuiz.titleKey);
+            
+            // Načíst data pro kvíz s filtrací skupiny
+            loadQuizDataForQuiz();
+        }
+
+        function loadQuizDataForQuiz() {
+            if (!currentQuiz) {
+                console.error('currentQuiz je null');
+                return;
+            }
+
+            console.log('Načítám data pro kvíz s filtrací skupiny:', currentGroup);
+            
+            fetch(currentQuiz.dataFile)
+                .then(response => {
+                    if (!response.ok) throw new Error(`Soubor ${currentQuiz.dataFile} nebyl nalezen`);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Data úspěšně načtena pro kvíz');
+                    
+                    let itemsArray;
                     const possibleKeys = Object.keys(data).filter(key => key !== 'metadata');
                     if (possibleKeys.length > 0) {
                         itemsArray = data[possibleKeys[0]];
@@ -1067,7 +1268,29 @@
                         itemsArray = data.items || data.birds || data;
                     }
                     
-                    quizData = itemsArray;
+                    console.log('Celkem položek před filtrací:', itemsArray.length);
+                    
+                    // FILTRACE PODLE SKUPINY
+                    if (currentGroup !== null) {
+                        if (currentGroup !== null) {
+                            quizData = itemsArray.filter(item => 
+                                item.groups && item.groups.includes(currentGroup)
+                            );
+                        } else {
+                            quizData = itemsArray;
+                        }
+                        console.log(`Filtrováno na skupinu ${currentGroup}: ${quizData.length} položek`);
+                    } else {
+                        quizData = itemsArray; // Všechny položky
+                        console.log(`Používám všechny položky: ${quizData.length} položek`);
+                    }
+                    
+                    // POJISTKA: Pokud je méně než 4 položky, nelze spustit kvíz
+                    if (quizData.length < 4) {
+                        alert(`Pro tuto skupinu je k dispozici pouze ${quizData.length} položek. Kvíz vyžaduje alespoň 4 položky.`);
+                        returnToGroupSelection();
+                        return;
+                    }
                     
                     // Nastavit maximální počet otázek pro aktuální kvíz
                     currentQuizMaxQuestions = quizData.length;
@@ -1076,12 +1299,14 @@
                     if (maxQuestions === 'max') {
                         totalQuestions = currentQuizMaxQuestions;
                     } else {
-                        totalQuestions = Math.min(maxQuestions, 999); // Zvýšit maximum na 999
+                        totalQuestions = Math.min(maxQuestions, 999);
                     }
                     
                     allItemNames = quizData.map(item => item[currentQuiz.nameField]);
                     
-                    // NOVÁ LOGIKA: Vytvořit seznam otázek s opakováním pokud je potřeba
+                    console.log(`Spouštím kvíz s ${totalQuestions} otázkami`);
+                    
+                    // Vytvořit seznam otázek
                     remainingItems = createQuestionSet(totalQuestions, quizData);
                     
                     currentItemIndex = getNextRandomItem();
@@ -1093,73 +1318,28 @@
                 });
         }
 
-        // Vytvoří seznam otázek s opakováním pokud je potřeba
-        function createQuestionSet(requestedCount, availableItems) {
-            if (requestedCount <= availableItems.length) {
-                // Pokud je požadovaný počet menší nebo rovný počtu dostupných položek
-                return shuffleArray([...availableItems]).slice(0, requestedCount);
-            } else {
-                // Pokud je požadovaný počet větší než počet dostupných položek
-                const result = [];
-                const availableCount = availableItems.length;
-                
-                // Kolikrát se vejde celý dataset
-                const fullCycles = Math.floor(requestedCount / availableCount);
-                // Zbývající počet otázek
-                const remainder = requestedCount % availableCount;
-                
-                console.log(`Vytvářím set: ${requestedCount} otázek z ${availableCount} položek`);
-                console.log(`Plné cykly: ${fullCycles}, Zbytek: ${remainder}`);
-                
-                // Přidat plné cykly
-                for (let i = 0; i < fullCycles; i++) {
-                    const shuffledBatch = shuffleArray([...availableItems]);
-                    result.push(...shuffledBatch);
-                }
-                
-                // Přidat zbývající otázky
-                if (remainder > 0) {
-                    const remainingBatch = shuffleArray([...availableItems]).slice(0, remainder);
-                    result.push(...remainingBatch);
-                }
-                
-                console.log(`Vytvořen set s ${result.length} otázkami`);
-                return result;
-            }
+        function returnToGroupSelection() {
+            document.getElementById('quizArea').style.display = 'none';
+            document.getElementById('quizResults').style.display = 'none';
+            document.getElementById('groupSelection').style.display = 'block';
         }
 
-        function getRandomOptions(correctItem) {
-            const options = [{
-                displayText: `${correctItem[currentQuiz.nameField]}<span class="scientific-name">${correctItem[currentQuiz.scientificField] || ''}</span>`,
-                isCorrect: true,
-                itemName: correctItem[currentQuiz.nameField]
-            }];
-            
-            while (options.length < 4) {
-                const randomIndex = Math.floor(Math.random() * allItemNames.length);
-                const randomItemName = allItemNames[randomIndex];
-                const randomItemData = quizData.find(item => item[currentQuiz.nameField] === randomItemName);
-                
-                const alreadyExists = options.some(opt => opt.itemName === randomItemName);
-                if (!alreadyExists && randomItemName !== correctItem[currentQuiz.nameField]) {
-                    options.push({
-                        displayText: `${randomItemName}<span class="scientific-name">${randomItemData[currentQuiz.scientificField] || ''}</span>`,
-                        isCorrect: false,
-                        itemName: randomItemName
-                    });
-                }
-            }
-            
-            return shuffleArray(options);
+        function returnToQuizMenu() {
+            document.getElementById('groupSelection').style.display = 'none';
+            document.getElementById('quizMenu').style.display = 'block';
+            currentGroup = null;
         }
 
-        function shuffleArray(array) {
-            const newArray = [...array];
-            for (let i = newArray.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-            }
-            return newArray;
+        // ==================== UNIVERZÁLNÍ KVIZOVÉ FUNKCE ====================
+        function resetQuizState() {
+            console.log('Resetuji stav kvízu');
+            quizData = [];
+            currentItemIndex = 0;
+            score = 0;
+            totalQuestions = 0;
+            allItemNames = [];
+            remainingItems = [];
+            currentGroup = null;
         }
 
         function loadItem() {
@@ -1218,6 +1398,40 @@
             }
         }
 
+        function getRandomOptions(correctItem) {
+            const options = [{
+                displayText: `${correctItem[currentQuiz.nameField]}<span class="scientific-name">${correctItem[currentQuiz.scientificField] || ''}</span>`,
+                isCorrect: true,
+                itemName: correctItem[currentQuiz.nameField]
+            }];
+            
+            while (options.length < 4) {
+                const randomIndex = Math.floor(Math.random() * allItemNames.length);
+                const randomItemName = allItemNames[randomIndex];
+                const randomItemData = quizData.find(item => item[currentQuiz.nameField] === randomItemName);
+                
+                const alreadyExists = options.some(opt => opt.itemName === randomItemName);
+                if (!alreadyExists && randomItemName !== correctItem[currentQuiz.nameField]) {
+                    options.push({
+                        displayText: `${randomItemName}<span class="scientific-name">${randomItemData[currentQuiz.scientificField] || ''}</span>`,
+                        isCorrect: false,
+                        itemName: randomItemName
+                    });
+                }
+            }
+            
+            return shuffleArray(options);
+        }
+
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
         function getNextRandomItem() {
             if (remainingItems.length === 0) return -1;
             
@@ -1227,6 +1441,41 @@
 
             
             return quizData.findIndex(item => item === nextItem);
+        }
+
+        // Vytvoří seznam otázek s opakováním pokud je potřeba
+        function createQuestionSet(requestedCount, availableItems) {
+            if (requestedCount <= availableItems.length) {
+                // Pokud je požadovaný počet menší nebo rovný počtu dostupných položek
+                return shuffleArray([...availableItems]).slice(0, requestedCount);
+            } else {
+                // Pokud je požadovaný počet větší než počet dostupných položek
+                const result = [];
+                const availableCount = availableItems.length;
+                
+                // Kolikrát se vejde celý dataset
+                const fullCycles = Math.floor(requestedCount / availableCount);
+                // Zbývající počet otázek
+                const remainder = requestedCount % availableCount;
+                
+                console.log(`Vytvářím set: ${requestedCount} otázek z ${availableCount} položek`);
+                console.log(`Plné cykly: ${fullCycles}, Zbytek: ${remainder}`);
+                
+                // Přidat plné cykly
+                for (let i = 0; i < fullCycles; i++) {
+                    const shuffledBatch = shuffleArray([...availableItems]);
+                    result.push(...shuffledBatch);
+                }
+                
+                // Přidat zbývající otázky
+                if (remainder > 0) {
+                    const remainingBatch = shuffleArray([...availableItems]).slice(0, remainder);
+                    result.push(...remainingBatch);
+                }
+                
+                console.log(`Vytvořen set s ${result.length} otázkami`);
+                return result;
+            }
         }
 
         function checkAnswer(selectedIndex) {
@@ -1345,12 +1594,13 @@
             // Skrýt vše, zobrazit menu
             document.getElementById('quizArea').style.display = 'none';
             document.getElementById('quizResults').style.display = 'none';
+            document.getElementById('groupSelection').style.display = 'none';
             document.getElementById('quizMenu').style.display = 'block';
 
             resetQuestionCount()
         }
 
-        // NOVÁ FUNKCE: Návrat do menu přímo z kvízu
+        // Návrat do menu přímo z kvízu
         function returnToMenuFromQuiz() {
             if (confirm(getText('confirmExit'))) {
                 returnToMenu();

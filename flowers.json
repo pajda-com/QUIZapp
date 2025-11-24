@@ -1,12 +1,39 @@
 {
   "metadata": {
-    "name": "České kytky",
+    "name_cs": "Květiny a bylinky",
     "version": "1.0",
-    "imagesPerItem": 2
+    "imagesPerItem": 2,
+    "quizGroups": {
+      "kulinarske_bylinky": {
+        "cs": "Kulinářské bylinky",
+        "en": "Culinary Herbs",
+        "de": "Kräuter für die Küche",
+        "pl": "Zioła kulinarne"
+      },
+      "cajove_bylinky": {
+        "cs": "Čajové bylinky",
+        "en": "Tea Herbs",
+        "de": "Tee-Kräuter",
+        "pl": "Zioła na herbatę"
+      },
+      "lecive_bylinky": {
+        "cs": "Léčivé bylinky",
+        "en": "Medicinal Herbs",
+        "de": "Heilkräuter",
+        "pl": "Zioła lecznicze"
+      },
+      "okrasne_rostliny": {
+        "cs": "Okrasné rostliny",
+        "en": "Ornamental Plants",
+        "de": "Zierpflanzen",
+        "pl": "Rośliny ozdobne"
+      }
+    }
   },
   "flowers": [
     {
       "id": 1,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Rozmarýn lékařský",
       "name_eng": "Rosemary",
       "name_de": "Rosmarin",
@@ -27,6 +54,7 @@
     },
     {
       "id": 2,
+      "groups": ["cajove_bylinky", "lecive_bylinky"],
       "name_cs": "Máta peprná",
       "name_eng": "Peppermint",
       "name_de": "Pfefferminze",
@@ -47,6 +75,7 @@
     },
     {
       "id": 3,
+      "groups": ["kulinarske_bylinky", "lecive_bylinky", "cajove_bylinky"],
       "name_cs": "Šalvěj lékařská",
       "name_eng": "Sage",
       "name_de": "Salbei",
@@ -67,6 +96,7 @@
     },
     {
       "id": 4,
+      "groups": ["cajove_bylinky", "lecive_bylinky"],
       "name_cs": "Meduňka lékařská",
       "name_eng": "Lemon balm",
       "name_de": "Zitronenmelisse",
@@ -87,6 +117,7 @@
     },
     {
       "id": 5,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Bazalka pravá",
       "name_eng": "Basil",
       "name_de": "Basilikum",
@@ -107,6 +138,7 @@
     },
     {
       "id": 6,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Tymián obecný",
       "name_eng": "Thyme",
       "name_de": "Thymian",
@@ -127,6 +159,7 @@
     },
     {
       "id": 7,
+      "groups": ["lecive_bylinky", "cajove_bylinky"],
       "name_cs": "Levandule lékařská",
       "name_eng": "Lavender",
       "name_de": "Lavendel",
@@ -147,6 +180,7 @@
     },
     {
       "id": 8,
+      "groups": ["lecive_bylinky", "cajove_bylinky"],
       "name_cs": "Heřmánek pravý",
       "name_eng": "Chamomile",
       "name_de": "Kamille",
@@ -167,6 +201,7 @@
     },
     {
       "id": 9,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Majoránka zahradní",
       "name_eng": "Marjoram",
       "name_de": "Majoran",
@@ -187,6 +222,7 @@
     },
     {
       "id": 10,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Dobromysl obecná",
       "name_eng": "Oregano",
       "name_de": "Oregano",
@@ -207,6 +243,7 @@
     },
     {
       "id": 11,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Kopr vonný",
       "name_eng": "Dill",
       "name_de": "Dill",
@@ -227,6 +264,7 @@
     },
     {
       "id": 12,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Pažitka pobřežní",
       "name_eng": "Chives",
       "name_de": "Schnittlauch",
@@ -247,6 +285,7 @@
     },
     {
       "id": 13,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Petržel kadeřavá",
       "name_eng": "Curly parsley",
       "name_de": "Glatte Petersilie",
@@ -267,6 +306,7 @@
     },
     {
       "id": 14,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Libeček lékařský",
       "name_eng": "Lovage",
       "name_de": "Liebstöckel",
@@ -287,6 +327,7 @@
     },
     {
       "id": 15,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Saturejka zahradní",
       "name_eng": "Summer savory",
       "name_de": "Bohnenkraut",
@@ -307,6 +348,7 @@
     },
     {
       "id": 16,
+      "groups": ["lecive_bylinky", "cajove_bylinky"],
       "name_cs": "Yzop lékařský",
       "name_eng": "Hyssop",
       "name_de": "Ysop",
@@ -327,6 +369,7 @@
     },
     {
       "id": 17,
+      "groups": ["lecive_bylinky", "cajove_bylinky"],
       "name_cs": "Pelyněk pravý",
       "name_eng": "Wormwood",
       "name_de": "Wermut",
@@ -347,6 +390,7 @@
     },
     {
       "id": 18,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Popenec obecný",
       "name_eng": "Ground ivy",
       "name_de": "Gundermann",
@@ -367,6 +411,7 @@
     },
     {
       "id": 19,
+      "groups": ["kulinarske_bylinky", "cajove_bylinky"],
       "name_cs": "Máta klasnatá",
       "name_eng": "Spearmint",
       "name_de": "Grüne Minze",
@@ -387,6 +432,7 @@
     },
     {
       "id": 20,
+      "groups": ["okrasne_rostliny"],
       "name_cs": "Šanta kočičí",
       "name_eng": "Catnip",
       "name_de": "Katzenminze",
@@ -407,6 +453,7 @@
     },
     {
       "id": 21,
+      "groups": ["okrasne_rostliny"],
       "name_cs": "Routa vonná",
       "name_eng": "Rue",
       "name_de": "Weinraute",
@@ -427,6 +474,7 @@
     },
     {
       "id": 22,
+      "groups": ["kulinarske_bylinky", "okrasne_rostliny"],
       "name_cs": "Andělika lékařská",
       "name_eng": "Angelica",
       "name_de": "Engelwurz",
@@ -447,6 +495,7 @@
     },
     {
       "id": 23,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Kozlík lékařský",
       "name_eng": "Valerian",
       "name_de": "Baldrian",
@@ -467,6 +516,7 @@
     },
     {
       "id": 24,
+      "groups": ["lecive_bylinky", "okrasne_rostliny"],
       "name_cs": "Měsíček lékařský",
       "name_eng": "Calendula",
       "name_de": "Ringelblume",
@@ -487,6 +537,7 @@
     },
     {
       "id": 25,
+      "groups": ["kulinarske_bylinky", "cajove_bylinky"],
       "name_cs": "Máta vodní",
       "name_eng": "Water mint",
       "name_de": "Wasserminze",
@@ -507,6 +558,7 @@
     },
     {
       "id": 26,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Třezalka tečkovaná",
       "name_eng": "St. John's Wort",
       "name_de": "Johanniskraut",
@@ -527,6 +579,7 @@
     },
     {
       "id": 27,
+      "groups": ["cajove_bylinky"],
       "name_cs": "Jablečník obecný",
       "name_eng": "Horehound",
       "name_de": "Andorn",
@@ -547,6 +600,7 @@
     },
     {
       "id": 28,
+      "groups": ["okrasne_rostliny"],
       "name_cs": "Pampeliška lékařská",
       "name_eng": "Dandelion",
       "name_de": "Löwenzahn",
@@ -567,6 +621,7 @@
     },
     {
       "id": 29,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Přeslička rolní",
       "name_eng": "Field horsetail",
       "name_de": "Ackerschachtelhalm",
@@ -587,6 +642,7 @@
     },
     {
       "id": 30,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Jitrocel kopinatý",
       "name_eng": "Ribwort plantain",
       "name_de": "Spitzwegerich",
@@ -607,6 +663,7 @@
     },
     {
       "id": 31,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Kontryhel obecný",
       "name_eng": "Lady's mantle",
       "name_de": "Frauenmantel",
@@ -627,6 +684,7 @@
     },
     {
       "id": 32,
+      "groups": ["cajove_bylinky"],
       "name_cs": "Divizna velkokvětá",
       "name_eng": "Dense-flowered mullein",
       "name_de": "Großblütige Königskerze",
@@ -647,6 +705,7 @@
     },
     {
       "id": 33,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Svízel syřišťový",
       "name_eng": "Lady's bedstraw",
       "name_de": "Echtes Labkraut",
@@ -667,6 +726,7 @@
     },
     {
       "id": 34,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Řebříček obecný",
       "name_eng": "Yarrow",
       "name_de": "Schafgarbe",
@@ -687,6 +747,7 @@
     },
     {
       "id": 35,
+      "groups": ["lecive_bylinky", "cajove_bylinky"],
       "name_cs": "Plicník lékařský",
       "name_eng": "Common lungwort",
       "name_de": "Gewöhnliches Lungenkraut",
@@ -707,6 +768,7 @@
     },
     {
       "id": 36,
+      "groups": ["okrasne_rostliny"],
       "name_cs": "Violka vonná",
       "name_eng": "Sweet violet",
       "name_de": "Duftveilchen",
@@ -727,6 +789,7 @@
     },
     {
       "id": 37,
+      "groups": ["okrasne_rostliny"],
       "name_cs": "Kuklík městský",
       "name_eng": "Wood avens",
       "name_de": "Echte Nelkenwurz",
@@ -747,6 +810,7 @@
     },
     {
       "id": 38,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Hluchavka bílá",
       "name_eng": "White dead-nettle",
       "name_de": "Weiße Taubnessel",
@@ -767,6 +831,7 @@
     },
     {
       "id": 39,
+      "groups": ["cajove_bylinky"],
       "name_cs": "Čekanka obecná",
       "name_eng": "Chicory",
       "name_de": "Gemeine Wegwarte",
@@ -787,6 +852,7 @@
     },
     {
       "id": 40,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Fenykl obecný",
       "name_eng": "Fennel",
       "name_de": "Fenchel",
@@ -807,6 +873,7 @@
     },
     {
       "id": 41,
+      "groups": ["kulinarske_bylinky", "cajove_bylinky"],
       "name_cs": "Anýz vonný",
       "name_eng": "Anise",
       "name_de": "Anis",
@@ -827,6 +894,7 @@
     },
     {
       "id": 42,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Kmín kořenný",
       "name_eng": "Caraway",
       "name_de": "Kümmel",
@@ -847,6 +915,7 @@
     },
     {
       "id": 43,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Koriandr setý",
       "name_eng": "Coriander",
       "name_de": "Koriander",
@@ -867,6 +936,7 @@
     },
     {
       "id": 44,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Kerblík třebule",
       "name_eng": "Chervil",
       "name_de": "Kerbel",
@@ -887,6 +957,7 @@
     },
     {
       "id": 45,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Pelyněk estragon",
       "name_eng": "French tarragon",
       "name_de": "Französischer Estragon",
@@ -907,6 +978,7 @@
     },
     {
       "id": 46,
+      "groups": ["lecive_bylinky"],
       "name_cs": "Světlík lékařský",
       "name_eng": "Eyebright",
       "name_de": "Gemeiner Augentrost",
@@ -927,6 +999,7 @@
     },
     {
       "id": 47,
+      "groups": ["lecive_bylinky", "okrasne_rostliny"],
       "name_cs": "Vlaštovičník větší",
       "name_eng": "Greater celandine",
       "name_de": "Schöllkraut",
@@ -947,6 +1020,7 @@
     },
     {
       "id": 48,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Potočnice lékařská",
       "name_eng": "Watercress",
       "name_de": "Echte Brunnenkresse",
@@ -967,6 +1041,7 @@
     },
     {
       "id": 49,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Šrucha zelná",
       "name_eng": "Common purslane",
       "name_de": "Portulak",
@@ -987,6 +1062,7 @@
     },
     {
       "id": 50,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Rukevník východní",
       "name_eng": "Turkish rocket",
       "name_de": "Orientalisches Zackenschötchen",
@@ -1007,6 +1083,7 @@
     },
     {
       "id": 51,
+      "groups": ["kulinarske_bylinky"],
       "name_cs": "Šťovík kyselý",
       "name_eng": "Sorrel",
       "name_de": "Sauerampfer",

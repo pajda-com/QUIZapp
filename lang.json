@@ -30,6 +30,9 @@
     "restartQuiz": "🔄 Spustit kvíz znovu",
     "backToMenu": "🏠 Zpět na výběr kvízů",
     "confirmExit": "Opravdu chcete ukončit kvíz a vrátit se do menu? Vaše aktuální skóre bude ztraceno.",
+    "selectGroup": "Vyber skupinu:",
+    "allItems": "🌟 Všechny položky",
+    "returnToQuizSelection": "← Zpět na výběr kvízů",
     "birdsQuiz": "🐦 Poznávej ptáky",
     "flowersQuiz": "🌼 Poznávej květiny"
   },
@@ -64,6 +67,9 @@
     "restartQuiz": "🔄 Restart Quiz",
     "backToMenu": "🏠 Back to Quiz Selection",
     "confirmExit": "Are you sure you want to quit the quiz and return to menu? Your current score will be lost.",
+    "selectGroup": "Select Group:",
+    "returnToQuizSelection": "← Back to Quiz Selection",
+    "allItems": "🌟 All Items",
     "birdsQuiz": "🐦 Identify Birds",
     "flowersQuiz": "🌼 Identify Flowers"
   },
@@ -98,6 +104,9 @@
     "restartQuiz": "🔄 Quiz neu starten",
     "backToMenu": "🏠 Zurück zur Quiz-Auswahl",
     "confirmExit": "Möchten Sie das Quiz wirklich beenden und zum Menü zurückkehren? Ihr aktueller Punktestand geht verloren.",
+    "selectGroup": "Gruppe auswählen:",
+    "allItems": "🌟 Alle Elemente",
+    "returnToQuizSelection": "← Zurück zur Quiz-Auswahl",
     "birdsQuiz": "🐦 Vögel erkennen",
     "flowersQuiz": "🌼 Blumen erkennen"
   },
@@ -132,6 +141,9 @@
     "restartQuiz": "🔄 Rozpocznij quiz ponownie",
     "backToMenu": "🏠 Powrót do wyboru quizu",
     "confirmExit": "Czy na pewno chcesz zakończyć quiz i wrócić do menu? Twój aktualny wynik zostanie utracony.",
+    "selectGroup": "Wybierz grupę:",
+    "allItems": "🌟 Wszystkie elementy",
+    "returnToQuizSelection": "← Powrót do wyboru quizu",
     "birdsQuiz": "🐦 Rozpoznawanie ptaków",
     "flowersQuiz": "🌼 Rozpoznawanie kwiatów"
   }

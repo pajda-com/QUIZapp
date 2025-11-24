@@ -2,11 +2,68 @@
   "metadata": {
     "name_cs": "České ptactvo",
     "version": "1.0",
-    "imagesPerItem": 2
+    "imagesPerItem": 2,
+    "quizGroups": {
+      "dravci": {
+        "cs": "Dravci",
+        "en": "Birds of Prey", 
+        "de": "Greifvögel",
+        "pl": "Ptaki Drapieżne"
+      },
+      "sovy": {
+        "cs": "Sovy",
+        "en": "Owls",
+        "de": "Eulen",
+        "pl": "Sowy"
+      },
+      "pevci": {
+        "cs": "Pěvci",
+        "en": "Songbirds",
+        "de": "Singvögel",
+        "pl": "Ptaki Śpiewające"
+      },
+      "vodni_ptaci": {
+        "cs": "Vodní ptáci",
+        "en": "Water Birds",
+        "de": "Wasservögel",
+        "pl": "Ptaki Wodne"
+      },
+      "mekkozobi": {
+        "cs": "Měkkozobí",
+        "en": "Columbiformes",
+        "de": "Taubenvögel",
+        "pl": "Gołębiowe"
+      },
+      "krkavcoviti": {
+        "cs": "Krkavcovití",
+        "en": "Corvids",
+        "de": "Rabenvögel",
+        "pl": "Krukowate"
+      },
+      "splhavci": {
+        "cs": "Šplhavci",
+        "en": "Woodpeckers",
+        "de": "Spechte",
+        "pl": "Dzięciołowe"
+      },
+      "hrabavi": {
+        "cs": "Hrabaví",
+        "en": "Galliformes",
+        "de": "Hühnervögel",
+        "pl": "Grzechotki"
+      },
+      "ostatni": {
+        "cs": "Ostatní",
+        "en": "Other",
+        "de": "Andere",
+        "pl": "Inne"
+      }
+    }
   },
   "birds": [
     {
       "id": 1,
+      "groups": ["pevci"],
       "name_cs": "Rorýs obecný",
       "name_eng": "Common Swift",
       "name_de": "Mauersegler",
@@ -27,6 +84,7 @@
     },
     {
       "id": 2,
+      "groups": ["pevci"],
       "name_cs": "Vrabec polní",
       "name_eng": "Eurasian Tree Sparrow",
       "name_de": "Feldsperling",
@@ -47,6 +105,7 @@
     },
     {
       "id": 3,
+      "groups": ["pevci"],
       "name_cs": "Sýkora koňadra",
       "name_eng": "Great Tit",
       "name_de": "Kohlmeise",
@@ -67,6 +126,7 @@
     },
     {
       "id": 4,
+      "groups": ["pevci"],
       "name_cs": "Kos černý",
       "name_eng": "Common Blackbird",
       "name_de": "Amsel",
@@ -87,6 +147,7 @@
     },
     {
       "id": 5,
+      "groups": ["vodni_ptaci"],
       "name_cs": "Čáp bílý",
       "name_eng": "White Stork",
       "name_de": "Weißstorch",
@@ -107,6 +168,7 @@
     },
     {
       "id": 6,
+      "groups": ["pevci"],
       "name_cs": "Sedmihlásek hajní",
       "name_eng": "Icterine Warbler",
       "name_de": "Gelbspötter",
@@ -127,6 +189,7 @@
     },
     {
       "id": 7,
+      "groups": ["pevci"],
       "name_cs": "Rákosník zpěvný",
       "name_eng": "Great Reed Warbler",
       "name_de": "Drosselrohrsänger",
@@ -147,6 +210,7 @@
     },
     {
       "id": 8,
+      "groups": ["pevci"],
       "name_cs": "Pěnice slavíková",
       "name_eng": "Garden Warbler",
       "name_de": "Gartengrasmücke",
@@ -167,6 +231,7 @@
     },
     {
       "id": 9,
+      "groups": ["pevci"],
       "name_cs": "Strnad obecný",
       "name_eng": "Yellowhammer",
       "name_de": "Goldammer",
@@ -187,6 +252,7 @@
     },
     {
       "id": 10,
+      "groups": ["pevci"],
       "name_cs": "Dlask tlustozobý",
       "name_eng": "Hawfinch",
       "name_de": "Kernbeißer",
@@ -207,6 +273,7 @@
     },
     {
       "id": 11,
+      "groups": ["vodni_ptaci"],
       "name_cs": "Kachna divoká",
       "name_eng": "Mallard",
       "name_de": "Stockente",
@@ -227,6 +294,7 @@
     },
     {
       "id": 12,
+      "groups": ["vodni_ptaci"],
       "name_cs": "Husa velká",
       "name_eng": "Greylag Goose",
       "name_de": "Graugans",
@@ -247,6 +315,7 @@
     },
     {
       "id": 13,
+      "groups": ["dravci"],
       "name_cs": "Káně lesní",
       "name_eng": "Common Buzzard",
       "name_de": "Mäusebussard",
@@ -267,6 +336,7 @@
     },
     {
       "id": 14,
+      "groups": ["vodni_ptaci"],
       "name_cs": "Čáp černý",
       "name_eng": "Black Stork",
       "name_de": "Schwarzstorch",
@@ -287,6 +357,7 @@
     },
     {
       "id": 15,
+      "groups": ["mekkozobi"],
       "name_cs": "Holub domácí",
       "name_eng": "Rock Pigeon",
       "name_de": "Haustaube",
@@ -307,6 +378,7 @@
     },
     {
       "id": 16,
+      "groups": ["mekkozobi"],
       "name_cs": "Holub hřivnáč",
       "name_eng": "Common Wood Pigeon",
       "name_de": "Ringeltaube",
@@ -327,6 +399,7 @@
     },
     {
       "id": 17,
+      "groups": ["vodni_ptaci"],
       "name_cs": "Labut velká",
       "name_eng": "Mute Swan",
       "name_de": "Höckerschwan",
@@ -347,6 +420,7 @@
     },
     {
       "id": 18,
+      "groups": ["dravci"],
       "name_cs": "Poštolka obecná",
       "name_eng": "Common Kestrel",
       "name_de": "Turmfalke",
@@ -367,6 +441,7 @@
     },
     {
       "id": 19,
+      "groups": ["dravci"],
       "name_cs": "Orel mořský",
       "name_eng": "White-tailed Eagle",
       "name_de": "Seeadler",
@@ -387,6 +462,7 @@
     },
     {
       "id": 20,
+      "groups": ["vodni_ptaci"],
       "name_cs": "Racek chechtavý",
       "name_eng": "Black-headed Gull",
       "name_de": "Lachmöwe",
@@ -407,6 +483,7 @@
     },
     {
       "id": 21,
+      "groups": ["hrabavi"],
       "name_cs": "Křepelka polní",
       "name_eng": "Common Quail",
       "name_de": "Wachtel",
@@ -427,6 +504,7 @@
     },
     {
       "id": 22,
+      "groups": ["hrabavi"],
       "name_cs": "Bažant obecný",
       "name_eng": "Common Pheasant",
       "name_de": "Fasan",
@@ -447,6 +525,7 @@
     },
     {
       "id": 23,
+      "groups": ["sovy"],
       "name_cs": "Puštík obecný",
       "name_eng": "Tawny Owl",
       "name_de": "Waldkauz",
@@ -467,6 +546,7 @@
     },
     {
       "id": 24,
+      "groups": ["pevci"],
       "name_cs": "Krkavec velký",
       "name_eng": "Common Raven",
       "name_de": "Kolkrabe",
@@ -487,6 +567,7 @@
     },
     {
       "id": 25,
+      "groups": ["pevci"],
       "name_cs": "Vrána černá",
       "name_eng": "Carrion Crow",
       "name_de": "Aaskrähe",
@@ -507,6 +588,7 @@
     },
     {
       "id": 26,
+      "groups": ["pevci"],
       "name_cs": "Havran polní",
       "name_eng": "Rook",
       "name_de": "Saatkrähe",
@@ -527,6 +609,7 @@
     },
     {
       "id": 27,
+      "groups": ["ostatni"],
       "name_cs": "Kukačka obecná",
       "name_eng": "Common Cuckoo",
       "name_de": "Kuckuck",
@@ -547,6 +630,7 @@
     },
     {
       "id": 28,
+      "groups": ["pevci"],
       "name_cs": "Sýkora modřinka",
       "name_eng": "Eurasian Blue Tit",
       "name_de": "Kleiber",
@@ -567,6 +651,7 @@
     },
     {
       "id": 29,
+      "groups": ["splhavci"],
       "name_cs": "Strakapoud velký",
       "name_eng": "Great Spotted Woodpecker",
       "name_de": "Großer Buntspecht",
@@ -587,6 +672,7 @@
     },
     {
       "id": 30,
+      "groups": ["splhavci"],
       "name_cs": "Datel velký",
       "name_eng": "Black Woodpecker",
       "name_de": "Schwarzspecht",
@@ -607,6 +693,7 @@
     },
     {
       "id": 31,
+      "groups": ["pevci"],
       "name_cs": "Pěnkava obecná",
       "name_eng": "Chaffinch",
       "name_de": "Buchfink",
@@ -627,6 +714,7 @@
     },
     {
       "id": 32,
+      "groups": ["pevci"],
       "name_cs": "Vrabec domácí",
       "name_eng": "House Sparrow",
       "name_de": "Haussperling",
@@ -647,6 +735,7 @@
     },
     {
       "id": 33,
+      "groups": ["pevci"],
       "name_cs": "Straka obecná",
       "name_eng": "Eurasian Magpie",
       "name_de": "Elster",
@@ -667,6 +756,7 @@
     },
     {
       "id": 34,
+      "groups": ["splhavci"],
       "name_cs": "Žluna zelená",
       "name_eng": "European Green Woodpecker",
       "name_de": "Grünspecht",
@@ -687,6 +777,7 @@
     },
     {
       "id": 35,
+      "groups": ["pevci"],
       "name_cs": "Rákosník obecný",
       "name_eng": "Sand Martin",
       "name_de": "Uferschwalbe",
@@ -707,6 +798,7 @@
     },
     {
       "id": 36,
+      "groups": ["pevci"],
       "name_cs": "Brhlík lesní",
       "name_eng": "Eurasian Nuthatch",
       "name_de": "Kleiber",
@@ -727,6 +819,7 @@
     },
     {
       "id": 37,
+      "groups": ["pevci"],
       "name_cs": "Stehlík obecný",
       "name_eng": "European Goldfinch",
       "name_de": "Stieglitz",
@@ -747,6 +840,7 @@
     },
     {
       "id": 38,
+      "groups": ["mekkozobi"],
       "name_cs": "Hrdlička zahradní",
       "name_eng": "Eurasian Collared Dove",
       "name_de": "Türkentaube",
@@ -767,6 +861,7 @@
     },
     {
       "id": 39,
+      "groups": ["krkavcoviti"],
       "name_cs": "Špaček obecný",
       "name_eng": "Common Starling",
       "name_de": "Star",
@@ -787,6 +882,7 @@
     },
     {
       "id": 40,
+      "groups": ["pevci"],
       "name_cs": "Šedý drozd",
       "name_eng": "Fieldfare",
       "name_de": "Wacholderdrossel",
@@ -807,6 +903,7 @@
     },
     {
       "id": 41,
+      "groups": ["pevci"],
       "name_cs": "Skřivan polní",
       "name_eng": "Eurasian Skylark",
       "name_de": "Feldlerche",
@@ -827,6 +924,7 @@
     },
     {
       "id": 42,
+      "groups": ["pevci"],
       "name_cs": "Ledňáček říční",
       "name_eng": "Common Kingfisher",
       "name_de": "Eisvogel",
@@ -847,6 +945,7 @@
     },
     {
       "id": 43,
+      "groups": ["sovy"],
       "name_cs": "Kalous ušatý",
       "name_eng": "Long-eared Owl",
       "name_de": "Waldohreule",
@@ -867,6 +966,7 @@
     },
     {
       "id": 44,
+      "groups": ["pevci"],
       "name_cs": "Zvonek zelený",
       "name_eng": "European Greenfinch",
       "name_de": "Grünfink",
