@@ -589,7 +589,7 @@
             <button onclick="showHint()" style="padding: 12px 20px; font-size: 16px; background-color: #ff9800; color: white; border: none; border-radius: 8px; cursor: pointer;" id="hintButton">Nápověda</button>
             <div id="loginMessage" style="margin-top: 15px; color: red; font-weight: bold;"></div>
         </div>
-    </div>
+    </div> 
 
     <!-- HLAVNÍ OBSAH -->
     <div id="quizContent" style="display: none;">
@@ -914,7 +914,19 @@
         let loginScreen = document.getElementById('loginScreen');
         let quizContent = document.getElementById('quizContent');
         
+        function autoLogin() {
+            loginScreen.style.display = 'none';
+            quizContent.style.display = 'block';
+            loadTranslations();
+        }        
+
         function checkPassword() {
+            // Pokud je heslo vypnuto, použijte autoLogin
+            if (isPasswordDisabled) {
+                autoLogin();
+                return;
+            }
+            
             const passwordInput = document.getElementById('passwordInput').value;
             const messageDiv = document.getElementById('loginMessage');
                 
@@ -946,6 +958,9 @@
         document.getElementById('passwordInput').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') checkPassword();
         });
+
+        // Přidejte proměnnou pro vypnutí hesla
+        let isPasswordDisabled = true; // Nastavte na false pro zapnutí hesla
 
         // ==================== FUNKCE PRO ČÍSELNÍK ====================
         let isEditingCount = false;
@@ -1617,6 +1632,12 @@
 
         // Načtení překladů při startu
         loadTranslations();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (isPasswordDisabled) {
+                autoLogin();
+            }
+        });
     </script>
 </body>
 </html>
