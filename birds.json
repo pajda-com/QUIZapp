@@ -546,7 +546,7 @@
     },
     {
       "id": 24,
-      "groups": ["pevci"],
+      "groups": ["krkavcoviti"],
       "name_cs": "Krkavec velký",
       "name_eng": "Common Raven",
       "name_de": "Kolkrabe",
@@ -567,7 +567,7 @@
     },
     {
       "id": 25,
-      "groups": ["pevci"],
+      "groups": ["krkavcoviti"],
       "name_cs": "Vrána černá",
       "name_eng": "Carrion Crow",
       "name_de": "Aaskrähe",
@@ -588,7 +588,7 @@
     },
     {
       "id": 26,
-      "groups": ["pevci"],
+      "groups": ["krkavcoviti"],
       "name_cs": "Havran polní",
       "name_eng": "Rook",
       "name_de": "Saatkrähe",
@@ -735,7 +735,7 @@
     },
     {
       "id": 33,
-      "groups": ["pevci"],
+      "groups": ["krkavcoviti"],
       "name_cs": "Straka obecná",
       "name_eng": "Eurasian Magpie",
       "name_de": "Elster",
@@ -826,12 +826,12 @@
       "name_pl": "Szczygieł zwyczajny",
       "latin_name": "Carduelis carduelis",
       "images": [
-        "obrazky/birds/spinus_spinus_1.jpg",
-        "obrazky/birds/spinus_spinus_2.jpg"
+        "obrazky/birds/carduelis_carduelis_1.jpg",
+        "obrazky/birds/carduelis_carduelis_2.jpg"
       ],
       "image_credits": {
-        "spinus_spinus_1.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1761205",
-        "spinus_spinus_2.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1772216"
+        "carduelis_carduelis_1.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1761205",
+        "carduelis_carduelis_2.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1772216"
       },
       "description_cs": "Stehlík obecný je malý zpěvný pták s výrazným červeným obličejem, černobílými křídly a žlutým pruhem na křídlech. Je známý svým melodickým zpěvem.",
       "description_eng": "The European Goldfinch is a small songbird with a distinctive red face, black and white wings, and a yellow wing bar. It is known for its melodic song.",
@@ -984,6 +984,489 @@
       "description_eng": "The European Greenfinch is a small songbird with bright green plumage and yellow patches on its wings. It is known for its melodic song and frequent presence in gardens and parks.",
       "description_de": "Der Grünfink ist ein kleiner Singvogel mit leuchtend grünem Gefieder und gelben Flecken auf den Flügeln. Er ist bekannt für seinen melodischen Gesang und sein häufiges Vorkommen in Gärten und Parks.",
       "description_pl": "Dzwoniec zwyczajny to mały ptak śpiewający o jaskrawozielonym upierzeniu i żółtych plamach na skrzydłach. Znany jest ze swojego melodyjnego śpiewu i częstego występowania w ogrodach i parkach."
+    },
+    {
+      "id": 45,
+      "groups": ["sovy"],
+      "name_cs": "Sova pálená",
+      "name_eng": "Barn Owl",
+      "name_de": "Schleiereule",
+      "name_pl": "Płomykówka",
+      "latin_name": "Tyto Alba",
+      "images": [
+        "obrazky/birds/tyto_alba_1.jpg",
+        "obrazky/birds/tyto_alba_2.jpg"
+      ],
+      "image_credits": {
+        "tyto_alba_1.jpg": "Autor: Steven Ward – https://www.flickr.com/photos/steventimothyphotography/8571699129/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=31516922",
+        "tyto_alba_2.jpg": "Von User:Alun Williams333 - File:Tyto alba tylluan wen.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=50571054"
+      },
+      "description_cs": "Sova pálená je středně velká sova s bílým obličejem a zlatavě hnědým peřím. Je známá svým tichým letem a schopností lov",
+      "description_eng": "The Barn Owl is a medium-sized owl with a white face and golden-brown plumage. It is known for its silent flight and ability to hunt",
+      "description_de": "Die Schleiereule ist eine mittelgroße Eule mit weißem Gesicht und goldbraunem Gefieder. Sie ist bekannt für ihren lautlosen Flug und ihre Jagdfähigkeiten.",
+      "description_pl": "Płomykówka to średniej wielkości sowa o białej twarzy i złotobrązowym upierzeniu. Znana jest ze swojego cichego lotu i zdolności do polowania."
+    },
+    {
+      "id": 46,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Volavka popelavá",
+      "name_eng": "Grey Heron",
+      "name_de": "Graureiher",
+      "name_pl": "Czapla siwa",
+      "latin_name": "Ardea cinerea",
+      "images": [
+        "obrazky/birds/ardea_cinerea_1.jpg",
+        "obrazky/birds/ardea_cinerea_2.jpg"
+      ],
+      "image_credits": {
+        "ardea_cinerea_1.jpg": "Von Derek Keats from Johannesburg, South Africa - Grey Heron, Ardea cinerea, at Pilanesberg National Park, Northwest Province, South Africa, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=50428343",
+        "ardea_cinerea_2.jpg": "By Andreas Trepte - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=40378958"
+      },
+      "description_cs": "Volavka popelavá je velký vodní pták s dlouhým krkem a nohama. Má šedé peří a je často vidět při lovu ryb v blízkosti vodních ploch.",
+      "description_eng": "The Grey Heron is a large water bird with a long neck and legs. It has grey plumage and is often seen hunting fish near water bodies.",
+      "description_de": "Der Graureiher ist ein großer Wasservogel mit langem Hals und Beinen. Er hat graues Gefieder und ist oft beim Fischfang in der Nähe von Gewässern zu sehen.",
+      "description_pl": "Czapla siwa to duży ptak wodny o długiej szyi i nogach. Ma szare upierzenie i często można ją zobaczyć podczas polowania na ryby w pobliżu zbiorników wodnych."
+    },
+    {
+      "id": 47,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Bukač velký",
+      "name_eng": "Eurasian Bittern",
+      "name_de": "Rohrdommel",
+      "name_pl": "Bąk",
+      "latin_name": "Botaurus stellaris",
+      "images": [
+        "obrazky/birds/botaurus_stellaris_1.jpg",
+        "obrazky/birds/botaurus_stellaris_2.jpg"
+      ],
+      "image_credits": {
+        "botaurus_stellaris_1.jpg": "Autor: Marek Szczepanek – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=63238",
+        "botaurus_stellaris_2.jpg": "Autor: Richard Crossley – The Crossley ID Guide Britain and Ireland, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=29446913"
+      },
+      "description_cs": "Bukač velký je středně velký vodní pták s hnědým a béžovým peřím, které mu poskytuje vynikající kamufláž mezi rákosím. Je známý svým hlubokým, dunivým hlasem.",
+      "description_eng": "The Eurasian Bittern is a medium-sized water bird with brown and beige plumage that provides excellent camouflage among reeds. It is known for its deep, booming call.",
+      "description_de": "Der Rohrdommel ist ein mittelgroßer Wasservogel mit braunem und beigem Gefieder, das eine hervorragende Tarnung zwischen Schilf bietet. Er ist bekannt für seinen tiefen, dröhnenden Ruf.",
+      "description_pl": "Bąk to średniej wielkości ptak wodny o brązowym i beżowym upierzeniu, które zapewnia doskonały kamuflaż wśród trzcin. Znany jest ze swojego głębokiego, dudniącego głosu."
+    },
+    {
+      "id": 48,
+      "groups": ["hrabavi"],
+      "name_cs": "Chřástal polní",
+      "name_eng": "Corn Crake",
+      "name_de": "Wachtelkönig",
+      "name_pl": "Kulik polny",
+      "latin_name": "Crex crex",
+      "images": [
+        "obrazky/birds/crex_crex_1.jpg",
+        "obrazky/birds/crex_crex_2.jpg"
+      ],
+      "image_credits": {
+        "crex_crex_1.jpg": "Autor: Triinupohlak – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=63760885",
+        "crex_crex_2.jpg": "Autor: Ron Knight from Seaford, East Sussex, United Kingdom – Corn Crake (Crex crex), CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=46950118"
+      },
+      "description_cs": "Chřástal polní patří v Evropě k ohroženým ptákům s hnědým a béžovým peřím, které mu poskytuje vynikající kamufláž v travnatém prostředí. Je známý svým charakteristickým zvukem připomínajícím křik.",
+      "description_eng": "The Corn Crake is one of the endangered birds in Europe, with brown and beige plumage that provides excellent camouflage in grassy environments. It is known for its distinctive call resembling a scream.",
+      "description_de": "Der Wachtelkönig gehört in Europa zu den gefährdeten Vögeln und hat braunes und beiges Gefieder, das eine hervorragende Tarnung in grasbewachsenen Umgebungen bietet. Er ist bekannt für seinen charakteristischen Ruf, der einem Schrei ähnelt.",
+      "description_pl": "Kulik polny należy do zagrożonych ptaków w Europie, o brązowym i beżowym upierzeniu, które zapewnia doskonały kamuflaż w trawiastym środowisku. Znany jest ze swojego charakterystycznego głosu przypominającego krzyk."
+    },
+    {
+      "id": 49,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Lyska černá",
+      "name_eng": "Common Coot",
+      "name_de": "Blässhuhn",
+      "name_pl": "Łyska zwyczajna",
+      "latin_name": "Fulica atra",
+      "images": [
+        "obrazky/birds/fulica_atra_1.jpg",
+        "obrazky/birds/fulica_atra_2.jpg"
+      ],
+      "image_credits": {
+        "fulica_atra_1.jpg": "Autor: This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 IS USM Lens – Vlastní dílo, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=3469008",
+        "fulica_atra_2.jpg": "Autor: This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 IS USM Lens – Vlastní dílo, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=3469007"
+      },
+      "description_cs": "Lyska černá je typickým obyvatelem stojatých vod všeho druhu, v městech ji můžeme spatřit především v zimě, kdy se stěhuje na parková jezírka. Je částečně tažná. Část evropské a asijské populace se stěhuje na jih a západ a opouští již zamrzlé vody.",
+      "description_eng": "The Common Coot is a typical inhabitant of still waters of all kinds; in cities, it can be seen mainly in winter when it migrates to park ponds. It is partially migratory. Part of the European and Asian population migrates south and west, leaving frozen waters behind.",
+      "description_de": "Das Blässhuhn ist ein typischer Bewohner von stehenden Gewässern aller Art; in Städten ist es hauptsächlich im Winter zu sehen, wenn es zu Parkteichen zieht. Es ist teilweise Zugvogel. Ein Teil der europäischen und asiatischen Population zieht nach Süden und Westen und verlässt die zugefrorenen Gewässer.",
+      "description_pl": "Łyska zwyczajna jest typowym mieszkańcem stojących wód wszelkiego rodzaju; w miastach można ją zobaczyć głównie zimą, gdy migruje do parkowych stawów. Jest częściowo wędrowna. Część populacji europejskiej i azjatyckiej migruje na południe i zachód, opuszczając zamarznięte wody."
+    },
+    {
+      "id": 50,
+      "groups": ["pevci"],
+      "name_cs": "Konipas bílý",
+      "name_eng": "White Wagtail",
+      "name_de": "Bachstelze",
+      "name_pl": "Pliszka siwa",
+      "latin_name": "Motacilla alba",
+      "images": [
+        "obrazky/birds/motacilla_alba_1.jpg",
+        "obrazky/birds/motacilla_alba_2.jpg"
+      ],
+      "image_credits": {
+        "motacilla_alba_1.jpg": "Autor: Jac. Janssen from BAARLO LB, NL – 20180415 015 Winterswijk Witte kwikstaart, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=155863539",
+        "motacilla_alba_2.jpg": "Autor: Stephan Sprinz – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=155863506"
+      },
+      "description_cs": "Konipas bílý je malý zpěvný pták s černobílým peřím a dlouhým ocasem, který neustále pohybuje nahoru a dolů. Je často vidět v blízkosti vody, kde loví hmyz.",
+      "description_eng": "The White Wagtail is a small songbird with black and white plumage and a long tail that it constantly moves up and down. It is often seen near water, where it hunts insects.",
+      "description_de": "Die Bachstelze ist ein kleiner Singvogel mit schwarz-weißem Gefieder und einem langen Schwanz, den sie ständig auf und ab bewegt. Sie ist oft in der Nähe von Wasser zu sehen, wo sie Insekten jagt.",
+      "description_pl": "Pliszka siwa to mały ptak śpiewający o czarno-białym upierzeniu i długim ogonie, który nieustannie porusza w górę i w dół. Często można ją zobaczyć w pobliżu wody, gdzie poluje na owady."
+    },
+    {
+      "id": 51,
+      "groups": ["pevci"],
+      "name_cs": "Konipas horský",
+      "name_eng": "Grey wagtail",
+      "name_de": "Gebirgsstelze",
+      "name_pl": "Pliszka górska",
+      "latin_name": "Motacilla cinerea",
+      "images": [
+        "obrazky/birds/motacilla_cinerea_1.jpg",
+        "obrazky/birds/motacilla_cinerea_2.jpg"
+      ],
+      "image_credits": {
+        "motacilla_cinerea_1.jpg": "Autor: Photo by Laitche, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=53337104",
+        "motacilla_cinerea_2.jpg": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12018478"
+      },
+      "description_cs": "Konipas horský je malý zpěvný pták s šedým a žlutým peřím a dlouhým ocasem, který neustále pohybuje nahoru a dolů. Často se vyskytuje v blízkosti horských potoků a řek.",
+      "description_eng": "The Grey Wagtail is a small songbird with grey and yellow plumage and a long tail that it constantly moves up and down. It is often found near mountain streams and rivers.",
+      "description_de": "Die Gebirgsstelze ist ein kleiner Singvogel mit grauem und gelbem Gefieder und einem langen Schwanz, den sie ständig auf und ab bewegt. Sie ist oft in der Nähe von Bergbächen und Flüssen zu finden.",
+      "description_pl": "Pliszka górska to mały ptak śpiewający o szarym i żółtym upierzeniu oraz długim ogonie, który nieustannie porusza w górę i w dół. Często występuje w pobliżu górskich potoków i rzek."
+    },
+    {
+      "id": 52,
+      "groups": ["sovy"],
+      "name_cs": "Výr velký",
+      "name_eng": "Eurasian Eagle-Owl",
+      "name_de": "Uhu",
+      "name_pl": "Puchacz zwyczajny",
+      "latin_name": "Bubo bubo",
+      "images": [
+        "obrazky/birds/bubo_bubo_1.jpg",
+        "obrazky/birds/bubo_bubo_2.jpg"
+      ],
+      "image_credits": {
+        "bubo_bubo_1.jpg": "Autor: Martin Mecnarowski (http://www.photomecan.eu/) – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12686049",
+        "bubo_bubo_2.jpg": "Von de:user:Softeis - German Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=29562"
+      },
+      "description_cs": "Výr velký je největší sovou Evropy s mohutným tělem a výraznými chocholky na hlavě. Je nočním predátorem, který loví různé druhy savců a ptáků.",
+      "description_eng": "The Eurasian Eagle-Owl is the largest owl in Europe, with a massive body and distinctive ear tufts. It is a nocturnal predator that hunts various species of mammals and birds.",
+      "description_de": "Der Uhu ist die größte Eule Europas mit einem massiven Körper und markanten Federohren. Er ist ein nachtaktiver Jäger, der verschiedene Säugetier- und Vogelarten jagt.",
+      "description_pl": "Puchacz zwyczajny to największa sowa Europy o masywnym ciele i charakterystycznych pióropuszach na głowie. Jest nocnym drapieżnikiem polującym na różne gatunki ssaków i ptaków."
+    },
+    {
+      "id": 53,
+      "groups": ["dravci"],
+      "name_cs": "Moták lužní",
+      "name_eng": "Western Marsh Harrier",
+      "name_de": "Wiesenweihe",
+      "name_pl": "Błotniak łąkowy",
+      "latin_name": "Circus pygargus",
+      "images": [
+        "obrazky/birds/circus_pygargus_1.jpg",
+        "obrazky/birds/circus_pygargus_2.jpg"
+      ],
+      "image_credits": {
+        "circus_pygargus_1.jpg": "By Cks3976 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17854594",
+        "circus_pygargus_2.jpg": "By Cks3976 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17854595"
+      },
+      "description_cs": "Moták lužní je dravý pták střední velikosti s dlouhými křídly a ocasem. Často se vyskytuje v mokřadech a lužních lesích, kde loví malé savce, ptáky a obojživelníky.",
+      "description_eng": "The Western Marsh Harrier is a medium-sized bird of prey with long wings and tail. It is often found in wetlands and floodplain forests, where it hunts small mammals, birds, and amphibians.",
+      "description_de": "Die Wiesenweihe ist ein mittelgroßer Greifvogel mit langen Flügeln und Schwanz. Sie ist oft in Feuchtgebieten und Auenwäldern zu finden, onde sie kleine Säugetiere, Vögel und Amphibien jagt.",
+      "description_pl": "Błotniak łąkowy to średniej wielkości ptak drapieżny o długich skrzydłach i ogonie. Często występuje na terenach podmokłych i w lasach łęgowych, gdzie poluje na małe ssaki, ptaki i płazy."
+    },
+    {
+      "id": 54,
+      "groups": ["dravci"],
+      "name_cs": "Jestřáb lesní",
+      "name_eng": "Northern Goshawk",
+      "name_de": "Habicht",
+      "name_pl": "Jastrząb gołębiarz",
+      "latin_name": "Astur gentilis",
+      "images": [
+        "obrazky/birds/astur_gentilis_1.jpg",
+        "obrazky/birds/astur_gentilis_2.jpg"
+      ],
+      "image_credits": {
+        "astur_gentilis_1.jpg": "Autor: Iosto Doneddu – Flickr, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=35058610",
+        "astur_gentilis_2.jpg": "Autorstwa Norbert Kenntner, Berlin - Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1062838"
+      },
+      "description_cs": "Jestřáb lesní je středně velký dravý pták s krátkými, širokými křídly a dlouhým ocasem. Loví především ptáky a malé savce v lesích.",
+      "description_eng": "The Northern Goshawk is a medium-sized bird of prey with short, broad wings and a long tail. It primarily hunts birds and small mammals in forests.",
+      "description_de": "Der Habicht ist ein mittelgroßer Greifvogel mit kurzen, breiten Flügeln und langem Schwanz. Er jagt hauptsächlich Vögel und kleine Säugetiere in Wäldern.",
+      "description_pl": "Jastrząb gołębiarz to średniej wielkości ptak drapieżny o krótkich, szerokich skrzydłach i długim ogonie. Poluje głównie na ptaki i małe ssaki w lasach."
+    },
+    {
+      "id": 55,
+      "groups": ["dravci"],
+      "name_cs": "Raroh velký",
+      "name_eng": "Saker Falcon",
+      "name_de": "Sakerfalke",
+      "name_pl": "Sokół wędrowny",
+      "latin_name": "Falco cherrug",
+      "images": [
+        "obrazky/birds/falco_cherrug_1.jpg",
+        "obrazky/birds/falco_cherrug_2.jpg"
+      ],
+      "image_credits": {
+        "falco_cherrug_1.jpg": "Autor: Bohuš Číčel (https://www.flickr.com/photos/bcicel/) – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12769362",
+        "falco_cherrug_2.jpg": "Autorstwa 4028mdk09 - Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10439284"
+      },
+      "description_cs": "Raroh velký je velký dravý pták s dlouhými křídly a silným zobákem. Loví především středně velké savce a ptáky.",
+      "description_eng": "The Saker Falcon is a large bird of prey with long wings and a strong beak. It primarily hunts medium-sized mammals and birds.",
+      "description_de": "Der Sakerfalke ist ein großer Greifvogel mit langen Flügeln und einem kräftigen Schnabel. Er jagt hauptsächlich mittelgroße Säugetiere und Vögel.",
+      "description_pl": "Sokół wędrowny to duży ptak drapieżny o długich skrzydłach i silnym dziobie. Poluje głównie na średniej wielkości ssaki i ptaki."
+    },
+    {
+      "id": 56,
+      "groups": ["dravci"],
+      "name_cs": "Sokol stěhovavý",
+      "name_eng": "Peregrine Falcon",
+      "name_de": "Wanderfalke",
+      "name_pl": "Sokół wędrowny",
+      "latin_name": "Falco peregrinus",
+      "images": [
+        "obrazky/birds/falco_peregrinus_1.jpg",
+        "obrazky/birds/falco_peregrinus_2.jpg"
+      ],
+      "image_credits": {
+        "falco_peregrinus_1.jpg": "Autor: Carlos Delgado – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=38755194",
+        "falco_peregrinus_2.jpg": "By Sumeet Moghe - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=102038195"
+      },
+      "description_cs": "Sokol stěhovavý je středně velký dravý pták s dlouhými, špičatými křídly a krátkým ocasem. Je známý svou rychlostí při lovu, kdy dosahuje vysokých rychlostí při střemhlavém letu.",
+      "description_eng": "The Peregrine Falcon is a medium-sized bird of prey with long, pointed wings and a short tail. It is known for its speed during hunting, reaching high speeds in a stoop.",
+      "description_de": "Der Wanderfalke ist ein mittelgroßer Greifvogel mit langen, spitzen Flügeln und kurzem Schwanz. Er ist bekannt für seine Geschwindigkeit bei der Jagd, bei der er hohe Geschwindigkeiten im Sturzflug erreicht.",
+      "description_pl": "Sokół wędrowny to średniej wielkości ptak drapieżny o długich, spiczastych skrzydłach i krótkim ogonie. Znany jest ze swojej szybkości podczas polowania, osiągając wysokie prędkości podczas nurkowania."
+    },
+    {
+      "id": 57,
+      "groups": ["dravci"],
+      "name_cs": "Ostříž lesní",
+      "name_eng": "Eurasian Hobby",
+      "name_de": "Baumfalke",
+      "name_pl": "Kobuz",
+      "latin_name": "Falco subbuteo",
+      "images": [
+        "obrazky/birds/falco_subbuteo_1.jpg",
+        "obrazky/birds/falco_subbuteo_2.jpg"
+      ],
+      "image_credits": {
+        "falco_subbuteo_1.jpg": "Autor: Mike Prince from Bangalore, India – Eurasian Hobby, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=62046802",
+        "falco_subbuteo_2.jpg": "Por Andy Morffew, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=62001379"
+      },
+      "description_cs": "Ostříž lesní je malý dravý pták s štíhlým tělem a dlouhými, špičatými křídly. Loví především hmyz a malé ptáky.",
+      "description_eng": "The Eurasian Hobby is a small bird of prey with a slender body and long, pointed wings. It primarily hunts insects and small birds.",
+      "description_de": "Der Baumfalke ist ein kleiner Greifvogel mit schlankem Körper und langen, spitzen Flügeln. Er jagt hauptsächlich Insekten und kleine Vögel.",
+      "description_pl": "Kobuz to mały ptak drapieżny o smukłym ciele i długich, spiczastych skrzydłach. Poluje głównie na owady i małe ptaki."
+    },
+    {
+      "id": 58,
+      "groups": ["sovy"],
+      "name_cs": "Sýček obecný",
+      "name_eng": "Little Owl",
+      "name_de": "Steinkauz",
+      "name_pl": "Pójdźka zwyczajna",
+      "latin_name": "Athene noctua",
+      "images": [
+        "obrazky/birds/athene_noctua_1.jpg",
+        "obrazky/birds/athene_noctua_2.jpg"
+      ],
+      "image_credits": {
+        "athene_noctua_1.jpg": "Autor: Vanni Lazzari – Vlastní dílo, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=84913610",
+        "athene_noctua_2.jpg": "Autor: Trebol-a – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10715681"
+      },
+      "description_cs": "Sýček obecný je malá sova s kulatou hlavou a žlutýma očima. Žije v otevřených krajinách a často se vyskytuje v blízkosti lidských sídel.",
+      "description_eng": "The Little Owl is a small owl with a rounded head and yellow eyes. It inhabits open landscapes and is often found near human settlements.",
+      "description_de": "Der Steinkauz ist eine kleine Eule mit rundem Kopf und gelben Augen. Er lebt in offenen Landschaften und ist oft in der Nähe menschlicher Siedlungen zu finden.",
+      "description_pl": "Pójdźka zwyczajna to mała sowa o okrągłej głowie i żółtych oczach. Zamieszkuje otwarte krajobrazy i często występuje w pobliżu osiedli ludzkich."
+    },
+    {
+      "id": 59,
+      "groups": ["sovy"],
+      "name_cs": "Kulíšek nejmenší",
+      "name_eng": "Eurasian pygmy owl",
+      "name_de": "Sperlingskauz",
+      "name_pl": "Sóweczka zwyczajna",
+      "latin_name": "Glaucidium passerinum",
+      "images": [
+        "obrazky/birds/glaucidium_passerinum_1.jpg",
+        "obrazky/birds/glaucidium_passerinum_2.jpg"
+      ],
+      "image_credits": {
+        "glaucidium_passerinum_1.jpg": "Von Frank Vassen from Brussels, Belgium - Eurasian Pygmy Owl (Glaucidium passerinum) in the drizzle, 21.06.2015, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=43769414",
+        "glaucidium_passerinum_2.jpg": "Von Adam Kumiszcza - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17739727"
+      },
+      "description_cs": "Kulíšek nejmenší je malá sova s kulatou hlavou a žlutýma očima. Žije v lesnatých oblastech a je známý svým tichým letem.",
+      "description_eng": "The Eurasian pygmy owl is a small owl with a rounded head and yellow eyes. It inhabits forested areas and is known for its silent flight.",
+      "description_de": "Der Sperlingskauz ist eine kleine Eule mit rundem Kopf und gelben Augen. Er lebt in bewaldeten Gebieten und ist für seinen lautlosen Flug bekannt.",
+      "description_pl": "Sóweczka zwyczajna to mała sowa o okrągłej głowie i żółtych oczach. Zamieszkuje obszary leśne i jest znana ze swojego cichego lotu."
+    },
+    {
+      "id": 60,
+      "groups": ["dravci"],
+      "name_cs": "Luňák červený",
+      "name_eng": "Red Kite",
+      "name_de": "Rotmilan",
+      "name_pl": "Kania ruda",
+      "latin_name": "Milvus milvus",
+      "images": [
+        "obrazky/birds/milvus_milvus_1.jpg",
+        "obrazky/birds/milvus_milvus_2.jpg"
+      ],
+      "image_credits": {
+        "milvus_milvus_1.jpg": "Von Frank Liebig - Archiv Frank Liebig, CC BY-SA 3.0 de, https://commons.wikimedia.org/w/index.php?curid=106392910",
+        "milvus_milvus_2.jpg": "By Thomas Kraft (ThKraft) - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=1568002"
+      },
+      "description_cs": "Luňák červený je středně velký dravý pták s dlouhým vidlicovitým ocasem a červenohnědým peřím. Často krouží nad otevřenou krajinou a živí se převážně mršinami.",
+      "description_eng": "The Red Kite is a medium-sized bird of prey with a long forked tail and reddish-brown plumage. It often soars over open countryside and primarily feeds on carrion.",
+      "description_de": "Der Rotmilan ist ein mittelgroßer Raubvogel mit einem langen, gegabelten Schwanz und rotbraunem Gefieder. Er schwebt oft über offenem Gelände und ernährt sich hauptsächlich von Aas.",
+      "description_pl": "Kania ruda to średniej wielkości ptak drapieżny o długim, rozwidlonym ogonie i czerwono-brązowym upierzeniu. Często unosi się nad otwartym terenem i żywi się głównie padliną."
+    },
+    {
+      "id": 61,
+      "groups": ["dravci"],
+      "name_cs": "Moták pochop",
+      "name_eng": "Western Marsh Harrier",
+      "name_de": "Rohrweihe",
+      "name_pl": "Błotniak stawowy",
+      "latin_name": "Circus aeruginosus",
+      "images": [
+        "obrazky/birds/circus_aeruginosus_1.jpg",
+        "obrazky/birds/circus_aeruginosus_2.jpg"
+      ],
+      "image_credits": {
+        "circus_aeruginosus_1.jpg": "Autor: Kaeptn chemnitz – Own work by uploader (from here), CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=5033550",
+        "circus_aeruginosus_2.jpg": "By J.M.Garg - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2955809"
+      },
+      "description_cs": "Moták pochop je dravý pták střední velikosti s dlouhými křídly a ocasem. Často se vyskytuje v mokřadech a rákosinách, kde loví malé savce, ptáky a obojživelníky.",
+      "description_eng": "The Western Marsh Harrier is a medium-sized bird of prey with long wings and tail. It is often found in wetlands and reed beds, where it hunts small mammals, birds, and amphibians.",
+      "description_de": "Die Rohrweihe ist ein mittelgroßer Greifvogel mit langen Flügeln und Schwanz. Sie ist oft in Feuchtgebieten und Schilfbetten zu finden, wo sie kleine Säugetiere, Vögel und Amphibien jagt.",
+      "description_pl": "Błotniak stawowy to średniej wielkości ptak drapieżny o długich skrzydłach i ogonie. Często występuje na terenach podmokłych i w szuwarach, gdzie poluje na małe ssaki, ptaki i płazy."
+    },
+    {
+      "id": 62,
+      "groups": ["dravci"],
+      "name_cs": "Včelojed lesní",
+      "name_eng": "European Honey Buzzard",
+      "name_de": "Wespenbussard",
+      "name_pl": "Trzmielojad",
+      "latin_name": "Pernis apivorus",
+      "images": [
+        "obrazky/birds/pernis_apivorus_1.jpg",
+        "obrazky/birds/pernis_apivorus_2.jpg"
+      ],
+      "image_credits": {
+        "pernis_apivorus_1.jpg": "Autor: Доктор рукиноги – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18328656",
+        "pernis_apivorus_2.jpg": "Von Andreas Trepte - Eigenes Werk, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=34918145"
+      },
+      "description_cs": "Včelojed lesní je středně velký dravý pták s dlouhými křídly a ocasem. Specializuje se na lov vos a jejich larev, které vyhrabává ze země.",
+      "description_eng": "The European Honey Buzzard is a medium-sized bird of prey with long wings and tail. It specializes in hunting wasps and their larvae, which it digs out from the ground.",
+      "description_de": "Der Wespenbussard ist ein mittelgroßer Greifvogel mit langen Flügeln und Schwanz. Er spezialisiert sich auf die Jagd von Wespen und ihren Larven, die er aus dem Boden gräbt.",
+      "description_pl": "Trzmielojad to średniej wielkości ptak drapieżny o długich skrzydłach i ogonie. Specjalizuje się w polowaniu na osy i ich larwy, które wykopuje z ziemi."
+    },
+    {
+      "id": 63,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Potápka malá",
+      "name_eng": "Little Grebe",
+      "name_de": "Zwergtaucher",
+      "name_pl": "Perkozek",
+      "latin_name": "Tachybaptus ruficollis",
+      "images": [
+        "obrazky/birds/tachybaptus_ruficollis_1.jpg",
+        "obrazky/birds/tachybaptus_ruficollis_2.jpg"
+      ],
+      "image_credits": {
+        "tachybaptus_ruficollis_1.jpg": "Autor: Andreas Trepte – Vlastní dílo, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=33505667",
+        "tachybaptus_ruficollis_2.jpg": "Par Bernard DUPONT from FRANCE — Little Grebe (Tachybaptus ruficollis) on its nest with eggs ..., CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=48577130"
+      },
+      "description_cs": "Potápka malá je nejmenší evropská potápka s krátkým zobákem a načervenalým krkem. Často se vyskytuje na malých vodních plochách a je výborným plavcem a potápěčem.",
+      "description_eng": "The Little Grebe is the smallest European grebe with a short bill and reddish neck. It is often found on small water bodies and is an excellent swimmer and diver.",
+      "description_de": "Der Zwergtaucher ist der kleinste europäische Lappentaucher mit kurzem Schnabel und rötlichem Hals. Er ist oft auf kleinen Gewässern zu finden und ist ein ausgezeichneter Schwimmer und Taucher.",
+      "description_pl": "Perkozek to najmniejszy europejski perkoz o krótkim dziobie i czerwonawym karku. Często występuje na małych zbiornikach wodnych i jest doskonałym pływakiem i nurkiem."
+    },
+    {
+      "id": 64,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Potápka roháč",
+      "name_eng": "Great Crested Grebe",
+      "name_de": "Haubentaucher",
+      "name_pl": "Perkoz dwuczuby",
+      "latin_name": "Podiceps cristatus",
+      "images": [
+        "obrazky/birds/podiceps_cristatus_1.jpg",
+        "obrazky/birds/podiceps_cristatus_2.jpg"
+      ],
+      "image_credits": {
+        "podiceps_cristatus_1.jpg": "Autor: Dion Art – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=122557972",
+        "podiceps_cristatus_2.jpg": "Von Mark Medcalf - Fish SupperUploaded by snowmanradio, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=16407322"
+      },
+      "description_cs": "Potápka roháč je velká potápka s nápadnou chocholkou na hlavě a dlouhým krkem. Je známá svým složitým námluvním tancem a výbornými plaveckými schopnostmi.",
+      "description_eng": "The Great Crested Grebe is a large grebe with a distinctive crest on its head and a long neck. It is known for its elaborate courtship dance and excellent swimming abilities.",
+      "description_de": "Der Haubentaucher ist ein großer Lappentaucher mit einer auffälligen Haube auf dem Kopf und langem Hals. Er ist bekannt für seinen aufwändigen Balztanz und ausgezeichnete Schwimmfähigkeiten.",
+      "description_pl": "Perkoz dwuczuby to duży perkoz o charakterystycznym czubie na głowie i długiej szyi. Znany jest ze skomplikowanego tańca godowego i doskonałych umiejętności pływackich."
+    },
+    {
+      "id": 65,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Potápka černokrká",
+      "name_eng": "Black-necked Grebe",
+      "name_de": "Schwarzhalstaucher",
+      "name_pl": "Perkoz zausznik",
+      "latin_name": "Podiceps nigricollis",
+      "images": [
+        "obrazky/birds/podiceps_nigricollis_1.jpg",
+        "obrazky/birds/podiceps_nigricollis_2.jpg"
+      ],
+      "image_credits": {
+        "podiceps_nigricollis_1.jpg": "Autor: Alan D. Wilson – naturespicsonline, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=132055264",
+        "podiceps_nigricollis_2.jpg": "By Alpsdake - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=23156565"
+      },
+      "description_cs": "Potápka černokrká je středně velká potápka s černým krkem a zlatavými pery za očima. Často hnízdí v koloniích na mělkých jezerech a rybnících.",
+      "description_eng": "The Black-necked Grebe is a medium-sized grebe with a black neck and golden feathers behind the eyes. It often nests in colonies on shallow lakes and ponds.",
+      "description_de": "Der Schwarzhalstaucher ist ein mittelgroßer Lappentaucher mit schwarzem Hals und goldenen Federn hinter den Augen. Er nistet oft in Kolonien auf flachen Seen und Teichen.",
+      "description_pl": "Perkoz zausznik to średniej wielkości perkoz o czarnej szyi i złotych piórach za oczami. Często gniazduje w koloniach na płytkich jeziorach i stawach."
+    },
+    {
+      "id": 66,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Potápka rudokrká",
+      "name_eng": "Red-necked Grebe",
+      "name_de": "Rothalstaucher",
+      "name_pl": "Perkoz rdzawoszyi",
+      "latin_name": "Podiceps grisegena",
+      "images": [
+        "obrazky/birds/podiceps_grisegena_1.jpg",
+        "obrazky/birds/podiceps_grisegena_2.jpg"
+      ],
+      "image_credits": {
+        "podiceps_grisegena_1.jpg": "Autor: Donald Hobern from Copenhagen, Denmark – Podiceps grisegena, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=63746766",
+        "podiceps_grisegena_2.jpg": "Autor: Dewhurst, Donna – This image originates from the National Digital Library of the United States Fish and Wildlife Serviceat this pageToto oznámení nepopisuje autorskoprávní status tohoto souboru. Stále je vyžadován běžný popisek licence. Další informace najdete na Commons:Licencování.See Category:Images from the United States Fish and Wildlife Service., Volné dílo, https://commons.wikimedia.org/w/index.php?curid=3005054"
+      },
+      "description_cs": "Potápka rudokrká je velká potápka s červenohnědým krkem a šedými tvářemi. Hnízdí na sladkovodních jezerech a v zimě se přesouvá na mořské pobřeží.",
+      "description_eng": "The Red-necked Grebe is a large grebe with a reddish-brown neck and grey cheeks. It breeds on freshwater lakes and moves to coastal waters in winter.",
+      "description_de": "Der Rothalstaucher ist ein großer Lappentaucher mit rötlich-braunem Hals und grauen Wangen. Er brütet auf Süßwasserseen und zieht im Winter in Küstengewässer.",
+      "description_pl": "Perkoz rdzawoszyi to duży perkoz o rdzawo-brązowej szyi i szarych policzkach. Gniazduje na słodkowodnych jeziorach, a zimą przenosi się na wody przybrzeżne."
+    },
+    {
+      "id": 67,
+      "groups": ["pěvci"],
+      "name_cs": "Stehlík obecný",
+      "name_eng": "Eurasian Siskin",
+      "name_de": "Erlenzeisig",
+      "name_pl": "Czyż zwyczajny",
+      "latin_name": "Spinus spinus",
+      "images": [
+        "obrazky/birds/spinus_spinus_1.jpg",
+        "obrazky/birds/spinus_spinus_2.jpg"
+      ],
+      "image_credits": {
+        "spinus_spinus_1.jpg": "Autor: By Sławek Staszczuk (photoss [AT] hotmail.co.uk) - Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1761205,",
+        "spinus_spinus_2.jpg": "Autor: Sławek Staszczuk (photoss [AT] hotmail.co.uk) – Sławek Staszczuk (photoss [AT] hotmail.co.uk), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1772216"
+      },
+      "description_cs": "Stehlík obecný je malý, živý pěvec s nápadným žluto-černým zbarvením. Samec má jasně žlutou hruď a černou čepičku, samice je více olivově zelená. Živí se převážně semeny, zejména semeny bodláků a stromů.",
+      "description_eng": "The Eurasian Siskin is a small, lively songbird with striking yellow-black plumage. The male has a bright yellow breast and black cap, while the female is more olive-green. It feeds mainly on seeds, particularly thistle and tree seeds.",
+      "description_de": "Der Erlenzeisig ist ein kleiner, lebhafter Singvogel mit auffälligem gelb-schwarzem Gefieder. Das Männchen hat eine leuchtend gelbe Brust und eine schwarze Kappe, das Weibchen ist mehr olivgrün. Er ernährt sich hauptsächlich von Samen, insbesondere von Disteln und Baumsamen.",
+      "description_pl": "Czyż zwyczajny to mały, żywiołowy ptak śpiewający o striking żółto-czarnym upierzeniu. Samiec ma jaskrawożółtą pierś i czarną czapeczkę, podczas gdy samica jest bardziej oliwkowozielona. Żywi się głównie nasionami, zwłaszcza ostów i drzew."
     }
   ]
 }
