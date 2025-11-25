@@ -35,7 +35,7 @@
     "returnToQuizSelection": "← Zpět na výběr kvízů",
     "birdsQuiz": "🐦 Poznávej ptáky",
     "flowersQuiz": "🌼 Poznávej květiny",
-    "koreanQuiz": "🇰🇷 Nauč se korejská slova"
+    "koreanQuiz": "🥋 Nauč se korejská slova"
   },
   "en": {
     "appTitle": "Quiz Application",
@@ -73,7 +73,7 @@
     "allItems": "🌟 All Items",
     "birdsQuiz": "🐦 Identify Birds",
     "flowersQuiz": "🌼 Identify Flowers",
-    "koreanQuiz": "🇰🇷 Learn Korean Words"
+    "koreanQuiz": "🥋 Learn Korean Words"
   },
   "de": {
     "appTitle": "Quiz-Anwendung",
@@ -111,7 +111,7 @@
     "returnToQuizSelection": "← Zurück zur Quiz-Auswahl",
     "birdsQuiz": "🐦 Vögel erkennen",
     "flowersQuiz": "🌼 Blumen erkennen",
-    "koreanQuiz": "🇰🇷 Koreanische Wörter lernen"
+    "koreanQuiz": "🥋 Koreanische Wörter lernen"
   },
   "pl": {
     "appTitle": "Aplikacja Quizowa",
@@ -149,6 +149,6 @@
     "returnToQuizSelection": "← Powrót do wyboru quizu",
     "birdsQuiz": "🐦 Rozpoznawanie ptaków",
     "flowersQuiz": "🌼 Rozpoznawanie kwiatów",
-    "koreanQuiz": "🇰🇷 Nauka koreańskich słów"
+    "koreanQuiz": "🥋 Nauka koreańskich słów"
   }
 }
