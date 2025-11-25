@@ -3,6 +3,7 @@
     "name_cs": "České ptactvo",
     "version": "1.0",
     "imagesPerItem": 2,
+    "quizType": "options",
     "quizGroups": {
       "dravci": {
         "cs": "Dravci",
