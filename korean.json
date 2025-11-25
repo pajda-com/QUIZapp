@@ -1,0 +1,1124 @@
+{
+  "metadata": {
+    "name_cs": "Korean",
+    "version": "1.1",
+    "imagesPerItem": 1,
+    "quizGroups": {
+      "unit_1": {
+        "cs": "Lekce 1",
+        "en": "Unit 1",
+        "de": "Lektion 1",
+        "pl": "Lekcja 1"
+      },
+      "unit_2": {
+        "cs": "Lekce 2",
+        "en": "Unit 2",
+        "de": "Lektion 2",
+        "pl": "Lekcja 2"
+      },
+      "unit_3": {
+        "cs": "Lekce 3",
+        "en": "Unit 3",
+        "de": "Lektion 3",
+        "pl": "Lekcja 3"
+      },
+      "unit_4": {
+        "cs": "Lekce 4",
+        "en": "Unit 4",
+        "de": "Lektion 4",
+        "pl": "Lekcja 4"
+      },
+      "unit_5": {
+        "cs": "Lekce 5",
+        "en": "Unit 5",
+        "de": "Lektion 5",
+        "pl": "Lekcja 5"
+      }
+    }
+  },
+  "words": [
+    {
+      "id": 1,
+      "groups": ["unit_1"],
+      "name_cs": "이",
+      "name_eng": "이",
+      "name_de": "이",
+      "name_pl": "이",
+      "latin_name": "i",
+      "images": [
+        "obrazky/korean/tooth.jpg"
+      ],
+      "image_credits": {
+        "tooth.jpg": "https://deepai.org"
+      },
+      "description_cs": "Zub",
+      "description_eng": "Tooth",
+      "description_de": "Zahn",
+      "description_pl": "Ząb"
+    },
+    {
+      "id": 2,
+      "groups": ["unit_1"],
+      "name_cs": "아이",
+      "name_eng": "아이",
+      "name_de": "아이",
+      "name_pl": "아이",
+      "latin_name": "ai",
+      "images": [
+        "obrazky/korean/children.jpg"
+      ],
+      "image_credits": {
+        "children.jpg": "https://deepai.org"
+      },
+      "description_cs": "Děti",
+      "description_eng": "Children",
+      "description_de": "Kinder",
+      "description_pl": "Dzieci"
+    },
+    {
+      "id": 3,
+      "groups": ["unit_1"],
+      "name_cs": "오이",
+      "name_eng": "오이",
+      "name_de": "오이",
+      "name_pl": "오이",
+      "latin_name": "oi",
+      "images": [
+        "obrazky/korean/cucumber.jpg"
+      ],
+      "image_credits": {
+        "cucumber.jpg": "https://deepai.org"
+      },
+      "description_cs": "Okurka",
+      "description_eng": "Cucumber",
+      "description_de": "Gurke",
+      "description_pl": "Ogórek"
+    },
+    {
+      "id": 4,
+      "groups": ["unit_1"],
+      "name_cs": "아우",
+      "name_eng": "아우",
+      "name_de": "아우",
+      "name_pl": "아우",
+      "latin_name": "au",
+      "images": [
+        "obrazky/korean/younger_sibling.jpg"
+      ],
+      "image_credits": {
+        "younger_sibling.jpg": "https://deepai.org"
+      },
+      "description_cs": "Mladší sourozenec",
+      "description_eng": "Younger sibling",
+      "description_de": "Jüngeres Geschwister",
+      "description_pl": "Młodsze rodzeństwo"
+    },
+    {
+      "id": 5,
+      "groups": ["unit_2"],
+      "name_cs": "가수",
+      "name_eng": "가수",
+      "name_de": "가수",
+      "name_pl": "가수",
+      "latin_name": "gasu",
+      "images": [
+        "obrazky/korean/singer.jpg"
+      ],
+      "image_credits": {
+        "singer.jpg": "https://deepai.org"
+      },
+      "description_cs": "Zpěvák",
+      "description_eng": "Singer",
+      "description_de": "Sänger",
+      "description_pl": "Piosenkarz"
+    },
+    {
+      "id": 6,
+      "groups": ["unit_2"],
+      "name_cs": "고기",
+      "name_eng": "고기",
+      "name_de": "고기",
+      "name_pl": "고기",
+      "latin_name": "gogi",
+      "images": [
+        "obrazky/korean/meat.jpg"
+      ],
+      "image_credits": {
+        "meat.jpg": "https://deepai.org"
+      },
+      "description_cs": "Maso",
+      "description_eng": "Meat",
+      "description_de": "Fleisch",
+      "description_pl": "Mięso"
+    },
+    {
+      "id": 7,
+      "groups": ["unit_2"],
+      "name_cs": "구두",
+      "name_eng": "구두",
+      "name_de": "구두",
+      "name_pl": "구두",
+      "latin_name": "gudu",
+      "images": [
+        "obrazky/korean/shoes.jpg"
+      ],
+      "image_credits": {
+        "shoes.jpg": "https://deepai.org"
+      },
+      "description_cs": "Boty",
+      "description_eng": "Shoes",
+      "description_de": "Schuhe",
+      "description_pl": "Buty"
+    },
+    {
+      "id": 8,
+      "groups": ["unit_2"],
+      "name_cs": "나라",
+      "name_eng": "나라",
+      "name_de": "나라",
+      "name_pl": "나라",
+      "latin_name": "nara",
+      "images": [
+        "obrazky/korean/country.jpg"
+      ],
+      "image_credits": {
+        "country.jpg": "https://deepai.org"
+      },
+      "description_cs": "Stát",
+      "description_eng": "Country",
+      "description_de": "Staat",
+      "description_pl": "Państwo"
+    },
+    {
+      "id": 9,
+      "groups": ["unit_2"],
+      "name_cs": "나무",
+      "name_eng": "나무",
+      "name_de": "나무",
+      "name_pl": "나무",
+      "latin_name": "namu",
+      "images": [
+        "obrazky/korean/tree.jpg"
+      ],
+      "image_credits": {
+        "tree.jpg": "https://deepai.org"
+      },
+      "description_cs": "Strom",
+      "description_eng": "Tree",
+      "description_de": "Baum",
+      "description_pl": "Drzewo"
+    },
+    {
+      "id": 10,
+      "groups": ["unit_2"],
+      "name_cs": "머리",
+      "name_eng": "머리",
+      "name_de": "머리",
+      "name_pl": "머리",
+      "latin_name": "meori",
+      "images": [
+        "obrazky/korean/head.jpg"
+      ],
+      "image_credits": {
+        "head.jpg": "https://deepai.org"
+      },
+      "description_cs": "Hlava",
+      "description_eng": "Head",
+      "description_de": "Kopf",
+      "description_pl": "Głowa"
+    },
+    {
+      "id": 11,
+      "groups": ["unit_2"],
+      "name_cs": "다리",
+      "name_eng": "다리",
+      "name_de": "다리",
+      "name_pl": "다리",
+      "latin_name": "dari",
+      "images": [
+        "obrazky/korean/bridge_legs.jpg"
+      ],
+      "image_credits": {
+        "bridge_legs.jpg": "https://deepai.org"
+      },
+      "description_cs": "Most / Nohy",
+      "description_eng": "Bridge / Legs",
+      "description_de": "Brücke / Beine",
+      "description_pl": "Most / Nogi"
+    },
+    {
+      "id": 12,
+      "groups": ["unit_2"],
+      "name_cs": "라디오",
+      "name_eng": "라디오",
+      "name_de": "라디오",
+      "name_pl": "라디오",
+      "latin_name": "radio",
+      "images": [
+        "obrazky/korean/radio.jpg"
+      ],
+      "image_credits": {
+        "radio.jpg": "https://deepai.org"
+      },
+      "description_cs": "Rádio",
+      "description_eng": "Radio",
+      "description_de": "Radio",
+      "description_pl": "Radio"
+    },
+    {
+      "id": 13,
+      "groups": ["unit_2"],
+      "name_cs": "바나나",
+      "name_eng": "바나나",
+      "name_de": "바나나",
+      "name_pl": "바나나",
+      "latin_name": "banana",
+      "images": [
+        "obrazky/korean/banana.jpg"
+      ],
+      "image_credits": {
+        "banana.jpg": "https://deepai.org"
+      },
+      "description_cs": "Banán",
+      "description_eng": "Banana",
+      "description_de": "Banane",
+      "description_pl": "Banan"
+    },
+    {
+      "id": 14,
+      "groups": ["unit_2"],
+      "name_cs": "바지",
+      "name_eng": "바지",
+      "name_de": "바지",
+      "name_pl": "바지",
+      "latin_name": "baji",
+      "images": [
+        "obrazky/korean/pants.jpg"
+      ],
+      "image_credits": {
+        "pants.jpg": "https://deepai.org"
+      },
+      "description_cs": "Kalhoty",
+      "description_eng": "Pants",
+      "description_de": "Hose",
+      "description_pl": "Spodnie"
+    },
+    {
+      "id": 15,
+      "groups": ["unit_2"],
+      "name_cs": "소",
+      "name_eng": "소",
+      "name_de": "소",
+      "name_pl": "소",
+      "latin_name": "so",
+      "images": [
+        "obrazky/korean/cow.jpg"
+      ],
+      "image_credits": {
+        "cow.jpg": "https://deepai.org"
+      },
+      "description_cs": "Kráva",
+      "description_eng": "Cow",
+      "description_de": "Kuh",
+      "description_pl": "Krowa"
+    },
+    {
+      "id": 16,
+      "groups": ["unit_2"],
+      "name_cs": "아기",
+      "name_eng": "아기",
+      "name_de": "아기",
+      "name_pl": "아기",
+      "latin_name": "agi",
+      "images": [
+        "obrazky/korean/baby.jpg"
+      ],
+      "image_credits": {
+        "baby.jpg": "https://deepai.org"
+      },
+      "description_cs": "Dítě (baby)",
+      "description_eng": "Baby",
+      "description_de": "Baby",
+      "description_pl": "Dziecko (niemowlę)"
+    },
+    {
+      "id": 17,
+      "groups": ["unit_2"],
+      "name_cs": "어머니",
+      "name_eng": "어머니",
+      "name_de": "어머니",
+      "name_pl": "어머니",
+      "latin_name": "eomeoni",
+      "images": [
+        "obrazky/korean/mother.jpg"
+      ],
+      "image_credits": {
+        "mother.jpg": "https://deepai.org"
+      },
+      "description_cs": "Matka",
+      "description_eng": "Mother",
+      "description_de": "Mutter",
+      "description_pl": "Matka"
+    },
+    {
+      "id": 18,
+      "groups": ["unit_2"],
+      "name_cs": "아버지",
+      "name_eng": "아버지",
+      "name_de": "아버지",
+      "name_pl": "아버지",
+      "latin_name": "abeoji",
+      "images": [
+        "obrazky/korean/father.jpg"
+      ],
+      "image_credits": {
+        "father.jpg": "https://deepai.org"
+      },
+      "description_cs": "Otec",
+      "description_eng": "Father",
+      "description_de": "Vater",
+      "description_pl": "Ojciec"
+    },
+    {
+      "id": 19,
+      "groups": ["unit_2"],
+      "name_cs": "모자",
+      "name_eng": "모자",
+      "name_de": "모자",
+      "name_pl": "모자",
+      "latin_name": "moja",
+      "images": [
+        "obrazky/korean/hat.jpg"
+      ],
+      "image_credits": {
+        "hat.jpg": "https://deepai.org"
+      },
+      "description_cs": "Klobouk",
+      "description_eng": "Hat",
+      "description_de": "Hut",
+      "description_pl": "Kapelusz"
+    },
+    {
+      "id": 20,
+      "groups": ["unit_2"],
+      "name_cs": "허리",
+      "name_eng": "허리",
+      "name_de": "허리",
+      "name_pl": "허리",
+      "latin_name": "heori",
+      "images": [
+        "obrazky/korean/back.jpg"
+      ],
+      "image_credits": {
+        "back.jpg": "https://deepai.org"
+      },
+      "description_cs": "Záda",
+      "description_eng": "Back",
+      "description_de": "Rücken",
+      "description_pl": "Plecy"
+    },
+    {
+      "id": 21,
+      "groups": ["unit_2"],
+      "name_cs": "하나",
+      "name_eng": "하나",
+      "name_de": "하나",
+      "name_pl": "하나",
+      "latin_name": "hana",
+      "images": [
+        "obrazky/korean/one.jpg"
+      ],
+      "image_credits": {
+        "one.jpg": "https://deepai.org"
+      },
+      "description_cs": "Jedna",
+      "description_eng": "One",
+      "description_de": "Eins",
+      "description_pl": "Jeden"
+    },
+    {
+      "id": 22,
+      "groups": ["unit_2"],
+      "name_cs": "지도",
+      "name_eng": "지도",
+      "name_de": "지도",
+      "name_pl": "지도",
+      "latin_name": "jido",
+      "images": [
+        "obrazky/korean/map.jpg"
+      ],
+      "image_credits": {
+        "map.jpg": "https://deepai.org"
+      },
+      "description_cs": "Mapa",
+      "description_eng": "Map",
+      "description_de": "Karte",
+      "description_pl": "Mapa"
+    },
+    {
+      "id": 23,
+      "groups": ["unit_3"],
+      "name_cs": "야구",
+      "name_eng": "야구",
+      "name_de": "야구",
+      "name_pl": "야구",
+      "latin_name": "yagu",
+      "images": [
+        "obrazky/korean/baseball.jpg"
+      ],
+      "image_credits": {
+        "baseball.jpg": "https://deepai.org"
+      },
+      "description_cs": "Baseball",
+      "description_eng": "Baseball",
+      "description_de": "Baseball",
+      "description_pl": "Baseball"
+    },
+    {
+      "id": 24,
+      "groups": ["unit_3"],
+      "name_cs": "야자수",
+      "name_eng": "야자수",
+      "name_de": "야자수",
+      "name_pl": "야자수",
+      "latin_name": "yajasu",
+      "images": [
+        "obrazky/korean/palm_tree.jpg"
+      ],
+      "image_credits": {
+        "palm_tree.jpg": "https://deepai.org"
+      },
+      "description_cs": "Palma",
+      "description_eng": "Palm tree",
+      "description_de": "Palme",
+      "description_pl": "Palma"
+    },
+    {
+      "id": 25,
+      "groups": ["unit_3"],
+      "name_cs": "여자",
+      "name_eng": "여자",
+      "name_de": "여자",
+      "name_pl": "여자",
+      "latin_name": "yeoja",
+      "images": [
+        "obrazky/korean/woman.jpg"
+      ],
+      "image_credits": {
+        "woman.jpg": "https://deepai.org"
+      },
+      "description_cs": "Žena",
+      "description_eng": "Woman",
+      "description_de": "Frau",
+      "description_pl": "Kobieta"
+    },
+    {
+      "id": 26,
+      "groups": ["unit_3"],
+      "name_cs": "벼",
+      "name_eng": "벼",
+      "name_de": "벼",
+      "name_pl": "벼",
+      "latin_name": "byeo",
+      "images": [
+        "obrazky/korean/rice_plant.jpg"
+      ],
+      "image_credits": {
+        "rice_plant.jpg": "https://deepai.org"
+      },
+      "description_cs": "Rýže (rostlina)",
+      "description_eng": "Rice (plant)",
+      "description_de": "Reis (Pflanze)",
+      "description_pl": "Ryż (roślina)"
+    },
+    {
+      "id": 27,
+      "groups": ["unit_3"],
+      "name_cs": "혀",
+      "name_eng": "혀",
+      "name_de": "혀",
+      "name_pl": "혀",
+      "latin_name": "hyeo",
+      "images": [
+        "obrazky/korean/tongue.jpg"
+      ],
+      "image_credits": {
+        "tongue.jpg": "https://deepai.org"
+      },
+      "description_cs": "Jazyk",
+      "description_eng": "Tongue",
+      "description_de": "Zunge",
+      "description_pl": "Język"
+    },
+    {
+      "id": 28,
+      "groups": ["unit_3"],
+      "name_cs": "휴지",
+      "name_eng": "휴지",
+      "name_de": "휴지",
+      "name_pl": "휴지",
+      "latin_name": "hyuji",
+      "images": [
+        "obrazky/korean/toilet_paper.jpg"
+      ],
+      "image_credits": {
+        "toilet_paper.jpg": "https://deepai.org"
+      },
+      "description_cs": "Toaletní papír",
+      "description_eng": "Toilet paper",
+      "description_de": "Toilettenpapier",
+      "description_pl": "Papier toaletowy"
+    },
+    {
+      "id": 29,
+      "groups": ["unit_3"],
+      "name_cs": "우유",
+      "name_eng": "우유",
+      "name_de": "우유",
+      "name_pl": "우유",
+      "latin_name": "uyu",
+      "images": [
+        "obrazky/korean/milk.jpg"
+      ],
+      "image_credits": {
+        "milk.jpg": "https://deepai.org"
+      },
+      "description_cs": "Mléko",
+      "description_eng": "Milk",
+      "description_de": "Milch",
+      "description_pl": "Mleko"
+    },
+    {
+      "id": 30,
+      "groups": ["unit_3"],
+      "name_cs": "유리",
+      "name_eng": "유리",
+      "name_de": "유리",
+      "name_pl": "유리",
+      "latin_name": "yuri",
+      "images": [
+        "obrazky/korean/glass.jpg"
+      ],
+      "image_credits": {
+        "glass.jpg": "https://deepai.org"
+      },
+      "description_cs": "Sklo",
+      "description_eng": "Glass",
+      "description_de": "Glas",
+      "description_pl": "Szkło"
+    },
+    {
+      "id": 31,
+      "groups": ["unit_3"],
+      "name_cs": "교수님",
+      "name_eng": "교수님",
+      "name_de": "교수님",
+      "name_pl": "교수님",
+      "latin_name": "gyosunim",
+      "images": [
+        "obrazky/korean/professor.jpg"
+      ],
+      "image_credits": {
+        "professor.jpg": "https://deepai.org"
+      },
+      "description_cs": "Profesor",
+      "description_eng": "Professor",
+      "description_de": "Professor",
+      "description_pl": "Profesor"
+    },
+    {
+      "id": 32,
+      "groups": ["unit_3"],
+      "name_cs": "요가",
+      "name_eng": "요가",
+      "name_de": "요가",
+      "name_pl": "요가",
+      "latin_name": "yoga",
+      "images": [
+        "obrazky/korean/yoga.jpg"
+      ],
+      "image_credits": {
+        "yoga.jpg": "https://deepai.org"
+      },
+      "description_cs": "Jóga",
+      "description_eng": "Yoga",
+      "description_de": "Yoga",
+      "description_pl": "Joga"
+    },
+    {
+      "id": 33,
+      "groups": ["unit_3"],
+      "name_cs": "야경",
+      "name_eng": "야경",
+      "name_de": "야경",
+      "name_pl": "야경",
+      "latin_name": "yagyeong",
+      "images": [
+        "obrazky/korean/night_lamps.jpg"
+      ],
+      "image_credits": {
+        "night_lamps.jpg": "https://deepai.org"
+      },
+      "description_cs": "Noční osvětlení",
+      "description_eng": "Night lamps",
+      "description_de": "Nachtbeleuchtung",
+      "description_pl": "Oświetlenie nocne"
+    },
+    {
+      "id": 34,
+      "groups": ["unit_4"],
+      "name_cs": "카드",
+      "name_eng": "카드",
+      "name_de": "카드",
+      "name_pl": "카드",
+      "latin_name": "kadeu",
+      "images": [
+        "obrazky/korean/card.jpg"
+      ],
+      "image_credits": {
+        "card.jpg": "https://deepai.org"
+      },
+      "description_cs": "Karta",
+      "description_eng": "Card",
+      "description_de": "Karte",
+      "description_pl": "Karta"
+    },
+    {
+      "id": 35,
+      "groups": ["unit_4"],
+      "name_cs": "파리",
+      "name_eng": "파리",
+      "name_de": "파리",
+      "name_pl": "파리",
+      "latin_name": "pari",
+      "images": [
+        "obrazky/korean/fly.jpg"
+      ],
+      "image_credits": {
+        "fly.jpg": "https://deepai.org"
+      },
+      "description_cs": "Moucha / Paříž",
+      "description_eng": "Fly / Paris",
+      "description_de": "Fliege / Paris",
+      "description_pl": "Mucha / Paryż"
+    },
+    {
+      "id": 36,
+      "groups": ["unit_4"],
+      "name_cs": "타코",
+      "name_eng": "타코",
+      "name_de": "타코",
+      "name_pl": "타코",
+      "latin_name": "tako",
+      "images": [
+        "obrazky/korean/taco.jpg"
+      ],
+      "image_credits": {
+        "taco.jpg": "https://deepai.org"
+      },
+      "description_cs": "Taco",
+      "description_eng": "Taco",
+      "description_de": "Taco",
+      "description_pl": "Taco"
+    },
+    {
+      "id": 37,
+      "groups": ["unit_4"],
+      "name_cs": "타조",
+      "name_eng": "타조",
+      "name_de": "타조",
+      "name_pl": "타조",
+      "latin_name": "tajo",
+      "images": [
+        "obrazky/korean/ostrich.jpg"
+      ],
+      "image_credits": {
+        "ostrich.jpg": "https://deepai.org"
+      },
+      "description_cs": "Pštros",
+      "description_eng": "Ostrich",
+      "description_de": "Strauß",
+      "description_pl": "Struś"
+    },
+    {
+      "id": 38,
+      "groups": ["unit_4"],
+      "name_cs": "포도",
+      "name_eng": "포도",
+      "name_de": "포도",
+      "name_pl": "포도",
+      "latin_name": "podo",
+      "images": [
+        "obrazky/korean/grape.jpg"
+      ],
+      "image_credits": {
+        "grape.jpg": "https://deepai.org"
+      },
+      "description_cs": "Hrozen",
+      "description_eng": "Grape",
+      "description_de": "Traube",
+      "description_pl": "Winogrono"
+    },
+    {
+      "id": 39,
+      "groups": ["unit_4"],
+      "name_cs": "차",
+      "name_eng": "차",
+      "name_de": "차",
+      "name_pl": "차",
+      "latin_name": "cha",
+      "images": [
+        "obrazky/korean/car.jpg"
+      ],
+      "image_credits": {
+        "car.jpg": "https://deepai.org"
+      },
+      "description_cs": "Auto / čaj",
+      "description_eng": "Car / Tea",
+      "description_de": "Auto / Tee",
+      "description_pl": "Samochód / Herbata"
+    },
+    {
+      "id": 40,
+      "groups": ["unit_4"],
+      "name_cs": "치마",
+      "name_eng": "치마",
+      "name_de": "치마",
+      "name_pl": "치마",
+      "latin_name": "chima",
+      "images": [
+        "obrazky/korean/skirt.jpg"
+      ],
+      "image_credits": {
+        "skirt.jpg": "https://deepai.org"
+      },
+      "description_cs": "Sukně",
+      "description_eng": "Skirt",
+      "description_de": "Rock",
+      "description_pl": "Spódnica"
+    },
+    {
+      "id": 41,
+      "groups": ["unit_4"],
+      "name_cs": "고추",
+      "name_eng": "고추",
+      "name_de": "고추",
+      "name_pl": "고추",
+      "latin_name": "gochu",
+      "images": [
+        "obrazky/korean/chilli.jpg"
+      ],
+      "image_credits": {
+        "chilli.jpg": "https://deepai.org"
+      },
+      "description_cs": "Čili",
+      "description_eng": "Chilli",
+      "description_de": "Chilli",
+      "description_pl": "Chilli"
+    },
+    {
+      "id": 42,
+      "groups": ["unit_4"],
+      "name_cs": "커피",
+      "name_eng": "커피",
+      "name_de": "커피",
+      "name_pl": "커피",
+      "latin_name": "keopi",
+      "images": [
+        "obrazky/korean/coffee.jpg"
+      ],
+      "image_credits": {
+        "coffee.jpg": "https://deepai.org"
+      },
+      "description_cs": "Káva",
+      "description_eng": "Coffee",
+      "description_de": "Kaffee",
+      "description_pl": "Kawa"
+    },
+    {
+      "id": 43,
+      "groups": ["unit_4"],
+      "name_cs": "코트",
+      "name_eng": "코트",
+      "name_de": "코트",
+      "name_pl": "코트",
+      "latin_name": "koteu",
+      "images": [
+        "obrazky/korean/coat.jpg"
+      ],
+      "image_credits": {
+        "coat.jpg": "https://deepai.org"
+      },
+      "description_cs": "Kabát",
+      "description_eng": "Coat",
+      "description_de": "Mantel",
+      "description_pl": "Płaszcz"
+    },
+    {
+      "id": 44,
+      "groups": ["unit_4"],
+      "name_cs": "기차표",
+      "name_eng": "기차표",
+      "name_de": "기차표",
+      "name_pl": "기차표",
+      "latin_name": "gichapyo",
+      "images": [
+        "obrazky/korean/train_ticket.jpg"
+      ],
+      "image_credits": {
+        "train_ticket.jpg": "https://deepai.org"
+      },
+      "description_cs": "Jízdenka na vlak",
+      "description_eng": "Train ticket",
+      "description_de": "Fahrkarte",
+      "description_pl": "Bilet kolejowy"
+    },
+    {
+      "id": 45,
+      "groups": ["unit_5"],
+      "name_cs": "꼬리",
+      "name_eng": "꼬리",
+      "name_de": "꼬리",
+      "name_pl": "꼬리",
+      "latin_name": "kkori",
+      "images": [
+        "obrazky/korean/tail.jpg"
+      ],
+      "image_credits": {
+        "tail.jpg": "https://deepai.org"
+      },
+      "description_cs": "Ocas",
+      "description_eng": "Tail",
+      "description_de": "Schwanz",
+      "description_pl": "Ogon"
+    },
+    {
+      "id": 46,
+      "groups": ["unit_5"],
+      "name_cs": "토끼",
+      "name_eng": "토끼",
+      "name_de": "토끼",
+      "name_pl": "토끼",
+      "latin_name": "tokki",
+      "images": [
+        "obrazky/korean/rabbit.jpg"
+      ],
+      "image_credits": {
+        "rabbit.jpg": "https://deepai.org"
+      },
+      "description_cs": "Králík",
+      "description_eng": "Rabbit",
+      "description_de": "Kaninchen",
+      "description_pl": "Królik"
+    },
+    {
+      "id": 47,
+      "groups": ["unit_5"],
+      "name_cs": "까치",
+      "name_eng": "까치",
+      "name_de": "까치",
+      "name_pl": "까치",
+      "latin_name": "kkachi",
+      "images": [
+        "obrazky/korean/magpie.jpg"
+      ],
+      "image_credits": {
+        "magpie.jpg": "https://deepai.org"
+      },
+      "description_cs": "Straka",
+      "description_eng": "Magpie",
+      "description_de": "Elster",
+      "description_pl": "Sroka"
+    },
+    {
+      "id": 48,
+      "groups": ["unit_5"],
+      "name_cs": "코끼리",
+      "name_eng": "코끼리",
+      "name_de": "코끼리",
+      "name_pl": "코끼리",
+      "latin_name": "kokkiri",
+      "images": [
+        "obrazky/korean/elephant.jpg"
+      ],
+      "image_credits": {
+        "elephant.jpg": "https://deepai.org"
+      },
+      "description_cs": "Slon",
+      "description_eng": "Elephant",
+      "description_de": "Elefant",
+      "description_pl": "Słoń"
+    },
+    {
+      "id": 49,
+      "groups": ["unit_5"],
+      "name_cs": "뼈",
+      "name_eng": "뼈",
+      "name_de": "뼈",
+      "name_pl": "뼈",
+      "latin_name": "ppyeo",
+      "images": [
+        "obrazky/korean/bone.jpg"
+      ],
+      "image_credits": {
+        "bone.jpg": "https://deepai.org"
+      },
+      "description_cs": "Kost",
+      "description_eng": "Bone",
+      "description_de": "Knochen",
+      "description_pl": "Kość"
+    },
+    {
+      "id": 50,
+      "groups": ["unit_5"],
+      "name_cs": "뽀뽀",
+      "name_eng": "뽀뽀",
+      "name_de": "뽀뽀",
+      "name_pl": "뽀뽀",
+      "latin_name": "ppoppo",
+      "images": [
+        "obrazky/korean/kiss.jpg"
+      ],
+      "image_credits": {
+        "kiss.jpg": "https://deepai.org"
+      },
+      "description_cs": "Polibek",
+      "description_eng": "Kiss",
+      "description_de": "Kuss",
+      "description_pl": "Pocałunek"
+    },
+    {
+      "id": 51,
+      "groups": ["unit_5"],
+      "name_cs": "아빠",
+      "name_eng": "아빠",
+      "name_de": "아빠",
+      "name_pl": "아빠",
+      "latin_name": "appa",
+      "images": [
+        "obrazky/korean/dad.jpg"
+      ],
+      "image_credits": {
+        "dad.jpg": "https://deepai.org"
+      },
+      "description_cs": "Otec (tatínek)",
+      "description_eng": "Father (dad)",
+      "description_de": "Vater (Papa)",
+      "description_pl": "Ojciec (tata)"
+    },
+    {
+      "id": 52,
+      "groups": ["unit_5"],
+      "name_cs": "싸요",
+      "name_eng": "싸요",
+      "name_de": "싸요",
+      "name_pl": "싸요",
+      "latin_name": "ssayo",
+      "images": [
+        "obrazky/korean/cheap.jpg"
+      ],
+      "image_credits": {
+        "cheap.jpg": "https://deepai.org"
+      },
+      "description_cs": "Levný",
+      "description_eng": "Cheap",
+      "description_de": "Billig",
+      "description_pl": "Tani"
+    },
+    {
+      "id": 53,
+      "groups": ["unit_5"],
+      "name_cs": "아저씨",
+      "name_eng": "아저씨",
+      "name_de": "아저씨",
+      "name_pl": "아저씨",
+      "latin_name": "ajeossi",
+      "images": [
+        "obrazky/korean/middle_aged_man.jpg"
+      ],
+      "image_credits": {
+        "middle_aged_man.jpg": "https://deepai.org"
+      },
+      "description_cs": "Muž ve středních letech",
+      "description_eng": "Middle-aged man",
+      "description_de": "Mann mittleren Alters",
+      "description_pl": "Mężczyzna w średnim wieku"
+    },
+    {
+      "id": 54,
+      "groups": ["unit_5"],
+      "name_cs": "짜요",
+      "name_eng": "짜요",
+      "name_de": "짜요",
+      "name_pl": "짜요",
+      "latin_name": "jjayo",
+      "images": [
+        "obrazky/korean/salty.jpg"
+      ],
+      "image_credits": {
+        "salty.jpg": "https://deepai.org"
+      },
+      "description_cs": "Slaný",
+      "description_eng": "Salty",
+      "description_de": "Salzig",
+      "description_pl": "Słony"
+    },
+    {
+      "id": 55,
+      "groups": ["unit_5"],
+      "name_cs": "가짜",
+      "name_eng": "가짜",
+      "name_de": "가짜",
+      "name_pl": "가짜",
+      "latin_name": "gajja",
+      "images": [
+        "obrazky/korean/fake.jpg"
+      ],
+      "image_credits": {
+        "fake.jpg": "https://deepai.org"
+      },
+      "description_cs": "Falešný / Imitace",
+      "description_eng": "Fake / Imitation",
+      "description_de": "Falsch / Imitation",
+      "description_pl": "Fałszywy / Imitacja"
+    },
+    {
+      "id": 56,
+      "groups": ["unit_5"],
+      "name_cs": "짬뽕",
+      "name_eng": "짬뽕",
+      "name_de": "짬뽕",
+      "name_pl": "짬뽕",
+      "latin_name": "jjamppong",
+      "images": [
+        "obrazky/korean/korean_food.jpg"
+      ],
+      "image_credits": {
+        "korean_food.jpg": "https://deepai.org"
+      },
+      "description_cs": "Korejské jídlo",
+      "description_eng": "Korean food",
+      "description_de": "Koreanisches Essen",
+      "description_pl": "Koreańskie jedzenie"
+    },
+    {
+      "id": 57,
+      "groups": ["unit_1"],
+      "name_cs": "아",
+      "name_eng": "아",
+      "name_de": "아",
+      "name_pl": "아",
+      "latin_name": "a",
+      "images": [
+        "obrazky/korean/Ah.jpg"
+      ],
+      "image_credits": {
+        "Ah.jpg": "https://deepai.org"
+      },
+      "description_cs": "Ah",
+      "description_eng": "Ah",
+      "description_de": "Ah",
+      "description_pl": "Ah"
+    }
+  ]
+}
