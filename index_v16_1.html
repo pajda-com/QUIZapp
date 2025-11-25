@@ -420,7 +420,7 @@
             top: 20px;
             right: 20px;
         }
-        
+     
         .language-button {
             padding: 8px 15px;
             font-size: 14px;
@@ -430,7 +430,7 @@
             border-radius: 5px;
             cursor: pointer;
             margin: 0 2px;
-        }
+        } 
         
         .language-button.active {
             background-color: #2196F3;
@@ -576,6 +576,120 @@
             padding-top: 20px;
             border-top: 1px solid #eee;
         }
+
+        /* NOVÉ STYLY PRO KVIZ S PSANÍM */
+        .write-quiz-container {
+            display: none;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .answer-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .answer-controls button {
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            min-width: 120px;
+        }
+
+        .show-answer-button {
+            background-color: #2196F3;
+        }
+
+        .correct-button {
+            background-color: #4CAF50;
+        }
+
+        .incorrect-button {
+            background-color: #f44336;
+        }
+
+        .drawing-container {
+            margin: 20px 0;
+            border: 2px solid rgb(76, 175, 80); 
+            border-radius: 10px;
+            background-color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #drawingCanvas {
+            width: 100%;
+            height: 200px;
+            display: block;
+            cursor: crosshair;
+            touch-action: none; /* Důležité pro dotyková zařízení */
+        }
+
+        .drawing-tools {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .drawing-tools button {
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+
+        .clear-button {
+            background-color: #ff9800;
+        }
+
+        .answer-display {
+            margin: 20px 0;
+            padding: 30px;
+            background-color: var(--score-bg);
+            border-radius: 15px;
+            border: 3px solid var(--border-color);
+            display: none;
+        }
+
+        .answer-text {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .answer-latin {
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .answer-description {
+            font-size: 18px;
+            color: var(--text-color);
+            line-height: 1.4;
+        }
+
+        .evaluation-buttons {
+            display: none;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .evaluation-buttons button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            min-width: 140px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
     </style>
 </head>
 <body>
@@ -649,7 +763,7 @@
             </div>
         </div>
 
-        <!-- UNIVERZÁLNÍ KVIZOVÁ PLOCHA -->
+        <!-- UNIVERZÁLNÍ KVIZOVÁ PLOCHA (PRO 4 ODPOVĚDI) -->
         <div id="quizArea" style="display: none;">
             <div class="quiz-header">
                 <h1 id="quizTitle">🎯 Kvíz</h1>
@@ -682,6 +796,59 @@
             <div id="feedback" class="feedback"></div>
         </div>
 
+        <!-- NOVÁ KVIZOVÁ PLOCHA PRO PSANÍ ODPOVĚDÍ -->
+        <div id="writeQuizArea" class="write-quiz-container" style="display: none;">
+            <div class="quiz-header">
+                <h1 id="writeQuizTitle">🎯 Kvíz - Psaní</h1>
+                <button class="menu-return-button" onclick="returnToMenuFromQuiz()" title="Zpět do menu">🏠</button>
+            </div>
+            
+            <div class="score-container">
+                <span id="writeScoreText">Skóre: 0</span> | 
+                <span id="writeProgressText">Otázka: 1/0</span>
+            </div>
+            
+            <div class="quiz-container">
+                <img id="writeQuizImage" class="quiz-image" src="" alt="Obrázek">
+                
+                <!-- Hint ikona -->
+                <div id="writeHintIcon" class="hint-icon" data-title="hintButton">💡</div>
+                <div id="writeHintTooltip" class="hint-tooltip"></div>
+                <!-- Ikona pro informace o fotce -->
+                <div id="writeCreditIcon" class="credit-icon" data-title="photoCredit">ℹ️</div>
+                <div id="writeCreditTooltip" class="credit-tooltip"></div>
+            </div>
+
+            <!-- Ovládací tlačítka -->
+            <div class="answer-controls">
+                <button class="show-answer-button" onclick="showAnswer()" id="showAnswerButton">Odpověď</button>
+            </div>
+
+            <!-- Zobrazení správné odpovědi -->
+            <div id="answerDisplay" class="answer-display">
+                <div id="answerText" class="answer-text"></div>
+                <div id="answerLatin" class="answer-latin"></div>
+                <div id="answerDescription" class="answer-description"></div>
+            </div>
+
+            <!-- Tlačítka pro hodnocení -->
+            <div id="evaluationButtons" class="evaluation-buttons">
+                <button class="correct-button" onclick="evaluateAnswer(true)" id="correctButton">✓ Správně</button>
+                <button class="incorrect-button" onclick="evaluateAnswer(false)" id="incorrectButton">✗ Špatně</button>
+            </div>
+
+            <!-- Plátno pro kreslení -->
+            <div class="drawing-container">
+                <canvas id="drawingCanvas"></canvas>
+            </div>
+            
+            <div class="drawing-tools">
+                <button class="clear-button" onclick="clearCanvas()" id="clearButton">Vymazat</button>
+            </div>
+            
+            <div id="writeFeedback" class="feedback"></div>
+        </div>
+
         <!-- VÝSLEDKOVÁ OBRAZOVKA (NOVÁ) -->
         <div id="quizResults">
             <!-- Obsah se dynamicky naplní -->
@@ -698,7 +865,8 @@
                 nameField: 'name', // Bude dynamicky upraveno podle jazyka
                 scientificField: 'latin_name',
                 hintField: 'description', // Bude dynamicky upraveno podle jazyka
-                groupField: 'group'
+                groupField: 'group',
+                quizType: 'options' // Nový parametr pro typ kvízu
             },
             'flowers': {
                 titleKey: 'flowersQuiz',
@@ -707,7 +875,8 @@
                 nameField: 'name', // Bude dynamicky upraveno podle jazyka
                 scientificField: 'latin_name',
                 hintField: 'description', // Bude dynamicky upraveno podle jazyka
-                groupField: 'group'
+                groupField: 'group',
+                quizType: 'options'
             },
             'korean': {
                 titleKey: 'koreanQuiz',
@@ -716,7 +885,8 @@
                 nameField: 'name', // Bude dynamicky upraveno podle jazyka
                 scientificField: 'latin_name',
                 hintField: 'description', // Bude dynamicky upraveno podle jazyka
-                groupField: 'group'
+                groupField: 'group',
+                quizType: 'write' // Nový typ kvízu - psaní odpovědí
             }
         };
 
@@ -733,6 +903,13 @@
         let currentLanguage = 'cs';
         let translations = {};
         let currentGroup = null;
+        let currentQuizType = 'options'; // 'options' nebo 'write'
+        
+        // Proměnné pro kreslení
+        let canvas, ctx;
+        let isDrawing = false;
+        let lastX = 0;
+        let lastY = 0;
 
         // ==================== NAČTENÍ PŘEKLADŮ ====================
         function loadTranslations() {
@@ -752,11 +929,11 @@
                     alert('Nelze načíst překlady. Kontaktujte správce.');
                 })
                 .then(() => {
-                    loadThemePreference(); // ← Načti uložené téma
+                    loadThemePreference();
                     updateUI();
+                    initCanvas(); // Inicializace canvasu pro kreslení
                 });
-
-            }
+        }
 
         // ==================== INTERNATIONALIZACE ====================
         function changeLanguage(lang) {
@@ -815,6 +992,7 @@
             
             // Aktualizovat název kvízu
             document.getElementById('quizTitle').textContent = getText(currentQuiz.titleKey);
+            document.getElementById('writeQuizTitle').textContent = getText(currentQuiz.titleKey);
             
             // Pokud máme načtená data, aktualizovat aktuální otázku
             if (quizData.length > 0 && currentItemIndex !== -1) {
@@ -842,9 +1020,21 @@
             document.getElementById('flowersQuizButton').textContent = getText('flowersQuiz');
             document.getElementById('koreanQuizButton').textContent = getText('koreanQuiz');
             
+            // AKTUALIZACE TLAČÍTEK PRO KVIZ S PSANÍM
+            const showAnswerButton = document.getElementById('showAnswerButton');
+            const clearButton = document.getElementById('clearButton');
+            const correctButton = document.getElementById('correctButton');
+            const incorrectButton = document.getElementById('incorrectButton');
+            
+            if (showAnswerButton) showAnswerButton.textContent = getText('showAnswer');
+            if (clearButton) clearButton.textContent = getText('clearDrawing');
+            if (correctButton) correctButton.textContent = getText('correctAnswer');
+            if (incorrectButton) incorrectButton.textContent = getText('incorrectAnswer');
+
             // Kvízová obrazovka
             if (currentQuiz) {
                 document.getElementById('quizTitle').textContent = getText(currentQuiz.titleKey);
+                document.getElementById('writeQuizTitle').textContent = getText(currentQuiz.titleKey);
             }
             
             // Načítací texty pro možnosti odpovědí
@@ -861,12 +1051,20 @@
             // AKTUALIZACE TITULKŮ IKON
             const hintIcon = document.getElementById('hintIcon');
             const creditIcon = document.getElementById('creditIcon');
+            const writeHintIcon = document.getElementById('writeHintIcon');
+            const writeCreditIcon = document.getElementById('writeCreditIcon');
                     
             if (hintIcon) {
                 hintIcon.title = getText('hintButton');
             }
             if (creditIcon) {
                 creditIcon.title = getText('photoCredit');
+            }
+            if (writeHintIcon) {
+                writeHintIcon.title = getText('hintButton');
+            }
+            if (writeCreditIcon) {
+                writeCreditIcon.title = getText('photoCredit');
             }
                     
             // Aktualizace výběru skupin
@@ -1120,9 +1318,14 @@
             
             // Vyčistit feedback
             const feedback = document.getElementById('feedback');
+            const writeFeedback = document.getElementById('writeFeedback');
             if (feedback) {
                 feedback.innerHTML = '';
                 feedback.className = 'feedback';
+            }
+            if (writeFeedback) {
+                writeFeedback.innerHTML = '';
+                writeFeedback.className = 'feedback';
             }
 
             currentQuiz = quizConfig[quizType];
@@ -1130,6 +1333,9 @@
                 alert('Kvíz není nakonfigurován!');
                 return;
             }
+
+            // Nastavit typ kvízu
+            currentQuizType = currentQuiz.quizType || 'options';
 
             // Nastavit správná jazyková pole
             currentQuiz.nameField = getNameField();
@@ -1139,6 +1345,7 @@
             document.getElementById('quizMenu').style.display = 'none';
             document.getElementById('quizResults').style.display = 'none';
             document.getElementById('quizArea').style.display = 'none';
+            document.getElementById('writeQuizArea').style.display = 'none';
             document.getElementById('groupSelection').style.display = 'block';
 
             // Načíst data pro zobrazení skupin
@@ -1261,10 +1468,22 @@
             currentGroup = groupId;
             console.log(`Spouštím kvíz pro skupinu: ${groupId}`);
             
-            // Skrýt výběr skupin, zobrazit kvíz
+            // Skrýt výběr skupin, zobrazit správný typ kvízu
             document.getElementById('groupSelection').style.display = 'none';
-            document.getElementById('quizArea').style.display = 'block';
-            document.getElementById('quizTitle').textContent = getText(currentQuiz.titleKey);
+            
+            if (currentQuizType === 'write') {
+                document.getElementById('writeQuizArea').style.display = 'block';
+                document.getElementById('writeQuizTitle').textContent = getText(currentQuiz.titleKey);
+                
+                // INICIALIZACE CANVASU PŘI ZOBRAZENÍ KVIZU S PSANÍM
+                setTimeout(() => {
+                    console.log("Initializing canvas for write quiz");
+                    initCanvas();
+                }, 100);
+            } else {
+                document.getElementById('quizArea').style.display = 'block';
+                document.getElementById('quizTitle').textContent = getText(currentQuiz.titleKey);
+            }
             
             // Načíst data pro kvíz s filtrací skupiny
             loadQuizDataForQuiz();
@@ -1346,6 +1565,7 @@
 
         function returnToGroupSelection() {
             document.getElementById('quizArea').style.display = 'none';
+            document.getElementById('writeQuizArea').style.display = 'none';
             document.getElementById('quizResults').style.display = 'none';
             document.getElementById('groupSelection').style.display = 'block';
         }
@@ -1386,26 +1606,52 @@
                 randomImage = images;
             }
             
+            // Načíst obrázek pro oba typy kvízů
             document.getElementById('quizImage').src = randomImage;
             document.getElementById('quizImage').alt = item[currentQuiz.nameField];
+            document.getElementById('writeQuizImage').src = randomImage;
+            document.getElementById('writeQuizImage').alt = item[currentQuiz.nameField];
             
             // Naplnit hint (původní funkce)
             const hint = item[currentQuiz.hintField];
             document.getElementById('hintTooltip').textContent = hint || getText('hintNotAvailable');
+            document.getElementById('writeHintTooltip').textContent = hint || getText('hintNotAvailable');
             
             // NAČÍST A NASTAVIT CREDIT INFORMACE
             const creditInfo = getImageCredit(item, randomImage);
             document.getElementById('creditTooltip').textContent = creditInfo;
+            document.getElementById('writeCreditTooltip').textContent = creditInfo;
             
-            const randomOptions = getRandomOptions(item);
-            const buttons = document.querySelectorAll('.options button');
-            randomOptions.forEach((option, index) => {
-                buttons[index].innerHTML = option.displayText;
-                buttons[index].dataset.itemName = option.itemName;
-            });
+            // Pro kvíz s možnostmi
+            if (currentQuizType === 'options') {
+                const randomOptions = getRandomOptions(item);
+                const buttons = document.querySelectorAll('.options button');
+                randomOptions.forEach((option, index) => {
+                    buttons[index].innerHTML = option.displayText;
+                    buttons[index].dataset.itemName = option.itemName;
+                });
+                
+                item.currentCorrectIndex = randomOptions.findIndex(opt => opt.isCorrect);
+            }
             
-            item.currentCorrectIndex = randomOptions.findIndex(opt => opt.isCorrect);
+            // Pro kvíz s psaním - resetovat stav
+            if (currentQuizType === 'write') {
+                resetWriteQuizState();
+            }
+            
             updateStats();
+        }
+
+        // Resetovat stav kvízu s psaním
+        function resetWriteQuizState() {
+            document.getElementById('answerDisplay').style.display = 'none';
+            document.getElementById('evaluationButtons').style.display = 'none';
+            document.getElementById('writeQuizImage').style.display = 'block';
+            document.getElementById('writeHintIcon').style.display = 'block';
+            document.getElementById('writeCreditIcon').style.display = 'block';
+            document.getElementById('writeFeedback').innerHTML = '';
+            document.getElementById('writeFeedback').className = 'feedback';
+            clearCanvas();
         }
 
         // Získat licenční informace pro obrázek
@@ -1479,7 +1725,7 @@
                 const result = [];
                 const availableCount = availableItems.length;
                 
-                // Kolikrát se vejde celý dataset
+                // Kolikrát se vejce celý dataset
                 const fullCycles = Math.floor(requestedCount / availableCount);
                 // Zbývající počet otázek
                 const remainder = requestedCount % availableCount;
@@ -1550,11 +1796,160 @@
             updateStats();
         }
 
+        // ==================== FUNKCE PRO KRESLENÍ - MINIMÁLNÍ FUNKČNÍ VERZE ====================
+        function initCanvas() {
+            canvas = document.getElementById('drawingCanvas');
+            ctx = canvas.getContext('2d');
+            
+            const container = canvas.parentElement;
+            canvas.width = container.offsetWidth;
+            canvas.height = 200;
+            
+            // Inicializace bílého pozadí
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Styl kreslení - ZVÝŠIT ŠÍŘKU ČÁRY
+            ctx.strokeStyle = '#000000';
+            ctx.lineWidth = 3; // Zvýšeno z 5 na 8 pro lepší viditelnost
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round'; // DŮLEŽITÉ: Přidáno pro plynulejší kreslení
+            
+            // Event listeners pro myš
+            canvas.addEventListener('mousedown', startDrawing);
+            canvas.addEventListener('mousemove', draw);
+            canvas.addEventListener('mouseup', stopDrawing);
+            canvas.addEventListener('mouseout', stopDrawing);
+            
+            // Event listeners pro dotyková zařízení
+            canvas.addEventListener('touchstart', handleTouchStart);
+            canvas.addEventListener('touchmove', handleTouchMove);
+            canvas.addEventListener('touchend', stopDrawing);
+        }
+
+        // Pomocné funkce pro získání pozice
+        function getMousePos(e) {
+            const rect = canvas.getBoundingClientRect();
+            return {
+                x: e.clientX - rect.left,
+                y: e.clientY - rect.top
+            };
+        }
+
+        function getTouchPos(e) {
+            const rect = canvas.getBoundingClientRect();
+            return {
+                x: e.touches[0].clientX - rect.left,
+                y: e.touches[0].clientY - rect.top
+            };
+        }
+
+        // Funkce pro kreslení
+        function startDrawing(e) {
+            isDrawing = true;
+            const pos = e.type.includes('touch') ? getTouchPos(e) : getMousePos(e);
+            [lastX, lastY] = [pos.x, pos.y];
+            
+            // Začátek nové cesty
+            ctx.beginPath();
+            ctx.moveTo(lastX, lastY);
+            
+            e.preventDefault(); // Důležité pro touch zařízení
+        }
+
+        function draw(e) {
+            if (!isDrawing) return;
+            
+            const pos = e.type.includes('touch') ? getTouchPos(e) : getMousePos(e);
+            const x = pos.x;
+            const y = pos.y;
+            
+            // Kreslení čáry
+            ctx.lineTo(x, y);
+            ctx.stroke();
+            
+            [lastX, lastY] = [x, y];
+            
+            e.preventDefault(); // Důležité pro touch zařízení
+        }
+
+        function stopDrawing() {
+            isDrawing = false;
+        }
+
+        // Touch event handlers
+        function handleTouchStart(e) {
+            startDrawing(e);
+        }
+
+        function handleTouchMove(e) {
+            draw(e);
+        }
+
+        function clearCanvas() {
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+        }
+
+        // ==================== FUNKCE PRO KVIZ S PSANÍM ====================
+        function showAnswer() {
+            const item = quizData[currentItemIndex];
+            
+            // Skrýt obrázek a ikony
+            document.getElementById('writeQuizImage').style.display = 'none';
+            document.getElementById('writeHintIcon').style.display = 'none';
+            document.getElementById('writeCreditIcon').style.display = 'none';
+            
+            // Zobrazit správnou odpověď
+            document.getElementById('answerText').textContent = item[currentQuiz.nameField];
+            document.getElementById('answerLatin').textContent = item[currentQuiz.scientificField] || '';
+            document.getElementById('answerDescription').textContent = item[currentQuiz.hintField] || '';
+            document.getElementById('answerDisplay').style.display = 'block';
+            
+            // Zobrazit tlačítka pro hodnocení
+            document.getElementById('evaluationButtons').style.display = 'flex';
+        }
+
+        function evaluateAnswer(isCorrect) {
+            const feedback = document.getElementById('writeFeedback');
+            const item = quizData[currentItemIndex];
+            
+            if (isCorrect) {
+                feedback.innerHTML = getText('correct');
+                feedback.className = 'feedback correct';
+                score++;
+            } else {
+                // Získat správnou odpověď v aktuálním jazyce
+                const correctAnswer = item[currentQuiz.nameField];
+                const scientificName = item[currentQuiz.scientificField] ? 
+                    `<span style="font-style: italic">${item[currentQuiz.scientificField]}</span>` : '';
+                
+                // Vytvořit kompletní zprávu se správnou odpovědí
+                feedback.innerHTML = `${getText('incorrect')} <strong>${correctAnswer}</strong> ${scientificName}`;
+                feedback.className = 'feedback incorrect';
+            }
+            
+            updateStats();
+            
+            // Přechod na další otázku po zpoždění
+            setTimeout(() => {
+                currentItemIndex = getNextRandomItem();
+                if (currentItemIndex === -1) {
+                    showQuizResults();
+                } else {
+                    loadItem();
+                    feedback.innerHTML = '';
+                    feedback.className = 'feedback';
+                }
+            }, 1500);
+        }
+
         function showQuizResults() {
             const percentage = Math.round((score / totalQuestions) * 100);
             
             // Skrýt kvíz, zobrazit výsledky
             document.getElementById('quizArea').style.display = 'none';
+            document.getElementById('writeQuizArea').style.display = 'none';
             document.getElementById('quizResults').style.display = 'block';
             document.getElementById('quizResults').innerHTML = `
                 <h1>${getText('quizCompleted')}</h1>
@@ -1592,8 +1987,15 @@
             
             // Vyčistit feedback zprávu
             const feedback = document.getElementById('feedback');
-            feedback.innerHTML = '';
-            feedback.className = 'feedback';
+            const writeFeedback = document.getElementById('writeFeedback');
+            if (feedback) {
+                feedback.innerHTML = '';
+                feedback.className = 'feedback';
+            }
+            if (writeFeedback) {
+                writeFeedback.innerHTML = '';
+                writeFeedback.className = 'feedback';
+            }
             
             // Také resetovat barvy tlačítek pro jistotu
             const buttons = document.querySelectorAll('.options button');
@@ -1602,9 +2004,14 @@
                 btn.disabled = false;
             });
             
-            // Skrýt výsledky, zobrazit kvíz
+            // Skrýt výsledky, zobrazit správný typ kvízu
             document.getElementById('quizResults').style.display = 'none';
-            document.getElementById('quizArea').style.display = 'block';
+            
+            if (currentQuizType === 'write') {
+                document.getElementById('writeQuizArea').style.display = 'block';
+            } else {
+                document.getElementById('quizArea').style.display = 'block';
+            }
             
             // Načíst první položku
             currentItemIndex = getNextRandomItem();
@@ -1619,6 +2026,7 @@
             
             // Skrýt vše, zobrazit menu
             document.getElementById('quizArea').style.display = 'none';
+            document.getElementById('writeQuizArea').style.display = 'none';
             document.getElementById('quizResults').style.display = 'none';
             document.getElementById('groupSelection').style.display = 'none';
             document.getElementById('quizMenu').style.display = 'block';
@@ -1639,6 +2047,8 @@
             const currentQuestionNumber = totalQuestions - remainingItems.length;
             document.getElementById('scoreText').textContent = `${getText('score')} ${score}`;
             document.getElementById('progressText').textContent = `${getText('question')} ${currentQuestionNumber}/${totalQuestions}`;
+            document.getElementById('writeScoreText').textContent = `${getText('score')} ${score}`;
+            document.getElementById('writeProgressText').textContent = `${getText('question')} ${currentQuestionNumber}/${totalQuestions}`;
         }
 
         // Načtení překladů při startu
