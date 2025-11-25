@@ -3,6 +3,7 @@
     "name_cs": "Květiny a bylinky",
     "version": "1.0",
     "imagesPerItem": 2,
+    "quizType": "write",
     "quizGroups": {
       "kulinarske_bylinky": {
         "cs": "Kulinářské bylinky",
