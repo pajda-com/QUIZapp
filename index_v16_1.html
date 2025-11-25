@@ -629,6 +629,7 @@
             <div style="margin: 40px 0;">
                 <button onclick="startQuiz('birds')" class="quiz-button" id="birdsQuizButton">🐦 Poznávej ptáky</button>
                 <button onclick="startQuiz('flowers')" class="quiz-button" id="flowersQuizButton">🌼 Poznávej květiny</button>
+                <button onclick="startQuiz('korean')" class="quiz-button" id="koreanQuizButton">🇰🇷 Nauč se korejská slova</button>
             </div>
             <p style="color: #666; font-style: italic;" id="moreQuizzesText">Více kvízů připravujeme...</p>
         </div>
@@ -703,6 +704,15 @@
                 titleKey: 'flowersQuiz',
                 dataFile: 'flowers.json',
                 imageField: 'images', 
+                nameField: 'name', // Bude dynamicky upraveno podle jazyka
+                scientificField: 'latin_name',
+                hintField: 'description', // Bude dynamicky upraveno podle jazyka
+                groupField: 'group'
+            },
+            'korean': {
+                titleKey: 'koreanQuiz',
+                dataFile: 'korean.json',
+                imageField: 'images',
                 nameField: 'name', // Bude dynamicky upraveno podle jazyka
                 scientificField: 'latin_name',
                 hintField: 'description', // Bude dynamicky upraveno podle jazyka
@@ -830,6 +840,7 @@
             document.getElementById('moreQuizzesText').textContent = getText('moreQuizzes');
             document.getElementById('birdsQuizButton').textContent = getText('birdsQuiz');
             document.getElementById('flowersQuizButton').textContent = getText('flowersQuiz');
+            document.getElementById('koreanQuizButton').textContent = getText('koreanQuiz');
             
             // Kvízová obrazovka
             if (currentQuiz) {
