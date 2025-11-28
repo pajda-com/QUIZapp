@@ -34,6 +34,12 @@
         "en": "Unit 5",
         "de": "Lektion 5",
         "pl": "Lekcja 5"
+      },
+      "unit_6": {
+        "cs": "Lekce 6",
+        "en": "Unit 6",
+        "de": "Lektion 6",
+        "pl": "Lekcja 6"
       }
     }
   },
@@ -1120,6 +1126,234 @@
       "description_eng": "Ah",
       "description_de": "Ah",
       "description_pl": "Ah"
+    },
+    {
+      "id": 58,
+      "groups": ["unit_6"],
+      "name_cs": "왜",
+      "name_eng": "왜",
+      "name_de": "왜",
+      "name_pl": "왜",
+      "latin_name": "wae",
+      "images": [
+        "obrazky/korean/why.jpg"
+      ],
+      "image_credits": {
+        "why.jpg": "https://deepai.org"
+      },
+      "description_cs": "Proč",
+      "description_eng": "Why",
+      "description_de": "Warum",
+      "description_pl": "Dlaczego"
+    },
+    {
+      "id": 59,
+      "groups": ["unit_6"],
+      "name_cs": "과자",
+      "name_eng": "과자",
+      "name_de": "과자",
+      "name_pl": "과자",
+      "latin_name": "gwaja",
+      "images": [
+        "obrazky/korean/snack.jpg"
+      ],
+      "image_credits": {
+        "snack.jpg": "https://deepai.org"
+      },
+      "description_cs": "Občerstvení/cukroví",
+      "description_eng": "Snack/confectionery",
+      "description_de": "Snack/Konditorei",
+      "description_pl": "Przekąska/cukiernik"
+    },
+    {
+      "id": 60,
+      "groups": ["unit_6"],
+      "name_cs": "화가",
+      "name_eng": "화가",
+      "name_de": "화가",
+      "name_pl": "화가",
+      "latin_name": "hwaga",
+      "images": [
+        "obrazky/korean/painter.jpg"
+      ],
+      "image_credits": {
+        "painter.jpg": "https://deepai.org"
+      },
+      "description_cs": "Malíř",
+      "description_eng": "Painter",
+      "description_de": "Maler",
+      "description_pl": "Malarz"
+    },
+    {
+      "id": 61,
+      "groups": ["unit_6"],
+      "name_cs": "사과",
+      "name_eng": "사과",
+      "name_de": "사과",
+      "name_pl": "사과",
+      "latin_name": "sagwa",
+      "images": [
+        "obrazky/korean/apple.jpg"
+      ],
+      "image_credits": {
+        "apple.jpg": "https://deepai.org"
+      },
+      "description_cs": "Jablko",
+      "description_eng": "Apple",
+      "description_de": "Apfel",
+      "description_pl": "Jabłko"
+    },
+    {
+      "id": 62,
+      "groups": ["unit_6"],
+      "name_cs": "뭐",
+      "name_eng": "뭐",
+      "name_de": "뭐",
+      "name_pl": "뭐",
+      "latin_name": "mwo",
+      "images": [
+        "obrazky/korean/what.jpg"
+      ],
+      "image_credits": {
+        "what.jpg": "https://deepai.org"
+      },
+      "description_cs": "Co",
+      "description_eng": "What",
+      "description_de": "Was",
+      "description_pl": "Co"
+    },
+    {
+      "id": 63,
+      "groups": ["unit_6"],
+      "name_cs": "더워요",
+      "name_eng": "더워요",
+      "name_de": "더워요",
+      "name_pl": "더워요",
+      "latin_name": "deowoyo",
+      "images": [
+        "obrazky/korean/hot.jpg"
+      ],
+      "image_credits": {
+        "hot.jpg": "https://deepai.org"
+      },
+      "description_cs": "Horký",
+      "description_eng": "Hot",
+      "description_de": "Heiß",
+      "description_pl": "Gorący"
+    },
+    {
+      "id": 64,
+      "groups": ["unit_6"],
+      "name_cs": "추워요",
+      "name_eng": "추워요",
+      "name_de": "추워요",
+      "name_pl": "추워요",
+      "latin_name": "chuwoyo",
+      "images": [
+        "obrazky/korean/cold.jpg"
+      ],
+      "image_credits": {
+        "cold.jpg": "https://deepai.org"
+      },
+      "description_cs": "Studený",
+      "description_eng": "Cold",
+      "description_de": "Kalt",
+      "description_pl": "Zimny"
+    },
+    {
+      "id": 65,
+      "groups": ["unit_6"],
+      "name_cs": "돼지",
+      "name_eng": "돼지",
+      "name_de": "돼지",
+      "name_pl": "돼지",
+      "latin_name": "dwaeji",
+      "images": [
+        "obrazky/korean/pig.jpg"
+      ],
+      "image_credits": {
+        "pig.jpg": "https://deepai.org"
+      },
+      "description_cs": "Prase",
+      "description_eng": "Pig",
+      "description_de": "Schwein",
+      "description_pl": "Świnia"
+    },
+    {
+      "id": 66,
+      "groups": ["unit_6"],
+      "name_cs": "쇠고기",
+      "name_eng": "쇠고기",
+      "name_de": "쇠고기",
+      "name_pl": "쇠고기",
+      "latin_name": "soegogi",
+      "images": [
+        "obrazky/korean/beef.jpg"
+      ],
+      "image_credits": {
+        "beef.jpg": "https://deepai.org"
+      },
+      "description_cs": "Hovězí",
+      "description_eng": "Beef",
+      "description_de": "Rindfleisch",
+      "description_pl": "Wołowina"
+    },
+    {
+      "id": 67,
+      "groups": ["unit_6"],
+      "name_cs": "회사",
+      "name_eng": "회사",
+      "name_de": "회사",
+      "name_pl": "회사",
+      "latin_name": "hoesa",
+      "images": [
+        "obrazky/korean/company.jpg"
+      ],
+      "image_credits": {
+        "company.jpg": "https://deepai.org"
+      },
+      "description_cs": "Společnost",
+      "description_eng": "Company",
+      "description_de": "Firma",
+      "description_pl": "Firma"
+    },
+    {
+      "id": 68,
+      "groups": ["unit_6"],
+      "name_cs": "귀",
+      "name_eng": "귀",
+      "name_de": "귀",
+      "name_pl": "귀",
+      "latin_name": "gwi",
+      "images": [
+        "obrazky/korean/ear.jpg"
+      ],
+      "image_credits": {
+        "ear.jpg": "https://deepai.org"
+      },
+      "description_cs": "Ucho",
+      "description_eng": "Ear",
+      "description_de": "Ohr",
+      "description_pl": "Ucho"
+    },
+    {
+      "id": 69,
+      "groups": ["unit_6"],
+      "name_cs": "의사",
+      "name_eng": "의사",
+      "name_de": "의사",
+      "name_pl": "의사",
+      "latin_name": "uisa",
+      "images": [
+        "obrazky/korean/doctor.jpg"
+      ],
+      "image_credits": {
+        "doctor.jpg": "https://deepai.org"
+      },
+      "description_cs": "Doktor",
+      "description_eng": "Doctor",
+      "description_de": "Arzt",
+      "description_pl": "Lekarz"
     }
   ]
 }
