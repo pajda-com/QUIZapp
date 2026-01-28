@@ -884,7 +884,7 @@
     {
       "id": 40,
       "groups": ["pevci"],
-      "name_cs": "Drozd kvíčala",
+      "name_cs": "Šedý drozd",
       "name_eng": "Fieldfare",
       "name_de": "Wacholderdrossel",
       "name_pl": "Kwiczoł",
@@ -897,7 +897,7 @@
         "turdus_pilaris_1.jpg": "Von Arnstein Rønning - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14936065",
         "turdus_pilaris_2.jpg": "By Bengt Nyman from Vaxholm, Sweden - Turdus pilaris EM1B9020, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=59268209"
       },
-      "description_cs": "Drozd kvíčala je středně velký pták s šedým hřbetem, rezavým ocasem a bílým břichem s černými skvrnami. Často se vyskytuje v lesích a parcích.",
+      "description_cs": "Šedý drozd je středně velký pták s šedým hřbetem, rezavým ocasem a bílým břichem s černými skvrnami. Často se vyskytuje v lesích a parcích.",
       "description_eng": "The Fieldfare is a medium-sized bird with a grey back, rusty tail, and white belly with black spots. It is often found in forests and parks.",
       "description_de": "Die Wacholderdrossel ist ein mittelgroßer Vogel mit grauem Rücken, rostigem Schwanz und weißem Bauch mit schwarzen Flecken. Sie kommt häufig in Wäldern und Parks vor.",
       "description_pl": "Kwiczoł to średniej wielkości ptak o szarym grzbiecie, rdzawym ogonie i białym brzuchu z czarnymi plamami. Często występuje w lasach i parkach."
@@ -1468,6 +1468,282 @@
       "description_eng": "The Eurasian Siskin is a small, lively songbird with striking yellow-black plumage. The male has a bright yellow breast and black cap, while the female is more olive-green. It feeds mainly on seeds, particularly thistle and tree seeds.",
       "description_de": "Der Erlenzeisig ist ein kleiner, lebhafter Singvogel mit auffälligem gelb-schwarzem Gefieder. Das Männchen hat eine leuchtend gelbe Brust und eine schwarze Kappe, das Weibchen ist mehr olivgrün. Er ernährt sich hauptsächlich von Samen, insbesondere von Disteln und Baumsamen.",
       "description_pl": "Czyż zwyczajny to mały, żywiołowy ptak śpiewający o striking żółto-czarnym upierzeniu. Samiec ma jaskrawożółtą pierś i czarną czapeczkę, podczas gdy samica jest bardziej oliwkowozielona. Żywi się głównie nasionami, zwłaszcza ostów i drzew."
+    },
+    
+    
+    
+    {
+      "id": 68,
+      "groups": ["pevci"],
+      "name_cs": "Králíček obecný",
+      "name_eng": "Goldcrest",
+      "name_de": "Wintergoldhähnchen",
+      "name_pl": "Mysikrólik",
+      "latin_name": "Regulus regulus",
+      "images": [
+        "obrazky/birds/regulus_regulus_1.jpg",
+        "obrazky/birds/regulus_regulus_2.jpg"
+      ],
+      "image_credits": {
+        "regulus_regulus_1.jpg": "Autor: gailhampshire from Cradley, Malvern, U.K – Goldcrest, male (Regulus regulus), CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=73444469",
+        "regulus_regulus_2.jpg": "By © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=38667947"
+      },
+      "description_cs": "Králíček obecný je nejmenší evropský pěvec s nápadnou žlutou čepičkou na hlavě. Je velmi aktivní a živý, často se pohybuje ve stromech a keřích, kde hledá hmyz a pavouky.",
+      "description_eng": "The Goldcrest is the smallest European songbird with a distinctive yellow crown. It is very active and lively, often moving through trees and shrubs where it searches for insects and spiders.",
+      "description_de": "Der Wintergoldhähnchen ist der kleinste europäische Singvogel mit einer auffälligen gelben Krone. Er ist sehr aktiv und lebhaft, bewegt sich oft in Bäumen und Sträuchern, wo er Insekten und Spinnen sucht.",
+      "description_pl": "Mysikrólik to najmniejszy europejski ptak śpiewający z charakterystyczną żółtą koroną. Jest bardzo aktywny i żywy, często porusza się w drzewach i krzakach, gdzie szuka owadów i pająków."
+    },
+    {
+      "id": 69,
+      "groups": ["pevci"],
+      "name_cs": "Linduška luční",
+      "name_eng": "Meadow Pipit",
+      "name_de": "Wiesenpieper",
+      "name_pl": "Świergotek łąkowy",
+      "latin_name": "Anthus pratensis",
+      "images": [
+        "obrazky/birds/anthus_pratensis_1.jpg",
+        "obrazky/birds/anthus_pratensis_2.jpg"
+      ],
+      "image_credits": {
+        "anthus_pratensis_1.jpg": "Autor: Jenny Jones – Flickr, CC0, https://commons.wikimedia.org/w/index.php?curid=47139448",
+        "anthus_pratensis_2.jpg": "By Andreas Trepte - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=44721134"
+      },
+      "description_cs": "Linduška luční je malý pěvec s hnědavým zbarvením a jemnými proužky na prsou. Často se vyskytuje na otevřených loukách a pastvinách, kde hledá hmyz a semena.",
+      "description_eng": "The Meadow Pipit is a small songbird with a brownish coloration and fine streaks on the breast. It often occurs on open meadows and pastures, where it searches for insects and seeds.",
+      "description_de": "Der Wiesenpieper ist ein kleiner Singvogel mit braunem Färbung und feinen Streifen auf der Brust. Er kommt oft auf offenen Wiesen und Weiden vor, wo er Insekten und Samen sucht.",
+      "description_pl": "Świergotek łąkowy to mały ptak śpiewający z brązowym zabarwieniem i drobnymi prążkami na piersi. Często występuje na otwartych łąkach i pastwiskach, gdzie szuka owadów i nasion."
+    },
+    {
+      "id": 70,
+      "groups": ["pevci"],
+      "name_cs": "Červenka obecná",
+      "name_eng": "European Robin",
+      "name_de": "Rotkehlchen",
+      "name_pl": "Rudzik",
+      "latin_name": "Erithacus rubecula",
+      "images": [
+        "obrazky/birds/erithacus_rubecula_1.jpg",
+        "obrazky/birds/erithacus_rubecula_2.jpg"
+      ],
+      "image_credits": {
+        "erithacus_rubecula_1.jpg": "By © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=31367900",
+        "erithacus_rubecula_2.jpg": "By alg2115 - https://www.inaturalist.org/photos/203811554, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=164851612"
+      },
+      "description_cs": "Červenka obecná je malý pěvec s nápadnou červenou náprsenkou a hnědým zbarvením. Je známá svým melodickým zpěvem, který často slyšíme i v zimních měsících.",
+      "description_eng": "The European Robin is a small songbird with a distinctive red breast and brownish coloration. It is known for its melodious song, which we often hear even in winter.",
+      "description_de": "Das Rotkehlchen ist ein kleiner Singvogel mit einer auffälligen roten Brust und braunem Färbung. Es ist bekannt für seinen melodischen Gesang, den wir auch im Winter oft hören.",
+      "description_pl": "Rudzik to mały ptak śpiewający z charakterystyczną czerwoną piersią i brązowym zabarwieniem. Znany jest swoim melodycznym śpiewem, który słyszymy również w zimie."
+    },
+    {
+      "id": 71,
+      "groups": ["pevci"],
+      "name_cs": "Rehek zahradní",
+      "name_eng": "Common Redstart",
+      "name_de": "Gartenrotschwanz",
+      "name_pl": "Pleszka",
+      "latin_name": "Phoenicurus phoenicurus",
+      "images": [
+        "obrazky/birds/phoenicurus_phoenicurus_1.jpg",
+        "obrazky/birds/phoenicurus_phoenicurus_2.jpg"
+      ],
+      "image_credits": {
+        "phoenicurus_phoenicurus_1.jpg": "Autor: Richard Towell – https://www.flickr.com/photos/48975388@N07/42189047952/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=115444073",
+        "phoenicurus_phoenicurus_2.jpg": "Autor: Henrike Mühlichen – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9536703"
+      },
+      "description_cs": "Rehek zahradní je malý pěvec s červenou hřbetní čárou a tmavým zbarvením. Je známý svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Common Redstart is a small songbird with a red back and dark coloration. It is known for its loud song and active behavior.",
+      "description_de": "Der Gartenrotschwanz ist ein kleiner Singvogel mit einer roten Rückenlinie und dunkler Färbung. Er ist bekannt für seinen lauten Gesang und sein aktives Verhalten.",
+      "description_pl": "Pleszka to mały ptak śpiewający z czerwoną plecą i ciemnym zabarwieniem. Znana jest jej głośnym śpiewem i aktywnym zachowaniem."
+    },
+    {
+      "id": 72,
+      "groups": ["pevci"],
+      "name_cs": "Ťuhýk obecný",
+      "name_eng": "Red-backed Shrike",
+      "name_de": "Neuntöter",
+      "name_pl": "Gąsiorek",
+      "latin_name": "Lanius collurio",
+      "images": [
+        "obrazky/birds/lanius_collurio_1.jpg",
+        "obrazky/birds/lanius_collurio_2.jpg"
+      ],
+      "image_credits": {
+        "lanius_collurio_1.jpg": "Autor: Martin Mecnarowski (http://www.photomecan.eu/) – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12691157",
+        "lanius_collurio_2.jpg": "Autorstwa Kaeptn chemnitz - Praca własna, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=5033417"
+      },
+      "description_cs": "Ťuhýk obecný je malý pěvec s červenou hřbetní čárou a tmavým zbarvením. Je známý svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Red-backed Shrike is a small songbird with a red back and dark coloration. It is known for its loud song and active behavior.",
+      "description_de": "Der Neuntöter ist ein kleiner Singvogel mit einer roten Rückenlinie und dunkler Färbung. Er ist bekannt für seinen lauten Gesang und sein aktives Verhalten.",
+      "description_pl": "Gąsiorek to mały ptak śpiewający z czerwoną plecą i ciemnym zabarwieniem. Znana jest jej głośnym śpiewem i aktywnym zachowaniem."
+    },
+    {
+      "id": 73,
+      "groups": ["pevci"],
+      "name_cs": "Střízlík obecný",
+      "name_eng": "Eurasian Wren",
+      "name_de": "Zaunkönig",
+      "name_pl": "Strzyżyk",
+      "latin_name": "Troglodytes troglodytes",
+      "images": [
+        "obrazky/birds/troglodytes_troglodytes_1.jpg",
+        "obrazky/birds/troglodytes_troglodytes_2.jpg"
+      ],
+      "image_credits": {
+        "troglodytes_troglodytes_1.jpg": "Autor: Dion Art – Vlastní dílo, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=130858485",
+        "troglodytes_troglodytes_2.jpg": "Autorstwa Sylvain Haye - Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4153461"
+      },
+      "description_cs": "Střízlík obecný je malý pěvec s tmavým zbarvením a světlou čárou na zádech. Je známý svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Eurasian Wren is a small songbird with dark coloration and a light stripe on the back. It is known for its loud song and active behavior.",
+      "description_de": "Der Zaunkönig ist ein kleiner Singvogel mit dunkler Färbung und einer hellen Linie auf dem Rücken. Er ist bekannt für seinen lauten Gesang und sein aktives Verhalten.",
+      "description_pl": "Strzyżyk to mały ptak śpiewający z ciemnym zabarwieniem i jasną linią na plecach. Znany jest swoim głośnym śpiewem i aktywnym zachowaniem."
+    },
+    {
+      "id": 74,
+      "groups": ["pevci"],
+      "name_cs": "Zedníček skalní",
+      "name_eng": "Wallcreeper",
+      "name_de": "Mauerläufer",
+      "name_pl": "Pomurnik",
+      "latin_name": "Tichodroma muraria",
+      "images": [
+        "obrazky/birds/tichodroma_muraria_1.jpg",
+        "obrazky/birds/tichodroma_muraria_2.jpg"
+      ],
+      "image_credits": {
+        "tichodroma_muraria_1.jpg": "Autor: Charles J. Sharp – Vlastní dílo, from Sharp Photography, sharpphotography.co.uk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=121831953",
+        "tichodroma_muraria_2.jpg": "Autor: Pierre-Marie Epiney – Tichodrome échelette Tichodroma muraria aDSC_1009, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=103564974"
+      },
+      "description_cs": "Zedníček skalní je malý pěvec s nápadným červeným zbarvením křídel a šedým tělem. Je známý svým schopností lézt po strmých skalních stěnách a hledat hmyz v trhlinách.",
+      "description_eng": "The Wallcreeper is a small songbird with a distinctive red wing coloration and a grey body. It is known for its ability to climb steep rocky walls and search for insects in crevices.",
+      "description_de": "Der Mauerläufer ist ein kleiner Singvogel mit einer auffälligen roten Flügelfärbung und einem grauen Körper. Er ist bekannt für seine Fähigkeit, steile Felswände hinaufzuklettern und Insekten in Spalten zu suchen.",
+      "description_pl": "Pomurnik to mały ptak śpiewający z charakterystycznym czerwonym zabarwieniem skrzydeł i szarym ciałem. Znany jest swoimi zdolnościami do wspinaczki po stromych skałach i poszukiwania owadów w szczelinach."
+    },
+    {
+      "id": 75,
+      "groups": ["pevci"],
+      "name_cs": "Sýkora parukářka",
+      "name_eng": "Crested Tit",
+      "name_de": "Haubenmeise",
+      "name_pl": "Czubatka",
+      "latin_name": "Lophophanes cristatus",
+      "images": [
+        "obrazky/birds/lophophanes_cristatus_1.jpg",
+        "obrazky/birds/lophophanes_cristatus_2.jpg"
+      ],
+      "image_credits": {
+        "lophophanes_cristatus_1.jpg": "Autor: I, Luc Viatour, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5582176",
+        "lophophanes_cristatus_2.jpg": "Von Andrey Gulivanov - Crested tit, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=142886410"
+      },
+      "description_cs": "Sýkora parukářka je malý pěvec s nápadnou červenou šedivou hlavou a tmavým tělem. Je známá svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Crested Tit is a small songbird with a distinctive red and grey head and a dark body. It is known for its loud song and active behavior.",
+      "description_de": "Die Haubenmeise ist ein kleiner Singvogel mit einer auffälligen roten und grauen Kopffärbung und einem dunklen Körper. Sie ist bekannt für ihren lauten Gesang und ihr aktives Verhalten.",
+      "description_pl": "Czubatka to mały ptak śpiewający z charakterystyczną czerwoną i szarą głową oraz ciemnym ciałem. Znana jest swoim głośnym śpiewem i aktywnym zachowaniem."
+    },
+    {
+      "id": 76,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Rybařík obecný",
+      "name_eng": "Common Tern",
+      "name_de": "Flussseeschwalbe",
+      "name_pl": "Rybitwa rzeczna",
+      "latin_name": "Sterna hirundo",
+      "images": [
+        "obrazky/birds/sterna_hirundo_1.jpg",
+        "obrazky/birds/sterna_hirundo_2.jpg"
+      ],
+      "image_credits": {
+        "sterna_hirundo_1.jpg": "Autor: Andreas Trepte – Vlastní dílo more pictures of Common Terns, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=4111028",
+        "sterna_hirundo_2.jpg": "Autor: Xavier Grané Feliu – Vlastní dílo, CC BY-SA 3.0 es, https://commons.wikimedia.org/w/index.php?curid=39953684"
+      },
+      "description_cs": "Rybařík obecný je malý vodní pták s nápadným červeným zbarvením křídel a šedým tělem. Je známý svou schopností lovit ryby na vodě.",
+      "description_eng": "The Common Tern is a small waterbird with a distinctive red wing coloration and a grey body. It is known for its ability to catch fish on the water.",
+      "description_de": "Die Flussseeschwalbe ist ein kleiner Wasserbird mit einer auffälligen roten Flügelfärbung und einem grauen Körper. Sie ist bekannt für ihre Fähigkeit, Fische auf dem Wasser zu fangen.",
+      "description_pl": "Rybitwa rzeczna to mały ptak wodny z charakterystycznym czerwonym zabarwieniem skrzydeł i szarym ciałem. Znana jest swoimi zdolnościami do łowienia ryb na wodzie."
+    },
+    {
+      "id": 77,
+      "groups": ["vodni_ptaci"],
+      "name_cs": "Kormorán velký",
+      "name_eng": "Great Cormorant",
+      "name_de": "Kormoran",
+      "name_pl": "Kormoran czarny",
+      "latin_name": "Phalacrocorax carbo",
+      "images": [
+        "obrazky/birds/phalacrocorax_carbo_1.jpg",
+        "obrazky/birds/phalacrocorax_carbo_2.jpg"
+      ],
+      "image_credits": {
+        "phalacrocorax_carbo_1.jpg": "Autor: JJ Harrison (https://www.jjharrison.com.au/) – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9761097",
+        "phalacrocorax_carbo_2.jpg": "Por Charles J. Sharp - Trabajo propio, from Sharp Photography, sharpphotography, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=39523097"
+      },
+      "description_cs": "Kormorán velký je velký vodní pták s černým tělem a červeným zbarvením krídel. Je známý svou schopností plavat a lovit ryby.",
+      "description_eng": "The Great Cormorant is a large waterbird with a black body and red wing coloration. It is known for its ability to swim and catch fish.",
+      "description_de": "Der Kormoran ist ein großer Wasserbird mit einem schwarzen Körper und roter Flügelfärbung. Er ist bekannt für seine Fähigkeit, zu schwimmen und Fische zu fangen.",
+      "description_pl": "Kormoran czarny to duży ptak wodny z czarnym ciałem i czerwonym zabarwieniem skrzydeł. Znany jest swoimi zdolnościami do pływania i łowienia ryb."
+    },
+    {
+      "id": 78,
+      "groups": ["pevci"],
+      "name_cs": "Moudivláček lužní",
+      "name_eng": "Eurasian Penduline Tit",
+      "name_de": "Beutelmeise",
+      "name_pl": "Remiz",
+      "latin_name": "Remiz pendulinus",
+      "images": [
+        "obrazky/birds/remiz_pendulinus_1.jpg",
+        "obrazky/birds/remiz_pendulinus_2.jpg"
+      ],
+      "image_credits": {
+        "remiz_pendulinus_1.jpg": "Autor: Marek Szczepanek – Vlastní dílo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=91493",
+        "remiz_pendulinus_2.jpg": "Autorstwa Martin Mecnarowski (http://www.photomecan.eu/) - Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12691826"
+      },
+      "description_cs": "Moudivláček lužní je malý pěvec s červenou a šedou hlavou a tmavým tělem. Je známý svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Eurasian Penduline Tit is a small songbird with a red and grey head and a dark body. It is known for its loud song and active behavior.",
+      "description_de": "Die Beutelmeise ist ein kleiner Singvogel mit einer roten und grauen Kopffärbung und einem dunklen Körper. Sie ist bekannt für ihren lauten Gesang und ihr aktives Verhalten.",
+      "description_pl": "Remiz to mały ptak śpiewający z czerwoną i szarą głową oraz ciemnym ciałem. Znany jest swoim głośnym śpiewem i aktywnym zachowaniem."
+    },
+    {
+      "id": 79,
+      "groups": ["pevci"],
+      "name_cs": "Šoupálek krátkoprstý",
+      "name_eng": "Short-toed Treecreeper",
+      "name_de": "Gartenbaumläufer",
+      "name_pl": "Pełzacz ogrodowy",
+      "latin_name": "Certhia brachydactyla",
+      "images": [
+        "obrazky/birds/certhia_brachydactyla_1.jpg",
+        "obrazky/birds/certhia_brachydactyla_2.jpg"
+      ],
+      "image_credits": {
+        "certhia_brachydactyla_1.jpg": "Autor: derivative work: Jimfbleak (talk)Short-toed_Treecreeper_(Certhia_brachydactyla).jpg: א (Aleph) – Short-toed_Treecreeper_(Certhia_brachydactyla).jpg, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=4383183",
+        "certhia_brachydactyla_2.jpg": "Autor: Tomas Broucek – https://www.inaturalist.org/photos/105164924, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=98094647"
+      },
+      "description_cs": "Šoupálek krátkoprstý je malý pěvec s hnědým zbarvením a světlou čárou na zádech. Je známý svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Short-toed Treecreeper is a small songbird with a brown coloration and a light stripe on the back. It is known for its loud song and active behavior.",
+      "description_de": "Der Gartenbaumläufer ist ein kleiner Singvogel mit einer braunen Färbung und einer hellen Linie auf dem Rücken. Er ist bekannt für seinen lauten Gesang und sein aktives Verhalten.",
+      "description_pl": "Pełzacz ogrodowy to mały ptak śpiewający z brązowym zabarwieniem i jasną linią na plecach. Znany jest swoim głośnym śpiewem i aktywnym zachowaniem."
+    },
+    {
+      "id": 80,
+      "groups": ["pevci"],
+      "name_cs": "Bramborníček hnědý",
+      "name_eng": "Whinchat",
+      "name_de": "Braunkehlchen",
+      "name_pl": "Pokląskwa",
+      "latin_name": "Saxicola rubetra",
+      "images": [
+        "obrazky/birds/saxicola_rubetra_1.jpg",
+        "obrazky/birds/saxicola_rubetra_2.jpg"
+      ],
+      "image_credits": {
+        "saxicola_rubetra_1.jpg": "Autorstwa caroline legg - Whinchat - Saxicola rubetra, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=138779389",
+        "saxicola_rubetra_2.jpg": "Autorstwa Martin Mecnarowski (http://www.photomecan.eu/) - Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12691691"
+      },
+      "description_cs": "Bramborníček hnědý je malý pěvec s hnědým tělem a světlou čárou na zádech. Je známý svým hlasitým zpěvem a aktivním chováním.",
+      "description_eng": "The Whinchat is a small songbird with a brown body and a light stripe on the back. It is known for its loud song and active behavior.",
+      "description_de": "Das Braunkehlchen ist ein kleiner Singvogel mit einem braunen Körper und einer hellen Linie auf dem Rücken. Es ist bekannt für seinen lauten Gesang und sein aktives Verhalten.",
+      "description_pl": "Pokląskwa to mały ptak śpiewający z brązowym ciałem i jasną linią na plecach. Znany jest swoim głośnym śpiewem i aktywnym zachowaniem."
     }
   ]
 }
